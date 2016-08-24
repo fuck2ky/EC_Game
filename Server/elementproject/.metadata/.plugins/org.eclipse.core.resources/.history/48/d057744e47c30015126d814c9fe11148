@@ -1,0 +1,15 @@
+package io.element.util;
+
+import java.lang.reflect.Method;
+
+public class HandlerUtil {
+	public static Method getMethod(String str_class, String str_method ) throws Exception
+	{
+		Class<?> c = Class.forName(str_class);   
+		Method method = c.getMethod(str_method,Object.class);  
+		
+		return method;
+	}
+	
+	
+}

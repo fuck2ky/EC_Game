@@ -1,0 +1,36 @@
+package io.element.communication.impl;
+
+import io.element.communication.ServerSteering;
+import io.element.gmserver_test.App;
+import io.element.protobuf.LoginProto.ROOM_TYPE;
+import io.element.reflect.Handler;
+import io.element.room.impl.SessionRoom;
+
+
+public class SimpleSteering extends ServerSteering{
+	
+	public SimpleSteering(SessionRoom owner) {
+		super(owner);
+		
+		if(owner.type() == ROOM_TYPE.LOGIN_ROOMTYPE_SIMPLE_2V2)
+			m_maxCapacity = 4;
+		else if(owner.type() == ROOM_TYPE.LOGIN_ROOMTYPE_SIMPLE_3V3)
+			m_maxCapacity = 6;
+
+		m_session = (ServerSession) App.context.getBean("serversession");
+	}
+
+	@Override
+	public boolean playersCountVaild(){ 
+		return false; 
+	}
+	
+	@Override
+	public int maxCapacity(){
+		return 0;
+	}
+	
+
+	
+
+}

@@ -1,0 +1,37 @@
+package io.element.netty.handlers;
+
+import java.util.concurrent.TimeUnit;
+
+import io.element.netty.handlers.impl.HeartBeatHandler;
+import io.element.protobuf.GlobalProto;
+import io.netty.channel.ChannelHandler;
+import io.netty.channel.ChannelInitializer;
+import io.netty.channel.socket.SocketChannel;
+import io.netty.handler.codec.protobuf.ProtobufDecoder;
+import io.netty.handler.codec.protobuf.ProtobufEncoder;
+import io.netty.handler.codec.protobuf.ProtobufVarint32FrameDecoder;
+import io.netty.handler.codec.protobuf.ProtobufVarint32LengthFieldPrepender;
+import io.netty.handler.timeout.IdleStateHandler;
+
+public class GSChannelInitializer extends ChannelInitializer<SocketChannel> {
+
+	@Override
+	protected void initChannel(SocketChannel ch) throws Exception {
+		
+		// decode global proto bufs
+		ch.pipeline().addLast(DefaultHandlerInterface.strProtobufVarint32FrameDecoder, new ProtobufVarint32FrameDecoder() );
+		ch.pipeline().addLast(DefaultHandlerInterface.strProtobufDecoderGlobal, new ProtobufDecoder( 
+				 				GlobalProto.MessageStream.getDefaultInstance()  )); 
+		// encode
+		ch.pipeline().addLast(DefaultHandlerInterface.strProtobufVarint32LengthFieldPrepender, new ProtobufVarint32LengthFieldPrepender() );
+		ch.pipeline().addLast(DefaultHandlerInterface.strProtobufEncoder, new ProtobufEncoder() );
+
+		// heart beat 
+		ch.pipeline().addLast(DefaultHandlerInterface.strIdleStateHandler, 
+				new IdleStateHandler(10000, 0, 0,TimeUnit.MILLISECONDS));
+		ch.pipeline().addLast( DefaultHandlerInterface.strHeartBeatHandler, 
+				new HeartBeatHandler(roomid));
+		
+	}
+
+}

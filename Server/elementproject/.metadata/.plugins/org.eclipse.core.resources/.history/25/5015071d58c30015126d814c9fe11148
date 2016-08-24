@@ -1,0 +1,51 @@
+package io.element.room.impl;
+
+import java.util.List;
+
+import io.element.communication.ServerSteering;
+import io.element.communication.Session.BroadCast;
+import io.element.communication.impl.SimpleSteering;
+import io.element.player.BasePlayer;
+import io.element.protobuf.LoginProto;
+import io.element.room.BaseRoom;
+
+public class SessionRoom extends BaseRoom implements BroadCast<BasePlayer>{
+
+	protected ServerSteering		m_steering;
+	
+	public SessionRoom(long id, String name, LoginProto.ROOM_TYPE type) {
+		super(id, name, type);
+
+		if(type == LoginProto.ROOM_TYPE.LOGIN_ROOMTYPE_SIMPLE_2V2 ||  type == LoginProto.ROOM_TYPE.LOGIN_ROOMTYPE_SIMPLE_3V3 )
+			m_steering = new SimpleSteering(this);
+		
+	}
+
+	public void broadcast() {
+		if(ssCheckVaild())
+			m_steering.broadcast();
+	}
+
+	public void broadcast(int location) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void broadcast(List<BasePlayer> lists) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	public boolean ssCheckVaild(){
+		if( m_steering != null && m_steering.checkVaild() )
+			return true;
+		return false;
+	}
+	
+	public ServerSteering steering()
+	{
+		return m_steering;
+	}
+	
+
+}

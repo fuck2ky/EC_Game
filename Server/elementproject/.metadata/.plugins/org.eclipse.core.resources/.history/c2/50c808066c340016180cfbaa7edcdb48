@@ -1,0 +1,22 @@
+package io.element.gtserver;
+
+public class GT_PlayerManager implements GT_Managers.Manager {
+
+	public GT_PlayerManager()
+	{
+
+	}
+	
+	public void init()
+	{
+		
+	}
+
+	public void OnTick(long deltaTime) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+	
+}

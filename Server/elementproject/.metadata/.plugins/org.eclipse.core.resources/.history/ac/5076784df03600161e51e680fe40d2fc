@@ -1,0 +1,109 @@
+package io.element.communication.impl;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.google.protobuf.ByteString;
+import com.google.protobuf.InvalidProtocolBufferException;
+
+import io.element.communication.ProtoMsgHandler;
+import io.element.gtserver.GT_Managers;
+import io.element.gtserver.GT_PlayerManager;
+import io.element.protobuf.LoginProto;
+import io.element.protobuf.GlobalProto.MESSAGE;
+import io.element.protobuf.LoginProto.C2GByteStream;
+import io.element.reflect.Handler;
+import io.netty.channel.ChannelHandlerContext;
+
+public class C2GProto_LoginHandler extends ProtoMsgHandler<LoginProto.C2G_MSGTYPE, LoginProto.C2GByteStream> {
+
+	private static final C2GProto_LoginHandler single = new C2GProto_LoginHandler();  
+	 
+	private C2GProto_LoginHandler() { m_globalType = MESSAGE.MESSAGE_LOGIN_C2G; }  
+	    
+	public static C2GProto_LoginHandler getInstance() {  
+        return single;  
+	}  
+	
+	{
+		RegisterProtoMsgCmd();
+	}
+	
+	@Override
+	public void RegisterProtoMsgCmd() {
+		super.RegisterProtoMsgCmd();
+	
+		PROTOMSG_REGISTER_HANDLEREX(LoginProto.C2G_MSGTYPE.C2G_REQUEST_LOGIN_ATTEMPT,			"CallBack_C2G_Resp_Login");
+	}
+	
+	@Override
+	public boolean HandlerMsg(ChannelHandlerContext channel, C2GByteStream param) {
+		
+		LoginProto.C2G_MSGTYPE type = param.getType();
+		Handler handler = m_handlers.get(type);
+		if( handler == null || !handler.isVaild())
+			return false;
+		
+		Handler tempHandler = null;
+		try {
+			 tempHandler = (Handler) handler.clone();			
+		} catch (CloneNotSupportedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		List<Object> paramsList = new ArrayList<Object>();
+		paramsList.add( channel );
+		paramsList.add( param );
+		
+		tempHandler.SetObject(this);
+		tempHandler.SetParam(param);
+		
+		try {
+			tempHandler.invoke();
+		} catch (Exception e){
+			
+		}	
+		return true;
+	}
+	
+	protected <T,E> T VAR_CHECK_CMD_FIX( ByteString buffer, E type ) throws CloneNotSupportedException, Exception
+	{
+		Handler handler = m_prases.get(type);
+		if( handler == null || !handler.isVaild())
+			return null;
+		
+		Handler tempHandler = null;	
+		tempHandler = (Handler) handler.clone();			
+	
+		tempHandler.SetObject(null);
+		tempHandler.SetParam(buffer);
+		
+		T t = (T) tempHandler.invoke();
+		
+		return null;
+	}
+	
+	//***********************************************
+	// the message function called begin for handler 
+	// called by GlobalProtoBufHandler---LOGINPROTO,  
+	// we specify method with Callback_ string
+	//***********************************************
+	
+	// call back -- C2G_REQUEST_LOGIN_ATTEMPT
+	public void CallBack_C2G_Resp_Login(Object obj) throws InvalidProtocolBufferException
+	{
+	
+		// 反序列化
+		C2GByteStream msg = (C2GByteStream) obj;
+
+		LoginProto.C2G_Login cmd = LoginProto.C2G_Login.parseFrom( msg.getRequestData() );
+		
+		
+		
+		GT_PlayerManager mgr = GT_Managers.getPlayerManager();
+
+	}
+	
+
+}

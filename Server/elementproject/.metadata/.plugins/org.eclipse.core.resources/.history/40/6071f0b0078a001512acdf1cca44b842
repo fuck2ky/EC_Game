@@ -1,0 +1,17 @@
+package io.element.threadpool;
+
+public class GM_TaskQueue {
+
+	protected GM_TaskQueueConfig m_config;
+	
+	public GM_TaskQueue(GM_TaskQueueConfig config)
+	{
+		m_config = config;
+	}
+	
+	public void init()
+	{
+		
+	}
+	
+}

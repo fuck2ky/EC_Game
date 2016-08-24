@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;SSConfig.java&apos; to &apos;gmserver_test/src/main/java/io.element.communication&apos;&#x0D;&#x0A;- Original project: &apos;gmserver_test&apos;&#x0D;&#x0A;- Destination element: &apos;gmserver_test/src/main/java/io.element.communication&apos;&#x0D;&#x0A;- Original element: &apos;io.element.communication.impl.SSConfig.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src\/main\/java&lt;io.element.communication" element1="/src\/main\/java&lt;io.element.communication.impl{SSConfig.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1452847950160" units="1" version="1.0"/>
+</session>

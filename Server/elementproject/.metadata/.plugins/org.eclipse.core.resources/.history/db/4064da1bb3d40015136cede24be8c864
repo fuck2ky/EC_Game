@@ -1,0 +1,7 @@
+package io.element.card.impl;
+
+public class HandCard extends BaseCard{
+
+	public HANDCARD getInnerType(){ return HANDCARD.HAND_NONE;}
+	
+}

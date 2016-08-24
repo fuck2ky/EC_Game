@@ -1,0 +1,5 @@
+package io.element.communication;
+
+public class Message {
+
+}

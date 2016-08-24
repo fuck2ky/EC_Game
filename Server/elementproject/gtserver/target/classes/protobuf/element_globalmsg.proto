@@ -1,0 +1,29 @@
+
+option java_package = "io.element.protobuf";
+option java_outer_classname = "GlobalProto";
+
+//-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+//-* Messages Object Four style message -- login proto
+//-* 1. gate 	to server  	G2S
+//-* 2. server 	to gate  	S2G
+//-* 3. client	to gate		C2G
+//-* 4. gate	to client   G2C
+//-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+enum MESSAGE
+{
+	MESSAGE_LOGIN_G2S = 1;
+	MESSAGE_LOGIN_S2G = 2;
+	MESSAGE_LOGIN_C2G = 3;
+	MESSAGE_LOGIN_G2C = 4;
+	
+	MESSAGE_SIMPLE_G2S = 5;
+	MESSAGE_SIMPLE_S2G = 6;
+	MESSAGE_SIMPLE_C2G = 7;
+	MESSAGE_SIMPLE_G2C = 8;
+}
+
+message MessageStream{
+	required MESSAGE 		type = 1;
+	optional bytes 			requestData  = 2; 
+}

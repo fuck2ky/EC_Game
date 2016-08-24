@@ -1,0 +1,58 @@
+package io.element.gtserver;
+
+import io.element.room.impl.SessionRoom;
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map.Entry;
+
+public class GT_RoomManager implements GT_Managers.Mangaer {
+	
+	public enum CHANGE_ROOM_STATUS
+	{
+		STATUS_NONE, ADD_SUCCESS, ADD_REPEAT, REMOVE_SUCCESS, REMOVE_CANNOT_FIND
+	}
+		
+	protected HashMap<Long, SessionRoom> m_rooms = new HashMap<Long, SessionRoom>();
+	
+	public GT_RoomManager() {}  
+	    	
+	public void init()
+	{
+		
+	}
+	 
+	public void OnTick(long deltaTime)
+	{
+		Iterator<Entry<Long, SessionRoom>> iter = m_rooms.entrySet().iterator();
+		
+		while (iter.hasNext()) {
+			Entry<Long, SessionRoom> entry = iter.next();
+			SessionRoom room = entry.getValue();
+			room.OnTick(deltaTime);
+		}
+	}
+	
+	public synchronized CHANGE_ROOM_STATUS addRoom(SessionRoom room)
+	{
+		if(m_rooms.get(room.getID()) != null)
+			return CHANGE_ROOM_STATUS.ADD_REPEAT;
+		
+		m_rooms.put(room.getID(), room);
+		return CHANGE_ROOM_STATUS.ADD_SUCCESS;
+	}
+	
+	public synchronized CHANGE_ROOM_STATUS removeRoom(SessionRoom room)
+	{
+		Object remove = m_rooms.remove(room.getID());
+		
+		if(remove != null)
+			return CHANGE_ROOM_STATUS.REMOVE_SUCCESS;
+		return CHANGE_ROOM_STATUS.REMOVE_CANNOT_FIND;
+	}
+	
+	public SessionRoom getRoomByID(long index)
+	{
+		return m_rooms.get(index);
+	}
+}

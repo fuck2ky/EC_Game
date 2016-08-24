@@ -1,0 +1,266 @@
+option java_package = "io.element.protobuf";
+option java_outer_classname = "SimpleProto";
+
+//-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+//-* Models enum
+//-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+enum ROOM_TYPE {
+	SIMPLE_ROOMTYPE_SIMPLE_2V2 = 1;
+	SIMPLE_ROOMTYPE_SIMPLE_3V3 = 2;
+}
+
+enum PHASE_TYPE
+{
+	PHASE_NONE				= 1;
+	PHASE_BEGIN 			= 2;
+	PHASE_SKILLCARD 		= 3;
+	PHASE_BATTLE_ASK 		= 4;
+	PHASE_BATTLE_ASSIT 		= 5;
+	PHASE_BATTLE_SKILLCARD 	= 6;
+	PHASE_BATTLE_CALCULATE	= 7;
+	PHASE_RECHARGE			= 8;
+	PHASE_DISCARD 			= 9;
+	
+	PHASE_GAME_BEGIN 		= 10;					// 游戏开始 阶段
+	PHASE_CHOOSE_CHARACTER 	= 11;					// 游戏选人 阶段
+	PHASE_GAME_RECHARGE 	= 12;					// 游戏起始发牌 阶段
+	
+	PHASE_NOT_ACTIVE		= 13;					// 别人的主动回合
+	
+	PHASE_NUM				= 14;
+}
+
+enum REACTOR_TYPE 			// 在他人主阶断 执行某些反应的类型
+{
+	REACTOR_NONE			= 1;
+	REACTOR_CARD			= 2;					// 
+	REACTOR_SKILL			= 3;					// 
+}
+
+//-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+//-* Models
+//-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+message Player {
+    required int64 	id 			= 1;
+    required string name 		= 2;
+    required int32  roleid		= 3;
+	required int32  location 	= 4;
+}
+
+message Team{
+	repeated Player  team_red    = 1;
+	repeated Player  team_blue   = 2;
+}
+
+message Room {
+    required int64 		id				= 1;
+	required ROOM_TYPE 	type 			= 2;
+    required string 	name 			= 3;
+    required Team 		players 		= 4;
+	optional Active 	active			= 5;				// 可选  玩家的主阶断信息
+}
+
+message Active												// 玩家的主阶段信息
+{														
+	required int64			playerid 	= 1;	
+	required int64			roomid   	= 2;
+	required PHASE_TYPE 	phase    	= 3;
+}
+
+message OperateValue
+{
+	required int32 			value   	= 1;
+	optional int32			prevalue	= 2;
+}
+
+// 一个特定的actor 针对多个value
+message Reactor												// 针对其他玩家阶段 所作出的反应
+{
+	required int64			playerid 	= 1;				// 针对的玩家 id 
+	required int32			type        = 2;				// 处理方式 INTERACTIVE_TYPE in card.java
+	
+	repeated OperateValue	values		= 3;				// 处理后的数据	
+}
+
+// 这个操作info 针对一个特定actor 
+// 假如有针对多个玩家的操作
+// 我们会创建多个 ReactorInfo,
+// 每个reactorinfo针对一个人的操作
+message ReactorInfo										// 某个具体反应 相关联的数据
+{
+	required Reactor 		actor 		= 1;			// 操作的具体内容
+	
+	required REACTOR_TYPE	type  		= 2;			// 此操作的来源类型
+	optional int64          id	  		= 3;			// 来源的id
+	optional int64 			hostid 		= 4;			// 来源玩家的id
+}
+
+// 一个card 可能会send 多次card的信息  承载多个不同的actor
+message Card
+{
+	required int32			cardid				= 1;	// card 的唯一id
+	required int64			hostid				= 2;	// card 谁打出的
+	
+	optional ReactorInfo	response			= 3;	// card 是反应哪个操作
+	repeated Reactor		actor				= 4;	// card 造成的某几个影响  放在一起意味着同时处理
+														
+}
+
+message PhaseInfo
+{
+	required Active 	active			= 1;				// 当前拥有主阶段的玩家信息
+	required int32		last		    = 2;				// 据当前状态结束剩下的时间
+	
+	optional int32		proposer		= 3;				// 申请人  没有值的话就广播
+	optional Card       card			= 4;				// 当前执行的卡牌数据
+}
+
+//-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+//-* Apis -- gate to server
+//-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+enum G2S_MSGTYPE {
+
+	G2S_REQUEST_GLOBAL_GAME_BEGIN 	= 1;					// 请求游戏开始
+	G2S_REQUEST_GLOBAL_GAME_END   	= 2;					// 请求游戏结束
+
+	G2S_REQUEST_NEXT_PHASE			= 3;					// 主动进入下一个阶段
+	
+	G2S_REQUEST_GETINFO_PHASE		= 4;					// 得到指定玩家当前阶段信息
+	G2S_REQUEST_GETINFO_ROOM		= 5;					// 得到房间的整体信息
+	
+	G2S_REQUEST_CHOOSE_CHARACTER	= 6;					// 选择特定角色
+}
+
+message G2S_GetPhaseInfo
+{
+	required int64 playerid			= 1;					// 查看角色
+	required int64 roomid			= 2;					// 房间id
+}
+
+message G2S_GetRoomInfo
+{
+	required int64	roomid			= 1;			
+}	
+
+//-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+//-* Apis -- server to gate
+//-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+enum S2G_MSGTYPE {
+
+	S2G_NOTIFY_GLOBAL_GAME_BEGIN = 1;						// 游戏开始的通知
+	S2G_NOTIFY_GLOBAL_GAME_END   = 2;						// 游戏结束的通知
+
+	S2G_NOTIFY_GLOBAL_PHASE_BEGIN 		= 3;				// 阶段开始的通知	
+	S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD 			= 4;		// 技牌阶段开始的通知
+	S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASK 			= 5;		// 战斗开始询问的通知
+	S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT 		= 6;		// 援助选择的通知
+	S2G_NOTIFY_GLOBAL_PHASE_BATTLE_SKILLCARD 	= 7;		// 援助技能牌补充的通知
+	S2G_NOTIFY_GLOBAL_PHASE_BATTLE_CALCULATE	= 8;		// 结算的通知
+	S2G_NOTIFY_GLOBAL_PHASE_RECHARGE	= 9;				// 补牌的通知
+	S2G_NOTIFY_GLOBAL_PHASE_DISCARD 	= 10;				// 弃牌的通知
+	
+	S2G_RESP_GETINFO_PHASE				= 11;				// 响应 得到指定玩家当前阶段信息
+	S2G_RESP_GETINFO_ROOM				= 12;				// 响应 得到房间的整体信息	
+	S2G_RESP_CHOOSE_CHARACTER			= 13;				// 响应 选择特定角色
+	S2G_RESP_SKIP_PHAASE				= 14;				// 响应 跳过某个阶段
+	
+	
+	S2G_NOTIFY_CHOOSE_CHARACTER			= 100;				// 通知 选择特定角色	
+	S2G_NOTIFY_ASK_PERFECT				= 101;				// 通知 请求冰心诀
+	S2G_NOTIFY_ASK_STEALTH				= 102;				// 通知 请求隐蛊
+	
+}
+
+//-*-* S2G_NOTIFY_GLOBAL_GAME_BEGIN
+message S2G_NotifyGameBegin										
+{
+	required int32		last			= 1;				// 当前状态剩下的时间
+	required Room		room			= 2;				
+}
+
+message S2G_NotifyPhaseBegin								// global状态跳转的通用msg
+{
+	required PHASE_TYPE	phase			= 1;
+	required int32		last			= 2;
+	required Room		room 			= 3;
+}
+
+message S2G_ChoosePlayers									// 选择玩家的msg
+{
+	required int64 		roomid			= 1;
+	required int64		playerid		= 2;// 谁执行选择
+	
+	required int32      type			= 3;// 选择方式  choose_type
+	required int32      count 			= 4;// 选几个
+	
+	repeated int32 		selecters		= 5;// 可供选择的玩家位置
+	
+	required int32		index			= 6;// 该子操作所在vec位置
+}
+
+message S2G_PerfectPlayer									// 是否perfect其他牌询问的msg
+{
+	required int64			roomid		= 1;
+	required ReactorInfo 	actor		= 2; 	
+	
+}
+
+message S2G_StealthPlayer
+{
+	required int64			roomid		= 1;
+	required ReactorInfo 	actor		= 2; 	
+}
+
+message S2G_ReactorInfo
+{
+	required int64			roomid		= 1;
+	required ReactorInfo 	actor		= 2; 
+}
+
+//-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+//-* Apis -- client to gate
+//-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+enum C2G_MSGTYPE{
+	C2G_REQUEST_TRANS = 1;				// gate 中转站
+}
+
+//-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+//-* Apis -- gate to client
+//-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+enum G2C_MSGTYPE{
+	G2C_REQUEST_TRANS = 1;				// gate 中转站
+}
+
+
+//-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+//-* Messages Object Four style message -- simple proto
+//-* 1. gate 	to server  	G2S
+//-* 2. server 	to gate  	S2G
+//-* 3. client	to gate		C2G
+//-* 4. gate	to client   G2C
+//-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+message G2SByteStream{
+	required G2S_MSGTYPE 			type = 1;
+	optional bytes 					requestData  = 2; 
+}
+
+message S2GByteStream{
+	required S2G_MSGTYPE 			type = 1;
+	optional bytes 					requestData = 2; 
+}
+
+message C2GByteStream{
+	required C2G_MSGTYPE			type = 1;
+	optional G2S_MSGTYPE			rtype = 2;			// gate 中转的真实信息
+	optional bytes					requestData = 3;
+}
+
+message G2CByteStream{
+	required G2C_MSGTYPE			type = 1;
+	optional S2G_MSGTYPE		    rtype = 2;			// gate 中转的真实信息
+	optional bytes					requestData = 3;
+}

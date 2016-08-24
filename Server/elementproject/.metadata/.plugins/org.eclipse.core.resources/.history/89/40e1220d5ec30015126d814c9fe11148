@@ -1,0 +1,73 @@
+package io.element.communication.impl;
+
+import io.element.communication.ProtoMsgHandler;
+import io.element.protobuf.LoginProto;
+import io.element.protobuf.GlobalProto.MESSAGE;
+import io.element.reflect.Handler;
+import io.netty.channel.ChannelHandlerContext;
+
+public class S2GProto_LoignHandler extends ProtoMsgHandler<LoginProto.S2G_MSGTYPE,LoginProto.S2GByteStream> {
+
+	private static final S2GProto_LoignHandler single = new S2GProto_LoignHandler();  
+	 
+	private S2GProto_LoignHandler() { m_globalType = MESSAGE.MESSAGE_LOGIN_S2G; RegisterProtoMsgCmd();}  
+	    
+	public static S2GProto_LoignHandler getInstance() {  
+        return single;  
+	}  
+	
+	@Override
+	public void RegisterProtoMsgCmd() {
+		super.RegisterProtoMsgCmd();
+		
+		PROTOMSG_REGISTER_HANDLER(LoginProto.S2G_MSGTYPE.S2G_RESP_BEGIN_GAME,			"CallBack_S2G_Resp_BeginGame");
+		PROTOMSG_REGISTER_HANDLER(LoginProto.S2G_MSGTYPE.S2G_RESP_CREATE_NEWROOM, 		"CallBack_S2G_Resp_CreateNewRoom");
+	}
+	
+	@Override
+	public boolean HandlerMsg(ChannelHandlerContext channel, LoginProto.S2GByteStream param) {
+				
+		LoginProto.S2G_MSGTYPE type = param.getType();
+		Handler handler = m_handlers.get(type);
+		if( handler == null || !handler.isVaild())
+			return false;
+		
+		Handler tempHandler = null;
+		try {
+			 tempHandler = (Handler) handler.clone();			
+		} catch (CloneNotSupportedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		tempHandler.SetObject(this);
+		tempHandler.SetParam(param);
+		tempHandler.invoke();
+		return true;
+	}
+	
+	//***********************************************
+	// the message function called begin for handler 
+	// called by SERVER_SET_FUTURE_TASK, and we specify 
+	// method with Message_ string
+	//***********************************************
+	
+	// call back -- S2G_RESP_BEGIN_GAME
+	protected void CallBack_S2G_Resp_BeginGame(Object obj)
+	{
+
+	}
+	
+	// call back -- S2G_RESP_CREATE_NEWROOM
+	protected void CallBack_S2G_Resp_CreateNewRoom(Object obj)
+	{
+
+		
+		
+	}
+	
+	//***********************************************
+	// the message function called end for handler
+	//***********************************************
+
+}

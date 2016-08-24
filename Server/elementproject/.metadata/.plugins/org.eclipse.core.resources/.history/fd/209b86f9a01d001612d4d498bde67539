@@ -1,0 +1,74 @@
+package io.element.netty.handlers.impl;
+
+
+import com.google.protobuf.ByteString;
+import com.google.protobuf.InvalidProtocolBufferException;
+
+import io.element.gtserver.App;
+import io.element.protobuf.GlobalProto;
+import io.element.protobuf.LoginProto;
+
+import io.element.protobuf.GlobalProto.MESSAGE;
+import io.element.protobuf.GlobalProto.MessageStream;
+
+
+import io.element.server.impl.AbstractTCPServer;
+import io.element.util.HandlerUtil;
+import io.netty.channel.ChannelHandlerContext;
+import io.netty.channel.ChannelInboundHandlerAdapter;
+
+public class CGProtoBufHandler extends ChannelInboundHandlerAdapter{
+	
+	@Override
+	public void channelActive(ChannelHandlerContext ctx) throws Exception 
+	{
+		AbstractTCPServer.ALL_CHANNELS.add(ctx.channel());
+		super.channelActive(ctx);
+	}
+	
+	@Override
+	public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception
+    {
+		MessageStream msgStream = (MessageStream) msg;
+		MESSAGE msgType 		= msgStream.getType();
+		ByteString msgBuffer 	= msgStream.getRequestData();
+		
+		if( msgType == MESSAGE.MESSAGE_LOGIN_C2G  )
+		{
+			LoginProto.C2GByteStream byteStream = null;
+			try {
+				byteStream = LoginProto.C2GByteStream.parseFrom(msgBuffer);
+			} catch (InvalidProtocolBufferException e) {
+
+			}
+			
+			if( byteStream.getType() == LoginProto.C2G_MSGTYPE.C2G_REQUEST_LOGIN_ATTEMPT )
+			{
+				ByteString logBuffer = byteStream.getRequestData();
+				LoginProto.C2G_TEST2 objTest = LoginProto.C2G_TEST2.parseFrom( logBuffer );
+				
+				
+				System.out.println( String.format("heiheiehei   c2g test success, %d", objTest.getValue())   );
+				
+				// return a g2c test msg !!!
+				
+				LoginProto.G2C_TEST.Builder builder = LoginProto.G2C_TEST.newBuilder();
+			 	LoginProto.G2C_TEST  sendMsg =   builder.setValue( 200 ).build();
+	
+			 	
+			 	GlobalProto.MessageStream sendOb = (GlobalProto.MessageStream) HandlerUtil.CREATE_G2C_GLOBALMESSAGE(LoginProto.G2C_MSGTYPE.G2C_RESP_LOGIN_ATTEMPT, sendMsg.toByteString());
+				int length = sendOb.toByteArray().length;
+				
+			 	ctx.channel().writeAndFlush(sendOb);
+								
+			}	
+		}
+    }
+	
+	@Override  
+    public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {  
+	
+		App.LOGGER.warn( "a remote session has been shut down, release realted buffer" );
+	}
+	
+}

@@ -1,0 +1,23 @@
+package io.element.card.impl;
+
+import io.element.card.Equipment;
+import io.element.player.BasePlayer;
+
+public class WeaponCard extends HandCard implements Equipment{
+
+	public boolean isValidConsume() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public void consume(BasePlayer player) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void trigger(PerformInfo info) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

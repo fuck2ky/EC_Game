@@ -1,0 +1,33 @@
+package io.element.gtserver;
+
+import io.element.player.BasePlayer;
+
+import java.util.ArrayList;
+
+public class GT_MarchManager {
+
+	
+	public class MarchPlayer
+	{
+		protected int 			m_fitnessValue;
+		protected BasePlayer	m_player;
+		public MarchPlayer( BasePlayer player )
+		
+	}
+	
+	// march player list 
+	protected ArrayList<BasePlayer> m_listArrayList = new ArrayList<BasePlayer>();
+	
+	public GT_MarchManager()
+	{
+		
+	}
+	
+	public void OnTick(long deltaTime)
+	{
+		
+	}
+	
+	public 
+	
+}

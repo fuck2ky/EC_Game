@@ -1,0 +1,21 @@
+package io.element.event.handlers.impl;
+
+import io.element.event.impl.BaseEvent;
+import io.element.event.impl.EventHandler;
+import io.element.event.impl.LoginEvent;
+
+public class G2S_CreatRoomHandler extends EventHandler {
+
+	@Override
+	public <T> boolean applyHandler(BaseEvent<T> event) {
+
+		G2S_CreateRoomEvent loginEvent = (G2S_CreateRoomEvent) event;
+		
+		return false;
+	}
+
+
+	
+	
+
+}

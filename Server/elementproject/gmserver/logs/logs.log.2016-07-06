@@ -1,0 +1,78 @@
+[INFO ] [20:56:24] org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@d7ee98: startup date [Wed Jul 06 20:56:24 CST 2016]; root of context hierarchy
+[INFO ] [20:56:24] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [Spring-All-Module.xml]
+[INFO ] [20:56:24] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [protocol_beans.xml]
+[INFO ] [20:56:24] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [server_beans.xml]
+[INFO ] [20:56:25] org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [props/server.properties]
+[INFO ] [20:56:25] org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7fa39a: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,GM_ServerSpringConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,helloWorld_2,roomManagers,bossThreadFactory,workerThreadFactory,bossGroup,workerGroup,tcpChannelOptions,tcpConfig,queueConfig,taskqueue,globalChannelInitializer,tcpServer,sRoomConfig,scriptroot,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0]; root of factory hierarchy
+[INFO ] [20:56:25] io.element.app.App - Loading java bean resources completed!!!
+[INFO ] [20:56:26] io.element.app.App - Loading script resources completed!!!
+[INFO ] [20:56:26] io.element.app.App - Loading Game Managers for initialize completed!!!!
+[INFO ] [20:56:26] io.element.app.App - TCP Server start success!
+[INFO ] [20:56:26] io.element.app.App - Game server main tick thread start!!
+[WARN ] [20:57:28] io.element.app.App - a remote session has been shut down, release realted buffer
+[WARN ] [20:58:42] io.element.app.App - a remote session has been shut down, release realted buffer
+[WARN ] [21:00:44] io.element.app.App - a remote session has been shut down, release realted buffer
+[WARN ] [21:01:50] io.element.app.App - a remote session has been shut down, release realted buffer
+[WARN ] [21:07:57] io.element.app.App - a remote session has been shut down, release realted buffer
+[WARN ] [21:13:19] io.element.app.App - a remote session has been shut down, release realted buffer
+[WARN ] [21:15:06] io.element.app.App - a remote session has been shut down, release realted buffer
+[WARN ] [21:16:05] io.element.app.App - a remote session has been shut down, release realted buffer
+[WARN ] [21:23:01] io.element.app.App - a remote session has been shut down, release realted buffer
+[WARN ] [21:23:25] io.element.app.App - a remote session has been shut down, release realted buffer
+[WARN ] [21:26:41] io.element.app.App - a remote session has been shut down, release realted buffer
+[WARN ] [21:32:51] io.element.app.App - a remote session has been shut down, release realted buffer
+[INFO ] [21:32:57] org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@716598: startup date [Wed Jul 06 21:32:57 CST 2016]; root of context hierarchy
+[INFO ] [21:32:57] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [Spring-All-Module.xml]
+[INFO ] [21:32:57] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [protocol_beans.xml]
+[INFO ] [21:32:57] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [server_beans.xml]
+[INFO ] [21:32:57] org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [props/server.properties]
+[INFO ] [21:32:57] org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1ce0f36: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,GM_ServerSpringConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,helloWorld_2,roomManagers,bossThreadFactory,workerThreadFactory,bossGroup,workerGroup,tcpChannelOptions,tcpConfig,queueConfig,taskqueue,globalChannelInitializer,tcpServer,sRoomConfig,scriptroot,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0]; root of factory hierarchy
+[INFO ] [21:32:57] io.element.app.App - Loading java bean resources completed!!!
+[INFO ] [21:32:58] io.element.app.App - Loading script resources completed!!!
+[INFO ] [21:32:58] io.element.app.App - Loading Game Managers for initialize completed!!!!
+[INFO ] [21:32:58] io.element.app.App - TCP Server start success!
+[INFO ] [21:32:58] io.element.app.App - Game server main tick thread start!!
+[WARN ] [21:41:24] io.element.app.App - a remote session has been shut down, release realted buffer
+[WARN ] [21:42:44] io.element.app.App - a remote session has been shut down, release realted buffer
+[WARN ] [21:47:13] io.element.app.App - a remote session has been shut down, release realted buffer
+[WARN ] [21:47:48] io.element.app.App - a remote session has been shut down, release realted buffer
+[WARN ] [21:49:22] io.element.app.App - a remote session has been shut down, release realted buffer
+[INFO ] [21:49:55] org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@d7ee98: startup date [Wed Jul 06 21:49:55 CST 2016]; root of context hierarchy
+[INFO ] [21:49:55] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [Spring-All-Module.xml]
+[INFO ] [21:49:55] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [protocol_beans.xml]
+[INFO ] [21:49:55] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [server_beans.xml]
+[INFO ] [21:49:55] org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [props/server.properties]
+[INFO ] [21:49:55] org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7fa39a: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,GM_ServerSpringConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,helloWorld_2,roomManagers,bossThreadFactory,workerThreadFactory,bossGroup,workerGroup,tcpChannelOptions,tcpConfig,queueConfig,taskqueue,globalChannelInitializer,tcpServer,sRoomConfig,scriptroot,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0]; root of factory hierarchy
+[INFO ] [21:49:55] io.element.app.App - Loading java bean resources completed!!!
+[INFO ] [21:49:55] io.element.app.App - Loading script resources completed!!!
+[INFO ] [21:49:56] io.element.app.App - Loading Game Managers for initialize completed!!!!
+[INFO ] [21:49:56] io.element.app.App - TCP Server start success!
+[INFO ] [21:49:56] io.element.app.App - Game server main tick thread start!!
+[WARN ] [21:53:39] io.element.app.App - a remote session has been shut down, release realted buffer
+[INFO ] [21:55:36] org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@ff4805: startup date [Wed Jul 06 21:55:36 CST 2016]; root of context hierarchy
+[INFO ] [21:55:36] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [Spring-All-Module.xml]
+[INFO ] [21:55:36] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [protocol_beans.xml]
+[INFO ] [21:55:36] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [server_beans.xml]
+[INFO ] [21:55:36] org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [props/server.properties]
+[INFO ] [21:55:36] org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1358e57: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,GM_ServerSpringConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,helloWorld_2,roomManagers,bossThreadFactory,workerThreadFactory,bossGroup,workerGroup,tcpChannelOptions,tcpConfig,queueConfig,taskqueue,globalChannelInitializer,tcpServer,sRoomConfig,scriptroot,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0]; root of factory hierarchy
+[INFO ] [21:55:36] io.element.app.App - Loading java bean resources completed!!!
+[INFO ] [21:55:37] io.element.app.App - Loading script resources completed!!!
+[INFO ] [21:55:37] io.element.app.App - Loading Game Managers for initialize completed!!!!
+[INFO ] [21:55:37] io.element.app.App - TCP Server start success!
+[INFO ] [21:55:37] io.element.app.App - Game server main tick thread start!!
+[WARN ] [21:56:32] io.element.app.App - a remote session has been shut down, release realted buffer
+[WARN ] [21:57:45] io.element.app.App - a remote session has been shut down, release realted buffer
+[WARN ] [21:58:49] io.element.app.App - a remote session has been shut down, release realted buffer
+[WARN ] [22:03:56] io.element.app.App - a remote session has been shut down, release realted buffer
+[WARN ] [22:04:47] io.element.app.App - a remote session has been shut down, release realted buffer
+[INFO ] [22:06:40] org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1d15f8c: startup date [Wed Jul 06 22:06:40 CST 2016]; root of context hierarchy
+[INFO ] [22:06:40] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [Spring-All-Module.xml]
+[INFO ] [22:06:40] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [protocol_beans.xml]
+[INFO ] [22:06:40] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [server_beans.xml]
+[INFO ] [22:06:41] org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [props/server.properties]
+[INFO ] [22:06:41] org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1ce0f36: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,GM_ServerSpringConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,helloWorld_2,roomManagers,bossThreadFactory,workerThreadFactory,bossGroup,workerGroup,tcpChannelOptions,tcpConfig,queueConfig,taskqueue,globalChannelInitializer,tcpServer,sRoomConfig,scriptroot,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0]; root of factory hierarchy
+[INFO ] [22:06:41] io.element.app.App - Loading java bean resources completed!!!
+[INFO ] [22:06:41] io.element.app.App - Loading script resources completed!!!
+[INFO ] [22:06:41] io.element.app.App - Loading Game Managers for initialize completed!!!!
+[INFO ] [22:06:41] io.element.app.App - TCP Server start success!
+[INFO ] [22:06:41] io.element.app.App - Game server main tick thread start!!

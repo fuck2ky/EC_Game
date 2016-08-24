@@ -1,0 +1,29 @@
+package io.element.card.pool;
+
+import io.element.dataman.ElementDataMan;
+import io.element.room.Room;
+import io.element.room.impl.GM_BaseRoom;
+
+public class SimpleCardPool extends CardPool{
+
+	public SimpleCardPool(GM_BaseRoom room)
+	{
+		super(room);
+	}
+	
+	@Override
+	public void refreshHandCard(Room entity)
+	{
+		// 清除丢弃的卡牌
+		m_discardCards.clear();
+		// create hand cards
+		m_handCards = ElementDataMan.getInstance().createSimpleHandCards();
+	
+		if(entity != null)
+		{
+			// 去掉玩家手牌中的牌
+			
+		}
+	}
+	
+}

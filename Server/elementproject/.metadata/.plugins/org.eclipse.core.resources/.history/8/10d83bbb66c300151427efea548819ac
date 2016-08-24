@@ -1,0 +1,95 @@
+package io.element.communication.impl;
+
+import java.util.Map;
+import java.util.Set;
+
+import io.element.communication.SSConfig;
+import io.element.communication.Session.*;
+import io.element.reflect.Handler;
+import io.netty.bootstrap.Bootstrap;
+import io.netty.channel.ChannelFuture;
+import io.netty.channel.ChannelFutureListener;
+import io.netty.channel.ChannelOption;
+import io.netty.channel.socket.SocketChannel;
+import io.netty.channel.socket.nio.NioSocketChannel;
+
+// control the remote message transfer for game logic server & gate
+public class ServerSession extends BaseSession implements Deliver{
+
+	protected Bootstrap	m_bootStrap = null;
+	
+	protected SSConfig 	m_cntConfig = null; 
+	
+	public ServerSession(SSConfig config)
+	{
+		m_cntConfig = config;
+	}
+	
+	public ServerSession()
+	{}
+			
+//	public ServerSession(SocketChannel channel, SSConfig config)
+//	{
+//		super(channel);
+//		m_cntConfig = config;
+//	}
+		
+//	@SuppressWarnings("unchecked")
+//	public boolean connect() throws InterruptedException {
+//		
+//		if(m_bootStrap != null)
+//			return false;
+//		
+//		m_bootStrap = new Bootstrap();
+//		Map<ChannelOption<?>, Object> channelOptions = m_cntConfig.getChannelOptions();
+//		if(null != channelOptions){
+//			Set<ChannelOption<?>> keySet = channelOptions.keySet();
+//			for(@SuppressWarnings("rawtypes") ChannelOption option : keySet)
+//			{
+//				m_bootStrap.option(option, channelOptions.get(option));
+//			}
+//		}
+//		m_bootStrap.group( m_cntConfig.getGmServerGroup() )
+//				   .channel(NioSocketChannel.class)
+//				   .handler( m_cntConfig.getChannelInitializer() );
+//		
+//		ChannelFuture future = m_bootStrap.connect( m_cntConfig.getInetAddress() , m_cntConfig.getInetPort() ).sync();
+//		m_channel = (SocketChannel)future.channel();
+//		
+//		return false;
+//	}
+//
+//	@SuppressWarnings("unchecked")
+//	public boolean connect(final Handler completeCallback) {
+//
+//		if(m_bootStrap != null)
+//			return false;
+//		
+//		m_bootStrap = new Bootstrap();
+//		Map<ChannelOption<?>, Object> channelOptions = m_cntConfig.getChannelOptions();
+//		if(null != channelOptions){
+//			Set<ChannelOption<?>> keySet = channelOptions.keySet();
+//			for(@SuppressWarnings("rawtypes") ChannelOption option : keySet)
+//			{
+//				m_bootStrap.option(option, channelOptions.get(option));
+//			}
+//		}
+//		m_bootStrap.group( m_cntConfig.getGmServerGroup() )
+//				   .channel(NioSocketChannel.class)
+//				   .handler( m_cntConfig.getChannelInitializer() );
+//		
+//		ChannelFuture future = m_bootStrap.connect();
+//		future.addListener(new ChannelFutureListener() {
+//			public void operationComplete(ChannelFuture arg0) throws Exception {
+//				m_channel = (SocketChannel) arg0.channel();
+//				completeCallback.invoke();
+//			}    	
+//		});
+//		return true;
+//	}
+//
+//	public boolean connect(int port, Handler completeCallback) {
+//		m_cntConfig.setInetPort(port);
+//		return connect(completeCallback);
+//	}
+}

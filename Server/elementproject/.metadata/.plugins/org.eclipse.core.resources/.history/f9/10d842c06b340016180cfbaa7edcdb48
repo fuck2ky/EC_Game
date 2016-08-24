@@ -1,0 +1,68 @@
+package io.element.gtserver;
+
+import io.element.threadpool.GT_TaskQueue;
+
+public class GT_Managers {
+	
+	public interface Mangaer{
+		
+		public void init();
+		
+		public void tick();
+		
+	}
+
+	private static class LazyHolder {    
+		private static final GT_Managers INSTANCE = new GT_Managers();    
+	}    
+	
+	private GT_Managers (){
+	} 
+	
+	public static final GT_Managers getInstance() {    
+		return LazyHolder.INSTANCE;    
+	}
+	
+	private GT_TaskQueue m_queue = null;
+	
+	private GT_RoomManager m_roommgr = null;
+	
+	private GT_MarchManager m_marchmgr = null;
+	
+	public void init()
+	{
+		m_queue = (GT_TaskQueue) App.context.getBean("taskqueue");
+		m_queue.init();
+		
+		m_roommgr = (GT_RoomManager) App.context.getBean("roommgr");
+		m_roommgr.init();
+		
+		m_marchmgr = (GT_MarchManager) App.context.getBean("marchmgr");
+		m_marchmgr.init();
+		
+		startTaskPool();
+	}
+	
+	public static final GT_TaskQueue getTaskQueue()
+	{
+		return LazyHolder.INSTANCE.m_queue;
+	}
+	
+	public static final GT_RoomManager getRoomManager()
+	{
+		return LazyHolder.INSTANCE.m_roommgr;
+	}
+	
+	public static final GT_MarchManager getMarchManager()
+	{
+		return LazyHolder.INSTANCE.m_marchmgr;
+	}
+	
+	public void startTaskPool()
+	{
+		Thread thread = new Thread(m_queue);
+		thread.setName("task pool");
+		thread.start();
+	}
+	
+}

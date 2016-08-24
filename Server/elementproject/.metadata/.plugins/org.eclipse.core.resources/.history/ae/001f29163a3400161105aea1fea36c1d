@@ -1,0 +1,23 @@
+package io.element.gtserver;
+
+import io.element.player.BasePlayer;
+
+import java.awt.List;
+import java.util.ArrayList;
+
+public class GT_MarchManager {
+
+	
+	protected ArrayList<BasePlayer> m_listArrayList = new ArrayList<BasePlayer>();
+	
+	public GT_MarchManager()
+	{
+		
+	}
+	
+	public void OnTick(long deltaTime)
+	{
+		
+	}
+	
+}

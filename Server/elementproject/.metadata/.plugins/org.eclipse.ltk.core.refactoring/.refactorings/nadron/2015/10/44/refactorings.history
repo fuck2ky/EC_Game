@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;nadron.beans&apos; to &apos;main&apos;&#x0D;&#x0A;- Original project: &apos;nadron&apos;&#x0D;&#x0A;- Destination element: &apos;main&apos;&#x0D;&#x0A;- Original element: &apos;nadron/src/main/resources/nadron.beans&apos;" description="Copy package" element1="/src\/main\/resources&lt;nadron.beans" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1446121423081" target="/gmserver/src/main" version="1.0"/>
+</session>

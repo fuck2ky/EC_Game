@@ -1,0 +1,5 @@
+package io.element.card.impl;
+
+public class HandCard extends BaseCard{
+
+}

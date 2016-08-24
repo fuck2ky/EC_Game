@@ -1,0 +1,74 @@
+package io.element.netty.handlers.impl;
+
+import java.lang.reflect.Method;
+
+import io.element.gtserver.GT_Managers;
+import io.element.gtserver.GT_PlayerManager;
+import io.element.netty.handlers.DefaultHandlerInterface;
+import io.element.player.BasePlayer;
+import io.element.reflect.Handler;
+import io.element.util.HandlerUtil;
+import io.netty.channel.ChannelDuplexHandler;
+import io.netty.channel.ChannelHandlerContext;
+import io.netty.handler.timeout.IdleState;
+import io.netty.handler.timeout.IdleStateEvent;
+
+public class CGHeartBeatHandler  extends ChannelDuplexHandler implements DefaultHandlerInterface{
+	
+	protected int m_iFailCount = 0;
+	
+	protected int m_iMaxCount  = 10;
+	
+	protected Handler m_closeHandler = null;
+	
+	public CGHeartBeatHandler()
+	{
+		super();	
+		
+		Method method = null;
+		try {
+			method = HandlerUtil.getMethod(CGHeartBeatHandler.class.getName(), "closeSessionHandle", Object.class );
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		m_closeHandler = new Handler(method);
+	}
+
+    @Override
+    public void userEventTriggered(ChannelHandlerContext ctx, Object evt)  {
+    	
+    	// 达到某一阈值， 关闭链路，释放资源    	
+        if (evt instanceof IdleStateEvent) {
+            IdleStateEvent e = (IdleStateEvent) evt;
+            
+            // no receive || no send in a while time
+            if (e.state() == IdleState.READER_IDLE) {
+            	         	
+            	// close session when the count full    
+        		GT_PlayerManager playerManager = GT_Managers.getPlayerManager();
+        		BasePlayer player = playerManager.GetPlayer( ctx.channel().toString() );
+        		if( player != null )
+        		{	
+        			m_closeHandler.SetObject(this);
+					m_closeHandler.SetParam(player);
+					player.GetSession().close( m_closeHandler );
+        		}
+            } 
+            else if( e.state() == IdleState.ALL_IDLE )
+            {
+            	m_iFailCount++;
+            	if( m_iFailCount >= m_iMaxCount )
+            	{
+
+            	}
+            }   
+        }	
+    }
+    
+	public void closeSessionHandle(Object arg)
+	{
+		
+	}
+    
+}

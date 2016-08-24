@@ -1,0 +1,72 @@
+package io.element.gtserver;
+
+import io.element.player.BasePlayer;
+import io.element.time.Counter;
+
+import java.util.ArrayList;
+import java.util.Comparator;
+
+public class GT_MarchManager {
+
+	
+	public class MarchPlayer implements Comparable<MarchPlayer>
+	{
+		protected int 			m_fitnessValue;
+		
+		protected BasePlayer	m_player;
+		
+		public MarchPlayer( BasePlayer player ) { m_player = player; }
+
+		public MarchPlayer( BasePlayer player, int fitness ) { this(player); m_fitnessValue = 0; }
+		
+		public int compareTo(MarchPlayer p) {
+			
+			if( this.m_fitnessValue == p.m_fitnessValue )
+				return 0;
+			
+			return this.m_fitnessValue < p.m_fitnessValue ? -1 : 1;
+		}
+	
+	}
+	
+	// 编写Comparator,根据User的id对User进行排序
+    private static final Comparator<MarchPlayer> COMPARATOR = new Comparator<MarchPlayer>() {
+       public int compare(MarchPlayer o1, MarchPlayer o2) {
+           return o1.compareTo(o2);//运用MarchPlayer类的compareTo方法比较两个对象       
+       }
+    };
+	
+    // 计算当前玩家的综合值
+	public static int CalculateFitness( BasePlayer p)
+	{
+		return 1;
+	}
+	
+	// march player list 
+	protected ArrayList<BasePlayer> m_listArrayList = new ArrayList<BasePlayer>();
+	
+	//
+	protected Counter m_Counter = new Counter();
+	
+	public GT_MarchManager()
+	{
+		m_Counter.SetPeriod(2000);
+		m_Counter.Reset();
+	}
+	
+	public void OnTick(long deltaTime)
+	{
+		
+	}
+	
+	public synchronized void AddMarch( BasePlayer p)
+	{
+		
+	}
+
+	public synchronized void RemoveMarch( BasePlayer p )
+	{
+	
+	}
+	
+}

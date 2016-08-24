@@ -1,0 +1,15 @@
+package io.element.gtserver;
+
+public class GT_PlayerManager {
+
+	public GT_PlayerManager()
+	{
+
+	}
+	
+	public void init()
+	{
+		
+	}
+	
+}

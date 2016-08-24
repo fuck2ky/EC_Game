@@ -1,0 +1,1131 @@
+[INFO ] [10:39:47] org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@b34bd3: startup date [Fri Jul 08 10:39:47 CST 2016]; root of context hierarchy
+[INFO ] [10:39:47] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [Spring-All-Module.xml]
+[INFO ] [10:39:48] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [server_beans.xml]
+[INFO ] [10:39:48] org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [props/server.properties]
+[INFO ] [10:39:48] org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@13cf42a: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,GT_ServerSpringConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,bossThreadFactory,workerThreadFactory,gameThreadFactory,gameGroup,ssChannelOptions,gameServerInitializer,ssConfig,serversession,bossGroup,workerGroup,tcpChannelOptions,tcpConfig,cgChannelInitializer,tcpServer,queueConfig,taskqueue,roommgr,marchmgr,playermgr,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0]; root of factory hierarchy
+[INFO ] [10:39:48] io.element.gtserver.App - GATE -- Loading java bean resources completed!!!
+[INFO ] [10:39:48] io.element.gtserver.App - GATE -- Loading Game Managers for initialize completed!!!!
+[INFO ] [10:39:49] io.element.gtserver.App - GATE -- TCP Server start success!
+[INFO ] [10:42:55] io.element.gtserver.App - a visitor with out log has been shut down for deactive
+[INFO ] [10:50:12] org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@b34bd3: startup date [Fri Jul 08 10:50:12 CST 2016]; root of context hierarchy
+[INFO ] [10:50:12] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [Spring-All-Module.xml]
+[INFO ] [10:50:12] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [server_beans.xml]
+[INFO ] [10:50:13] org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [props/server.properties]
+[INFO ] [10:50:13] org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@13cf42a: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,GT_ServerSpringConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,bossThreadFactory,workerThreadFactory,gameThreadFactory,gameGroup,ssChannelOptions,gameServerInitializer,ssConfig,serversession,bossGroup,workerGroup,tcpChannelOptions,tcpConfig,cgChannelInitializer,tcpServer,queueConfig,taskqueue,roommgr,marchmgr,playermgr,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0]; root of factory hierarchy
+[INFO ] [10:50:13] io.element.gtserver.App - GATE -- Loading java bean resources completed!!!
+[INFO ] [10:50:13] io.element.gtserver.App - GATE -- Loading Game Managers for initialize completed!!!!
+[INFO ] [10:50:13] io.element.gtserver.App - GATE -- TCP Server start success!
+[INFO ] [10:51:53] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [10:52:40] org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1372bdb: startup date [Fri Jul 08 10:52:40 CST 2016]; root of context hierarchy
+[INFO ] [10:52:40] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [Spring-All-Module.xml]
+[INFO ] [10:52:40] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [server_beans.xml]
+[INFO ] [10:52:40] org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [props/server.properties]
+[INFO ] [10:52:40] org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@c22e8e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,GT_ServerSpringConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,bossThreadFactory,workerThreadFactory,gameThreadFactory,gameGroup,ssChannelOptions,gameServerInitializer,ssConfig,serversession,bossGroup,workerGroup,tcpChannelOptions,tcpConfig,cgChannelInitializer,tcpServer,queueConfig,taskqueue,roommgr,marchmgr,playermgr,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0]; root of factory hierarchy
+[INFO ] [10:52:41] io.element.gtserver.App - GATE -- Loading java bean resources completed!!!
+[INFO ] [10:52:41] io.element.gtserver.App - GATE -- Loading Game Managers for initialize completed!!!!
+[INFO ] [10:52:41] io.element.gtserver.App - GATE -- TCP Server start success!
+[INFO ] [10:56:19] org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1283922: startup date [Fri Jul 08 10:56:19 CST 2016]; root of context hierarchy
+[INFO ] [10:56:19] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [Spring-All-Module.xml]
+[INFO ] [10:56:19] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [server_beans.xml]
+[INFO ] [10:56:20] org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [props/server.properties]
+[INFO ] [10:56:20] org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@10eb552: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,GT_ServerSpringConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,bossThreadFactory,workerThreadFactory,gameThreadFactory,gameGroup,ssChannelOptions,gameServerInitializer,ssConfig,serversession,bossGroup,workerGroup,tcpChannelOptions,tcpConfig,cgChannelInitializer,tcpServer,queueConfig,taskqueue,roommgr,marchmgr,playermgr,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0]; root of factory hierarchy
+[INFO ] [10:56:20] io.element.gtserver.App - GATE -- Loading java bean resources completed!!!
+[INFO ] [10:56:20] io.element.gtserver.App - GATE -- Loading Game Managers for initialize completed!!!!
+[INFO ] [10:56:20] io.element.gtserver.App - GATE -- TCP Server start success!
+[INFO ] [10:56:40] org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1372bdb: startup date [Fri Jul 08 10:56:40 CST 2016]; root of context hierarchy
+[INFO ] [10:56:40] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [Spring-All-Module.xml]
+[INFO ] [10:56:40] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [server_beans.xml]
+[INFO ] [10:56:41] org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [props/server.properties]
+[INFO ] [10:56:41] org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@c22e8e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,GT_ServerSpringConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,bossThreadFactory,workerThreadFactory,gameThreadFactory,gameGroup,ssChannelOptions,gameServerInitializer,ssConfig,serversession,bossGroup,workerGroup,tcpChannelOptions,tcpConfig,cgChannelInitializer,tcpServer,queueConfig,taskqueue,roommgr,marchmgr,playermgr,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0]; root of factory hierarchy
+[INFO ] [10:56:41] io.element.gtserver.App - GATE -- Loading java bean resources completed!!!
+[INFO ] [10:56:41] io.element.gtserver.App - GATE -- Loading Game Managers for initialize completed!!!!
+[INFO ] [10:56:41] io.element.gtserver.App - GATE -- TCP Server start success!
+[INFO ] [10:59:21] io.element.gtserver.App - a visitor with out log has been shut down for deactive
+[INFO ] [11:30:48] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [11:30:49] io.element.gtserver.App - client-- 玩家开始匹配 --gate server，玩家名称 = TestPlayer1
+[INFO ] [11:30:51] io.element.gtserver.App - match mgr -- 创建房间并开始链接 --logic server， id = 1
+[INFO ] [11:30:51] io.element.gtserver.App - gate room-- 发送逻辑服务器创建请求 --logic server， id = 1
+[INFO ] [11:30:55] io.element.gtserver.App - logic server-- 逻辑服务器创建房间成功,游戏开始 --gate server，房间id = 1
+[INFO ] [11:30:55] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_GAME_BEGIN enter!!!		1
+[INFO ] [11:31:05] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [11:31:05] io.element.gtserver.App - the current active player id is 1
+[INFO ] [11:31:15] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [11:31:25] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [11:31:35] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [11:31:45] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [11:31:55] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [11:31:55] io.element.gtserver.App - the current active player id is 2
+[INFO ] [11:32:05] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [11:32:15] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [11:32:25] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [11:32:35] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [11:32:45] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [11:32:45] io.element.gtserver.App - the current active player id is 3
+[INFO ] [11:32:55] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [11:33:05] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [11:33:15] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [11:33:24] io.element.gtserver.App - gate -- a player has lose connection, name player:0, id 1 
+[INFO ] [11:33:25] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [11:33:31] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [11:33:35] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [11:33:35] io.element.gtserver.App - the current active player id is 4
+[INFO ] [11:33:42] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [11:33:45] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [11:34:00] org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1283922: startup date [Fri Jul 08 11:34:00 CST 2016]; root of context hierarchy
+[INFO ] [11:34:00] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [Spring-All-Module.xml]
+[INFO ] [11:34:00] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [server_beans.xml]
+[INFO ] [11:34:00] org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [props/server.properties]
+[INFO ] [11:34:00] org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d600e3: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,GT_ServerSpringConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,bossThreadFactory,workerThreadFactory,gameThreadFactory,gameGroup,ssChannelOptions,gameServerInitializer,ssConfig,serversession,bossGroup,workerGroup,tcpChannelOptions,tcpConfig,cgChannelInitializer,tcpServer,queueConfig,taskqueue,roommgr,marchmgr,playermgr,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0]; root of factory hierarchy
+[INFO ] [11:34:01] io.element.gtserver.App - GATE -- Loading java bean resources completed!!!
+[INFO ] [11:34:01] io.element.gtserver.App - GATE -- Loading Game Managers for initialize completed!!!!
+[INFO ] [11:34:01] io.element.gtserver.App - GATE -- TCP Server start success!
+[INFO ] [11:34:09] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [11:34:14] io.element.gtserver.App - client-- 玩家开始匹配 --gate server，玩家名称 = TestPlayer1
+[INFO ] [11:34:14] io.element.gtserver.App - match mgr -- 创建房间并开始链接 --logic server， id = 1
+[INFO ] [11:34:14] io.element.gtserver.App - gate room-- 发送逻辑服务器创建请求 --logic server， id = 1
+[INFO ] [11:34:14] io.element.gtserver.App - logic server-- 逻辑服务器创建房间成功,游戏开始 --gate server，房间id = 1
+[INFO ] [11:34:15] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_GAME_BEGIN enter!!!		1
+[INFO ] [11:34:25] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [11:34:25] io.element.gtserver.App - the current active player id is 1
+[INFO ] [11:34:35] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [11:34:45] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [11:34:55] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [11:35:05] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [11:35:15] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [11:35:15] io.element.gtserver.App - the current active player id is 2
+[INFO ] [11:35:25] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [11:35:35] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [11:35:45] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [11:35:55] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [11:36:05] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [11:36:05] io.element.gtserver.App - the current active player id is 3
+[INFO ] [11:36:15] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [11:36:25] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [11:40:32] org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@b34bd3: startup date [Fri Jul 08 11:40:32 CST 2016]; root of context hierarchy
+[INFO ] [11:40:32] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [Spring-All-Module.xml]
+[INFO ] [11:40:32] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [server_beans.xml]
+[INFO ] [11:40:32] org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [props/server.properties]
+[INFO ] [11:40:32] org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@13cf42a: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,GT_ServerSpringConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,bossThreadFactory,workerThreadFactory,gameThreadFactory,gameGroup,ssChannelOptions,gameServerInitializer,ssConfig,serversession,bossGroup,workerGroup,tcpChannelOptions,tcpConfig,cgChannelInitializer,tcpServer,queueConfig,taskqueue,roommgr,marchmgr,playermgr,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0]; root of factory hierarchy
+[INFO ] [11:40:33] io.element.gtserver.App - GATE -- Loading java bean resources completed!!!
+[INFO ] [11:40:33] io.element.gtserver.App - GATE -- Loading Game Managers for initialize completed!!!!
+[INFO ] [11:40:33] io.element.gtserver.App - GATE -- TCP Server start success!
+[INFO ] [11:41:23] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [11:43:58] io.element.gtserver.App - gate -- a player has lose connection, name TestPlayer1, id 1 
+[INFO ] [11:46:39] io.element.gtserver.App - a visitor with out log has been shut down for deactive
+[INFO ] [11:51:37] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [11:54:12] io.element.gtserver.App - gate -- a player has lose connection, name TestPlayer2, id 2 
+[INFO ] [11:55:41] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [11:57:31] io.element.gtserver.App - client-- 玩家开始匹配 --gate server，玩家名称 = TestPlayer3
+[INFO ] [11:57:32] io.element.gtserver.App - match mgr -- 创建房间并开始链接 --logic server， id = 1
+[INFO ] [11:57:32] io.element.gtserver.App - gate room-- 发送逻辑服务器创建请求 --logic server， id = 1
+[INFO ] [11:57:33] io.element.gtserver.App - logic server-- 逻辑服务器创建房间成功,游戏开始 --gate server，房间id = 1
+[INFO ] [11:57:33] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_GAME_BEGIN enter!!!		1
+[INFO ] [11:57:43] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [11:57:43] io.element.gtserver.App - the current active player id is 3
+[INFO ] [11:57:53] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [11:58:03] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [11:58:13] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [11:58:23] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [11:58:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [11:58:34] io.element.gtserver.App - the current active player id is 2
+[INFO ] [11:58:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [11:58:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [11:59:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [11:59:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [11:59:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [11:59:24] io.element.gtserver.App - the current active player id is 3
+[INFO ] [11:59:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [11:59:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [11:59:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:00:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:00:06] io.element.gtserver.App - gate -- a player has lose connection, name player:0, id 3 
+[INFO ] [12:00:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:00:14] io.element.gtserver.App - the current active player id is 4
+[INFO ] [12:00:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:00:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:00:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:00:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:01:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:01:04] io.element.gtserver.App - the current active player id is 3
+[INFO ] [12:01:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:01:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:01:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:01:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:01:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:01:54] io.element.gtserver.App - the current active player id is 2
+[INFO ] [12:02:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:02:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:02:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:02:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:02:41] io.element.gtserver.App - a visitor with out log has been shut down for deactive
+[INFO ] [12:02:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:02:44] io.element.gtserver.App - the current active player id is 3
+[INFO ] [12:02:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:03:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:03:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:03:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:03:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:03:34] io.element.gtserver.App - the current active player id is 4
+[INFO ] [12:03:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:03:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:04:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:04:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:04:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:04:24] io.element.gtserver.App - the current active player id is 3
+[INFO ] [12:04:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:04:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:04:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:05:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:05:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:05:14] io.element.gtserver.App - the current active player id is 2
+[INFO ] [12:05:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:05:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:05:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:05:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:06:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:06:04] io.element.gtserver.App - the current active player id is 3
+[INFO ] [12:06:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:06:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:06:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:06:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:06:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:06:54] io.element.gtserver.App - the current active player id is 4
+[INFO ] [12:07:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:07:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:07:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:07:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:07:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:07:44] io.element.gtserver.App - the current active player id is 3
+[INFO ] [12:07:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:08:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:08:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:08:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:08:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:08:34] io.element.gtserver.App - the current active player id is 2
+[INFO ] [12:08:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:08:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:09:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:09:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:09:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:09:24] io.element.gtserver.App - the current active player id is 3
+[INFO ] [12:09:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:09:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:09:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:10:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:10:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:10:14] io.element.gtserver.App - the current active player id is 4
+[INFO ] [12:10:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:10:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:10:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:10:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:11:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:11:04] io.element.gtserver.App - the current active player id is 3
+[INFO ] [12:11:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:11:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:11:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:11:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:11:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:11:54] io.element.gtserver.App - the current active player id is 2
+[INFO ] [12:12:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:12:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:12:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:12:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:12:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:12:44] io.element.gtserver.App - the current active player id is 3
+[INFO ] [12:12:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:13:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:13:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:13:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:13:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:13:34] io.element.gtserver.App - the current active player id is 4
+[INFO ] [12:13:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:13:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:14:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:14:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:14:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:14:24] io.element.gtserver.App - the current active player id is 3
+[INFO ] [12:14:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:14:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:14:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:15:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:15:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:15:14] io.element.gtserver.App - the current active player id is 2
+[INFO ] [12:15:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:15:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:15:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:15:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:16:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:16:04] io.element.gtserver.App - the current active player id is 3
+[INFO ] [12:16:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:16:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:16:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:16:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:16:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:16:54] io.element.gtserver.App - the current active player id is 4
+[INFO ] [12:17:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:17:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:17:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:17:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:17:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:17:44] io.element.gtserver.App - the current active player id is 3
+[INFO ] [12:17:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:18:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:18:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:18:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:18:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:18:34] io.element.gtserver.App - the current active player id is 2
+[INFO ] [12:18:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:18:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:19:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:19:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:19:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:19:24] io.element.gtserver.App - the current active player id is 3
+[INFO ] [12:19:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:19:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:19:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:20:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:20:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:20:14] io.element.gtserver.App - the current active player id is 4
+[INFO ] [12:20:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:20:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:20:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:20:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:21:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:21:04] io.element.gtserver.App - the current active player id is 3
+[INFO ] [12:21:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:21:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:21:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:21:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:21:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:21:54] io.element.gtserver.App - the current active player id is 2
+[INFO ] [12:22:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:22:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:22:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:22:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:22:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:22:44] io.element.gtserver.App - the current active player id is 3
+[INFO ] [12:22:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:23:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:23:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:23:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:23:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:23:34] io.element.gtserver.App - the current active player id is 4
+[INFO ] [12:23:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:23:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:24:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:24:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:24:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:24:24] io.element.gtserver.App - the current active player id is 3
+[INFO ] [12:24:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:24:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:24:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:25:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:25:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:25:14] io.element.gtserver.App - the current active player id is 2
+[INFO ] [12:25:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:25:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:25:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:25:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:26:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:26:04] io.element.gtserver.App - the current active player id is 3
+[INFO ] [12:26:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:26:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:26:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:26:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:26:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:26:54] io.element.gtserver.App - the current active player id is 4
+[INFO ] [12:27:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:27:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:27:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:27:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:27:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:27:44] io.element.gtserver.App - the current active player id is 3
+[INFO ] [12:27:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:28:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:28:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:28:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:28:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:28:34] io.element.gtserver.App - the current active player id is 2
+[INFO ] [12:28:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:28:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:29:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:29:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:29:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:29:24] io.element.gtserver.App - the current active player id is 3
+[INFO ] [12:29:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:29:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:29:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:30:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:30:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:30:14] io.element.gtserver.App - the current active player id is 4
+[INFO ] [12:30:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:30:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:30:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:30:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:31:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:31:04] io.element.gtserver.App - the current active player id is 3
+[INFO ] [12:31:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:31:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:31:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:31:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:31:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:31:54] io.element.gtserver.App - the current active player id is 2
+[INFO ] [12:32:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:32:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:32:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:32:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:32:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:32:44] io.element.gtserver.App - the current active player id is 3
+[INFO ] [12:32:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:33:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:33:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:33:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:33:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:33:34] io.element.gtserver.App - the current active player id is 4
+[INFO ] [12:33:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:33:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:34:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:34:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:34:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:34:24] io.element.gtserver.App - the current active player id is 3
+[INFO ] [12:34:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:34:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:34:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:35:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:35:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:35:14] io.element.gtserver.App - the current active player id is 2
+[INFO ] [12:35:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:35:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:35:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:35:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:36:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:36:04] io.element.gtserver.App - the current active player id is 3
+[INFO ] [12:36:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:36:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:36:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:36:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:36:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:36:54] io.element.gtserver.App - the current active player id is 4
+[INFO ] [12:37:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:37:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:37:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:37:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:37:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:37:44] io.element.gtserver.App - the current active player id is 3
+[INFO ] [12:37:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:38:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:38:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:38:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:38:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:38:34] io.element.gtserver.App - the current active player id is 2
+[INFO ] [12:38:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:38:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:39:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:39:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:39:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:39:24] io.element.gtserver.App - the current active player id is 3
+[INFO ] [12:39:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:39:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:39:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:40:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:40:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:40:14] io.element.gtserver.App - the current active player id is 4
+[INFO ] [12:40:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:40:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:40:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:40:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:41:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:41:04] io.element.gtserver.App - the current active player id is 3
+[INFO ] [12:41:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:41:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:41:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:41:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:41:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:41:54] io.element.gtserver.App - the current active player id is 2
+[INFO ] [12:42:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:42:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:42:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:42:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:42:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:42:44] io.element.gtserver.App - the current active player id is 3
+[INFO ] [12:42:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:43:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:43:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:43:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:43:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:43:34] io.element.gtserver.App - the current active player id is 4
+[INFO ] [12:43:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:43:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:44:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:44:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:44:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:44:24] io.element.gtserver.App - the current active player id is 3
+[INFO ] [12:44:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:44:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:44:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:45:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:45:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:45:14] io.element.gtserver.App - the current active player id is 2
+[INFO ] [12:45:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:45:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:45:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:45:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:46:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:46:04] io.element.gtserver.App - the current active player id is 3
+[INFO ] [12:46:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:46:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:46:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:46:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:46:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:46:54] io.element.gtserver.App - the current active player id is 4
+[INFO ] [12:47:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:47:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:47:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:47:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:47:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:47:44] io.element.gtserver.App - the current active player id is 3
+[INFO ] [12:47:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:48:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:48:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:48:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:48:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:48:34] io.element.gtserver.App - the current active player id is 2
+[INFO ] [12:48:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:48:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:49:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:49:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:49:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:49:24] io.element.gtserver.App - the current active player id is 3
+[INFO ] [12:49:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:49:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:49:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:50:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:50:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:50:14] io.element.gtserver.App - the current active player id is 4
+[INFO ] [12:50:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:50:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:50:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:50:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:51:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:51:04] io.element.gtserver.App - the current active player id is 3
+[INFO ] [12:51:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:51:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:51:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:51:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:51:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:51:54] io.element.gtserver.App - the current active player id is 2
+[INFO ] [12:52:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:52:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:52:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:52:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:52:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:52:44] io.element.gtserver.App - the current active player id is 3
+[INFO ] [12:52:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:53:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:53:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:53:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:53:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:53:34] io.element.gtserver.App - the current active player id is 4
+[INFO ] [12:53:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:53:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:54:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:54:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:54:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:54:24] io.element.gtserver.App - the current active player id is 3
+[INFO ] [12:54:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:54:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:54:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:55:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:55:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:55:14] io.element.gtserver.App - the current active player id is 2
+[INFO ] [12:55:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:55:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:55:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:55:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:56:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:56:04] io.element.gtserver.App - the current active player id is 3
+[INFO ] [12:56:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:56:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:56:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:56:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:56:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:56:54] io.element.gtserver.App - the current active player id is 4
+[INFO ] [12:57:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:57:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:57:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:57:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:57:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:57:44] io.element.gtserver.App - the current active player id is 3
+[INFO ] [12:57:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:58:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:58:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:58:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:58:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:58:34] io.element.gtserver.App - the current active player id is 2
+[INFO ] [12:58:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:58:54] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [12:59:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [12:59:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [12:59:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [12:59:24] io.element.gtserver.App - the current active player id is 3
+[INFO ] [12:59:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [12:59:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[WARN ] [13:00:49] io.netty.channel.DefaultChannelPipeline - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:436)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:870)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:208)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:87)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:447)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:341)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO ] [13:04:41] org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@b34bd3: startup date [Fri Jul 08 13:04:41 CST 2016]; root of context hierarchy
+[INFO ] [13:04:41] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [Spring-All-Module.xml]
+[INFO ] [13:04:41] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [server_beans.xml]
+[INFO ] [13:04:41] org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [props/server.properties]
+[INFO ] [13:04:41] org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@13cf42a: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,GT_ServerSpringConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,bossThreadFactory,workerThreadFactory,gameThreadFactory,gameGroup,ssChannelOptions,gameServerInitializer,ssConfig,serversession,bossGroup,workerGroup,tcpChannelOptions,tcpConfig,cgChannelInitializer,tcpServer,queueConfig,taskqueue,roommgr,marchmgr,playermgr,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0]; root of factory hierarchy
+[INFO ] [13:04:42] io.element.gtserver.App - GATE -- Loading java bean resources completed!!!
+[INFO ] [13:04:42] io.element.gtserver.App - GATE -- Loading Game Managers for initialize completed!!!!
+[INFO ] [13:04:42] io.element.gtserver.App - GATE -- TCP Server start success!
+[INFO ] [13:04:49] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [13:04:50] io.element.gtserver.App - client-- 玩家开始匹配 --gate server，玩家名称 = TestPlayer1
+[INFO ] [13:04:51] io.element.gtserver.App - gate room-- 发送逻辑服务器创建请求 --logic server， id = 1
+[INFO ] [13:04:51] io.element.gtserver.App - match mgr -- 创建房间并开始链接 --logic server， id = 1
+[INFO ] [13:04:51] io.element.gtserver.App - logic server-- 逻辑服务器创建房间成功,游戏开始 --gate server，房间id = 1
+[INFO ] [13:04:51] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_GAME_BEGIN enter!!!		1
+[INFO ] [13:05:01] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [13:05:01] io.element.gtserver.App - the current active player id is 1
+[INFO ] [13:05:33] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [13:05:39] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [13:05:49] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [13:05:59] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [13:06:09] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [13:06:09] io.element.gtserver.App - the current active player id is 2
+[INFO ] [13:06:19] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [13:06:29] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [13:06:39] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [13:06:49] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [13:06:59] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [13:06:59] io.element.gtserver.App - the current active player id is 3
+[INFO ] [13:07:09] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [13:07:21] org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1372bdb: startup date [Fri Jul 08 13:07:21 CST 2016]; root of context hierarchy
+[INFO ] [13:07:21] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [Spring-All-Module.xml]
+[INFO ] [13:07:21] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [server_beans.xml]
+[INFO ] [13:07:21] org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [props/server.properties]
+[INFO ] [13:07:21] org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@c22e8e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,GT_ServerSpringConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,bossThreadFactory,workerThreadFactory,gameThreadFactory,gameGroup,ssChannelOptions,gameServerInitializer,ssConfig,serversession,bossGroup,workerGroup,tcpChannelOptions,tcpConfig,cgChannelInitializer,tcpServer,queueConfig,taskqueue,roommgr,marchmgr,playermgr,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0]; root of factory hierarchy
+[INFO ] [13:07:21] io.element.gtserver.App - GATE -- Loading java bean resources completed!!!
+[INFO ] [13:07:21] io.element.gtserver.App - GATE -- Loading Game Managers for initialize completed!!!!
+[INFO ] [13:07:21] io.element.gtserver.App - GATE -- TCP Server start success!
+[INFO ] [13:07:49] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [13:07:51] io.element.gtserver.App - client-- 玩家开始匹配 --gate server，玩家名称 = TestPlayer1
+[INFO ] [13:07:52] io.element.gtserver.App - gate room-- 发送逻辑服务器创建请求 --logic server， id = 1
+[INFO ] [13:07:52] io.element.gtserver.App - match mgr -- 创建房间并开始链接 --logic server， id = 1
+[INFO ] [13:07:52] io.element.gtserver.App - logic server-- 逻辑服务器创建房间成功,游戏开始 --gate server，房间id = 1
+[INFO ] [13:07:53] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_GAME_BEGIN enter!!!		1
+[INFO ] [13:08:03] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [13:08:03] io.element.gtserver.App - the current active player id is 1
+[INFO ] [13:08:13] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [13:08:23] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [13:08:33] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [13:08:43] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [13:08:53] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [13:08:53] io.element.gtserver.App - the current active player id is 2
+[INFO ] [13:09:03] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [13:09:13] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [13:09:23] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [13:09:33] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [13:09:43] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [13:09:43] io.element.gtserver.App - the current active player id is 3
+[INFO ] [13:16:54] org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@b34bd3: startup date [Fri Jul 08 13:16:54 CST 2016]; root of context hierarchy
+[INFO ] [13:16:54] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [Spring-All-Module.xml]
+[INFO ] [13:16:54] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [server_beans.xml]
+[INFO ] [13:16:54] org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [props/server.properties]
+[INFO ] [13:16:54] org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@13cf42a: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,GT_ServerSpringConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,bossThreadFactory,workerThreadFactory,gameThreadFactory,gameGroup,ssChannelOptions,gameServerInitializer,ssConfig,serversession,bossGroup,workerGroup,tcpChannelOptions,tcpConfig,cgChannelInitializer,tcpServer,queueConfig,taskqueue,roommgr,marchmgr,playermgr,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0]; root of factory hierarchy
+[INFO ] [13:16:55] io.element.gtserver.App - GATE -- Loading java bean resources completed!!!
+[INFO ] [13:16:55] io.element.gtserver.App - GATE -- Loading Game Managers for initialize completed!!!!
+[INFO ] [13:16:55] io.element.gtserver.App - GATE -- TCP Server start success!
+[INFO ] [13:17:04] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [13:17:06] io.element.gtserver.App - client-- 玩家开始匹配 --gate server，玩家名称 = TestPlayer1
+[INFO ] [13:17:08] io.element.gtserver.App - match mgr -- 创建房间并开始链接 --logic server， id = 1
+[INFO ] [13:17:08] io.element.gtserver.App - gate room-- 发送逻辑服务器创建请求 --logic server， id = 1
+[INFO ] [13:17:08] io.element.gtserver.App - logic server-- 逻辑服务器创建房间成功,游戏开始 --gate server，房间id = 1
+[INFO ] [13:17:08] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_GAME_BEGIN enter!!!		1
+[INFO ] [13:17:18] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [13:17:18] io.element.gtserver.App - the current active player id is 1
+[INFO ] [13:17:28] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [13:17:38] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [13:17:48] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [13:17:58] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [13:19:41] io.element.gtserver.App - gate -- a player has lose connection, name player:0, id 1 
+[INFO ] [13:26:34] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [13:26:41] io.element.gtserver.App - client-- 玩家开始匹配 --gate server，玩家名称 = TestPlayer2
+[INFO ] [13:26:43] io.element.gtserver.App - match mgr -- 创建房间并开始链接 --logic server， id = 2
+[INFO ] [13:26:43] io.element.gtserver.App - gate room-- 发送逻辑服务器创建请求 --logic server， id = 2
+[INFO ] [13:26:43] io.element.gtserver.App - logic server-- 逻辑服务器创建房间成功,游戏开始 --gate server，房间id = 2
+[INFO ] [13:26:43] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_GAME_BEGIN enter!!!		2
+[INFO ] [13:26:53] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		2
+[INFO ] [13:26:53] io.element.gtserver.App - the current active player id is 2
+[INFO ] [13:27:03] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		2
+[INFO ] [13:27:13] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		2
+[INFO ] [13:27:23] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		2
+[INFO ] [13:27:33] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		2
+[INFO ] [13:29:16] io.element.gtserver.App - gate -- a player has lose connection, name player:0, id 2 
+[INFO ] [13:35:49] org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1372bdb: startup date [Fri Jul 08 13:35:49 CST 2016]; root of context hierarchy
+[INFO ] [13:35:49] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [Spring-All-Module.xml]
+[INFO ] [13:35:49] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [server_beans.xml]
+[INFO ] [13:35:49] org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [props/server.properties]
+[INFO ] [13:35:49] org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@c22e8e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,GT_ServerSpringConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,bossThreadFactory,workerThreadFactory,gameThreadFactory,gameGroup,ssChannelOptions,gameServerInitializer,ssConfig,serversession,bossGroup,workerGroup,tcpChannelOptions,tcpConfig,cgChannelInitializer,tcpServer,queueConfig,taskqueue,roommgr,marchmgr,playermgr,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0]; root of factory hierarchy
+[INFO ] [13:35:50] io.element.gtserver.App - GATE -- Loading java bean resources completed!!!
+[INFO ] [13:35:50] io.element.gtserver.App - GATE -- Loading Game Managers for initialize completed!!!!
+[INFO ] [13:35:50] io.element.gtserver.App - GATE -- TCP Server start success!
+[INFO ] [13:35:58] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [13:36:01] io.element.gtserver.App - client-- 玩家开始匹配 --gate server，玩家名称 = TestPlayer1
+[INFO ] [13:36:03] io.element.gtserver.App - match mgr -- 创建房间并开始链接 --logic server， id = 1
+[INFO ] [13:36:03] io.element.gtserver.App - gate room-- 发送逻辑服务器创建请求 --logic server， id = 1
+[INFO ] [13:36:03] io.element.gtserver.App - logic server-- 逻辑服务器创建房间成功,游戏开始 --gate server，房间id = 1
+[INFO ] [13:36:04] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_GAME_BEGIN enter!!!		1
+[INFO ] [13:36:14] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [13:36:14] io.element.gtserver.App - the current active player id is 1
+[INFO ] [13:36:24] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [13:36:34] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [13:36:44] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [13:38:36] io.element.gtserver.App - gate -- a player has lose connection, name player:0, id 1 
+[INFO ] [13:38:45] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [13:38:46] io.element.gtserver.App - client-- 玩家开始匹配 --gate server，玩家名称 = TestPlayer2
+[INFO ] [13:38:47] io.element.gtserver.App - match mgr -- 创建房间并开始链接 --logic server， id = 2
+[INFO ] [13:38:47] io.element.gtserver.App - gate room-- 发送逻辑服务器创建请求 --logic server， id = 2
+[INFO ] [13:38:47] io.element.gtserver.App - logic server-- 逻辑服务器创建房间成功,游戏开始 --gate server，房间id = 2
+[INFO ] [13:38:47] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_GAME_BEGIN enter!!!		2
+[INFO ] [13:38:57] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		2
+[INFO ] [13:38:57] io.element.gtserver.App - the current active player id is 2
+[INFO ] [13:39:07] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		2
+[INFO ] [13:39:17] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		2
+[INFO ] [13:39:28] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		2
+[INFO ] [13:41:21] io.element.gtserver.App - gate -- a player has lose connection, name player:0, id 2 
+[INFO ] [13:46:24] org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@b34bd3: startup date [Fri Jul 08 13:46:24 CST 2016]; root of context hierarchy
+[INFO ] [13:46:24] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [Spring-All-Module.xml]
+[INFO ] [13:46:25] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [server_beans.xml]
+[INFO ] [13:46:25] org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [props/server.properties]
+[INFO ] [13:46:25] org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@13cf42a: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,GT_ServerSpringConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,bossThreadFactory,workerThreadFactory,gameThreadFactory,gameGroup,ssChannelOptions,gameServerInitializer,ssConfig,serversession,bossGroup,workerGroup,tcpChannelOptions,tcpConfig,cgChannelInitializer,tcpServer,queueConfig,taskqueue,roommgr,marchmgr,playermgr,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0]; root of factory hierarchy
+[INFO ] [13:46:25] io.element.gtserver.App - GATE -- Loading java bean resources completed!!!
+[INFO ] [13:46:25] io.element.gtserver.App - GATE -- Loading Game Managers for initialize completed!!!!
+[INFO ] [13:46:25] io.element.gtserver.App - GATE -- TCP Server start success!
+[INFO ] [13:46:35] org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@b34bd3: startup date [Fri Jul 08 13:46:35 CST 2016]; root of context hierarchy
+[INFO ] [13:46:35] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [Spring-All-Module.xml]
+[INFO ] [13:46:35] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [server_beans.xml]
+[INFO ] [13:46:35] org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [props/server.properties]
+[INFO ] [13:46:35] org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@13cf42a: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,GT_ServerSpringConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,bossThreadFactory,workerThreadFactory,gameThreadFactory,gameGroup,ssChannelOptions,gameServerInitializer,ssConfig,serversession,bossGroup,workerGroup,tcpChannelOptions,tcpConfig,cgChannelInitializer,tcpServer,queueConfig,taskqueue,roommgr,marchmgr,playermgr,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0]; root of factory hierarchy
+[INFO ] [13:46:35] io.element.gtserver.App - GATE -- Loading java bean resources completed!!!
+[INFO ] [13:46:35] io.element.gtserver.App - GATE -- Loading Game Managers for initialize completed!!!!
+[INFO ] [13:46:36] io.element.gtserver.App - GATE -- TCP Server start success!
+[INFO ] [13:46:44] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [13:46:47] io.element.gtserver.App - client-- 玩家开始匹配 --gate server，玩家名称 = TestPlayer1
+[INFO ] [13:46:49] io.element.gtserver.App - match mgr -- 创建房间并开始链接 --logic server， id = 1
+[INFO ] [13:46:49] io.element.gtserver.App - gate room-- 发送逻辑服务器创建请求 --logic server， id = 1
+[INFO ] [13:46:49] io.element.gtserver.App - logic server-- 逻辑服务器创建房间成功,游戏开始 --gate server，房间id = 1
+[INFO ] [13:46:49] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_GAME_BEGIN enter!!!		1
+[INFO ] [13:46:59] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [13:46:59] io.element.gtserver.App - the current active player id is 1
+[INFO ] [13:47:09] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [13:47:19] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [13:47:29] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [14:06:27] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [14:06:29] io.element.gtserver.App - client-- 玩家开始匹配 --gate server，玩家名称 = TestPlayer2
+[INFO ] [14:06:30] io.element.gtserver.App - match mgr -- 创建房间并开始链接 --logic server， id = 2
+[INFO ] [14:06:30] io.element.gtserver.App - gate room-- 发送逻辑服务器创建请求 --logic server， id = 2
+[INFO ] [14:06:30] io.element.gtserver.App - logic server-- 逻辑服务器创建房间成功,游戏开始 --gate server，房间id = 2
+[INFO ] [14:06:30] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_GAME_BEGIN enter!!!		2
+[INFO ] [14:06:40] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		2
+[INFO ] [14:06:40] io.element.gtserver.App - the current active player id is 2
+[INFO ] [14:06:50] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		2
+[INFO ] [14:07:00] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		2
+[INFO ] [14:07:10] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		2
+[INFO ] [14:24:25] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [14:24:28] io.element.gtserver.App - client-- 玩家开始匹配 --gate server，玩家名称 = TestPlayer3
+[INFO ] [14:24:28] io.element.gtserver.App - match mgr -- 创建房间并开始链接 --logic server， id = 3
+[INFO ] [14:24:28] io.element.gtserver.App - gate room-- 发送逻辑服务器创建请求 --logic server， id = 3
+[INFO ] [14:24:28] io.element.gtserver.App - logic server-- 逻辑服务器创建房间成功,游戏开始 --gate server，房间id = 3
+[INFO ] [14:24:29] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_GAME_BEGIN enter!!!		3
+[INFO ] [14:24:39] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		3
+[INFO ] [14:24:39] io.element.gtserver.App - the current active player id is 3
+[INFO ] [14:24:49] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		3
+[INFO ] [14:24:59] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		3
+[INFO ] [14:25:09] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		3
+[INFO ] [14:31:37] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [14:34:24] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [14:34:28] io.element.gtserver.App - client-- 玩家开始匹配 --gate server，玩家名称 = TestPlayer5
+[INFO ] [14:34:29] io.element.gtserver.App - match mgr -- 创建房间并开始链接 --logic server， id = 4
+[INFO ] [14:34:29] io.element.gtserver.App - gate room-- 发送逻辑服务器创建请求 --logic server， id = 4
+[INFO ] [14:34:29] io.element.gtserver.App - logic server-- 逻辑服务器创建房间成功,游戏开始 --gate server，房间id = 4
+[INFO ] [14:34:30] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_GAME_BEGIN enter!!!		4
+[INFO ] [14:34:40] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		4
+[INFO ] [14:34:40] io.element.gtserver.App - the current active player id is 5
+[INFO ] [14:34:50] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		4
+[INFO ] [14:35:00] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		4
+[INFO ] [14:35:10] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		4
+[INFO ] [14:37:53] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [14:39:57] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [14:42:52] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [14:55:45] org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1203b97: startup date [Fri Jul 08 14:55:45 CST 2016]; root of context hierarchy
+[INFO ] [14:55:46] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [Spring-All-Module.xml]
+[INFO ] [14:55:46] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [server_beans.xml]
+[INFO ] [14:55:46] org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [props/server.properties]
+[INFO ] [14:55:46] org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7e8edf: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,GT_ServerSpringConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,bossThreadFactory,workerThreadFactory,gameThreadFactory,gameGroup,ssChannelOptions,gameServerInitializer,ssConfig,serversession,bossGroup,workerGroup,tcpChannelOptions,tcpConfig,cgChannelInitializer,tcpServer,queueConfig,taskqueue,roommgr,marchmgr,playermgr,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0]; root of factory hierarchy
+[INFO ] [14:55:47] io.element.gtserver.App - GATE -- Loading java bean resources completed!!!
+[INFO ] [14:55:47] io.element.gtserver.App - GATE -- Loading Game Managers for initialize completed!!!!
+[INFO ] [14:55:47] io.element.gtserver.App - GATE -- TCP Server start success!
+[INFO ] [15:04:04] org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@b34bd3: startup date [Fri Jul 08 15:04:04 CST 2016]; root of context hierarchy
+[INFO ] [15:04:04] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [Spring-All-Module.xml]
+[INFO ] [15:04:04] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [server_beans.xml]
+[INFO ] [15:04:04] org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [props/server.properties]
+[INFO ] [15:04:04] org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@c22e8e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,GT_ServerSpringConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,bossThreadFactory,workerThreadFactory,gameThreadFactory,gameGroup,ssChannelOptions,gameServerInitializer,ssConfig,serversession,bossGroup,workerGroup,tcpChannelOptions,tcpConfig,cgChannelInitializer,tcpServer,queueConfig,taskqueue,roommgr,marchmgr,playermgr,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0]; root of factory hierarchy
+[INFO ] [15:04:05] io.element.gtserver.App - GATE -- Loading java bean resources completed!!!
+[INFO ] [15:04:05] io.element.gtserver.App - GATE -- Loading Game Managers for initialize completed!!!!
+[INFO ] [15:04:05] io.element.gtserver.App - GATE -- TCP Server start success!
+[INFO ] [15:04:12] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [15:04:15] io.element.gtserver.App - client-- 玩家开始匹配 --gate server，玩家名称 = TestPlayer1
+[INFO ] [15:04:16] io.element.gtserver.App - match mgr -- 创建房间并开始链接 --logic server， id = 1
+[INFO ] [15:16:17] org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1372bdb: startup date [Fri Jul 08 15:16:17 CST 2016]; root of context hierarchy
+[INFO ] [15:16:17] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [Spring-All-Module.xml]
+[INFO ] [15:16:17] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [server_beans.xml]
+[INFO ] [15:16:17] org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [props/server.properties]
+[INFO ] [15:16:17] org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@c22e8e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,GT_ServerSpringConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,bossThreadFactory,workerThreadFactory,gameThreadFactory,gameGroup,ssChannelOptions,gameServerInitializer,ssConfig,serversession,bossGroup,workerGroup,tcpChannelOptions,tcpConfig,cgChannelInitializer,tcpServer,queueConfig,taskqueue,roommgr,marchmgr,playermgr,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0]; root of factory hierarchy
+[INFO ] [15:16:17] io.element.gtserver.App - GATE -- Loading java bean resources completed!!!
+[INFO ] [15:16:17] io.element.gtserver.App - GATE -- Loading Game Managers for initialize completed!!!!
+[INFO ] [15:16:17] io.element.gtserver.App - GATE -- TCP Server start success!
+[INFO ] [15:16:23] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [15:16:24] io.element.gtserver.App - client-- 玩家开始匹配 --gate server，玩家名称 = TestPlayer1
+[INFO ] [15:16:25] io.element.gtserver.App - match mgr -- 创建房间并开始链接 --logic server， id = 1
+[INFO ] [15:21:39] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [15:21:41] io.element.gtserver.App - client-- 玩家开始匹配 --gate server，玩家名称 = TestPlayer2
+[INFO ] [15:21:43] io.element.gtserver.App - match mgr -- 创建房间并开始链接 --logic server， id = 2
+[INFO ] [15:41:41] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [15:45:47] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [15:45:53] io.element.gtserver.App - client-- 玩家开始匹配 --gate server，玩家名称 = TestPlayer4
+[INFO ] [15:45:54] io.element.gtserver.App - match mgr -- 创建房间并开始链接 --logic server， id = 3
+[INFO ] [15:46:25] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [15:52:34] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [15:57:29] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [16:00:00] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [16:00:57] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [16:05:18] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [16:06:56] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [16:19:00] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [16:19:48] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [16:20:05] io.element.gtserver.App - client-- 玩家开始匹配 --gate server，玩家名称 = TestPlayer13
+[INFO ] [16:20:07] io.element.gtserver.App - match mgr -- 创建房间并开始链接 --logic server， id = 4
+[INFO ] [16:20:21] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [16:29:05] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [16:31:04] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [16:33:19] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [16:42:21] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [16:42:23] io.element.gtserver.App - client-- 玩家开始匹配 --gate server，玩家名称 = TestPlayer18
+[INFO ] [16:42:23] io.element.gtserver.App - match mgr -- 创建房间并开始链接 --logic server， id = 5
+[INFO ] [16:42:23] io.element.gtserver.App - gate room-- 发送逻辑服务器创建请求 --logic server， id = 5
+[INFO ] [16:42:25] io.element.gtserver.App - logic server-- 逻辑服务器创建房间成功,游戏开始 --gate server，房间id = 5
+[INFO ] [16:42:26] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_GAME_BEGIN enter!!!		5
+[INFO ] [16:42:35] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		5
+[INFO ] [16:42:35] io.element.gtserver.App - the current active player id is 18
+[INFO ] [16:42:45] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		5
+[INFO ] [16:42:55] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		5
+[INFO ] [16:43:05] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		5
+[INFO ] [17:07:24] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [17:32:29] io.element.gtserver.App - gate -- a player has lose connection, name TestPlayer19, id 19 
+[INFO ] [19:13:00] org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1372bdb: startup date [Fri Jul 08 19:13:00 CST 2016]; root of context hierarchy
+[INFO ] [19:13:00] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [Spring-All-Module.xml]
+[INFO ] [19:13:00] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [server_beans.xml]
+[INFO ] [19:13:01] org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [props/server.properties]
+[INFO ] [19:13:01] org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@c22e8e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,GT_ServerSpringConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,bossThreadFactory,workerThreadFactory,gameThreadFactory,gameGroup,ssChannelOptions,gameServerInitializer,ssConfig,serversession,bossGroup,workerGroup,tcpChannelOptions,tcpConfig,cgChannelInitializer,tcpServer,queueConfig,taskqueue,roommgr,marchmgr,playermgr,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0]; root of factory hierarchy
+[INFO ] [19:13:01] io.element.gtserver.App - GATE -- Loading java bean resources completed!!!
+[INFO ] [19:13:01] io.element.gtserver.App - GATE -- Loading Game Managers for initialize completed!!!!
+[INFO ] [19:13:01] io.element.gtserver.App - GATE -- TCP Server start success!
+[INFO ] [19:15:35] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [19:15:38] io.element.gtserver.App - client-- 玩家开始匹配 --gate server，玩家名称 = TestPlayer1
+[INFO ] [19:15:38] io.element.gtserver.App - match mgr -- 创建房间并开始链接 --logic server， id = 1
+[INFO ] [19:15:39] io.element.gtserver.App - gate room-- 发送逻辑服务器创建请求 --logic server， id = 1
+[INFO ] [19:15:39] io.element.gtserver.App - logic server-- 逻辑服务器创建房间成功,游戏开始 --gate server，房间id = 1
+[INFO ] [19:19:47] org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1372bdb: startup date [Fri Jul 08 19:19:47 CST 2016]; root of context hierarchy
+[INFO ] [19:19:47] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [Spring-All-Module.xml]
+[INFO ] [19:19:47] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [server_beans.xml]
+[INFO ] [19:19:47] org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [props/server.properties]
+[INFO ] [19:19:47] org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7e8edf: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,GT_ServerSpringConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,bossThreadFactory,workerThreadFactory,gameThreadFactory,gameGroup,ssChannelOptions,gameServerInitializer,ssConfig,serversession,bossGroup,workerGroup,tcpChannelOptions,tcpConfig,cgChannelInitializer,tcpServer,queueConfig,taskqueue,roommgr,marchmgr,playermgr,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0]; root of factory hierarchy
+[INFO ] [19:19:48] io.element.gtserver.App - GATE -- Loading java bean resources completed!!!
+[INFO ] [19:19:48] io.element.gtserver.App - GATE -- Loading Game Managers for initialize completed!!!!
+[ERROR] [19:19:48] io.element.gtserver.App - GATE -- TCP Server start error {}, going to shut down
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:444)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:102)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:478)
+	at io.netty.channel.DefaultChannelPipeline$HeadHandler.bind(DefaultChannelPipeline.java:1000)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeBind(DefaultChannelHandlerContext.java:456)
+	at io.netty.channel.DefaultChannelHandlerContext.bind(DefaultChannelHandlerContext.java:441)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:842)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:193)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:330)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:354)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:348)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO ] [19:20:02] org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1372bdb: startup date [Fri Jul 08 19:20:02 CST 2016]; root of context hierarchy
+[INFO ] [19:20:02] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [Spring-All-Module.xml]
+[INFO ] [19:20:02] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [server_beans.xml]
+[INFO ] [19:20:02] org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [props/server.properties]
+[INFO ] [19:20:02] org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@c22e8e: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,GT_ServerSpringConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,bossThreadFactory,workerThreadFactory,gameThreadFactory,gameGroup,ssChannelOptions,gameServerInitializer,ssConfig,serversession,bossGroup,workerGroup,tcpChannelOptions,tcpConfig,cgChannelInitializer,tcpServer,queueConfig,taskqueue,roommgr,marchmgr,playermgr,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0]; root of factory hierarchy
+[INFO ] [19:20:02] io.element.gtserver.App - GATE -- Loading java bean resources completed!!!
+[INFO ] [19:20:02] io.element.gtserver.App - GATE -- Loading Game Managers for initialize completed!!!!
+[INFO ] [19:20:02] io.element.gtserver.App - GATE -- TCP Server start success!
+[INFO ] [19:21:23] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [19:21:25] io.element.gtserver.App - client-- 玩家开始匹配 --gate server，玩家名称 = TestPlayer1
+[INFO ] [19:21:26] io.element.gtserver.App - match mgr -- 创建房间并开始链接 --logic server， id = 1
+[INFO ] [19:21:26] io.element.gtserver.App - gate room-- 发送逻辑服务器创建请求 --logic server， id = 1
+[INFO ] [19:21:26] io.element.gtserver.App - logic server-- 逻辑服务器创建房间成功,游戏开始 --gate server，房间id = 1
+[INFO ] [19:21:30] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_GAME_BEGIN enter!!!		1
+[INFO ] [19:21:39] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [19:21:39] io.element.gtserver.App - the current active player id is 1
+[INFO ] [19:21:49] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [19:21:59] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [19:22:09] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [19:25:07] org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@b34bd3: startup date [Fri Jul 08 19:25:07 CST 2016]; root of context hierarchy
+[INFO ] [19:25:07] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [Spring-All-Module.xml]
+[INFO ] [19:25:07] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [server_beans.xml]
+[INFO ] [19:25:07] org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [props/server.properties]
+[INFO ] [19:25:07] org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@13cf42a: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,GT_ServerSpringConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,bossThreadFactory,workerThreadFactory,gameThreadFactory,gameGroup,ssChannelOptions,gameServerInitializer,ssConfig,serversession,bossGroup,workerGroup,tcpChannelOptions,tcpConfig,cgChannelInitializer,tcpServer,queueConfig,taskqueue,roommgr,marchmgr,playermgr,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0]; root of factory hierarchy
+[INFO ] [19:25:08] io.element.gtserver.App - GATE -- Loading java bean resources completed!!!
+[INFO ] [19:25:08] io.element.gtserver.App - GATE -- Loading Game Managers for initialize completed!!!!
+[INFO ] [19:25:08] io.element.gtserver.App - GATE -- TCP Server start success!
+[INFO ] [19:25:12] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [19:25:14] io.element.gtserver.App - client-- 玩家开始匹配 --gate server，玩家名称 = TestPlayer1
+[INFO ] [19:25:15] io.element.gtserver.App - match mgr -- 创建房间并开始链接 --logic server， id = 1
+[INFO ] [19:25:15] io.element.gtserver.App - gate room-- 发送逻辑服务器创建请求 --logic server， id = 1
+[INFO ] [19:25:15] io.element.gtserver.App - logic server-- 逻辑服务器创建房间成功,游戏开始 --gate server，房间id = 1
+[INFO ] [19:25:16] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_GAME_BEGIN enter!!!		1
+[INFO ] [19:25:26] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [19:25:26] io.element.gtserver.App - the current active player id is 1
+[INFO ] [19:25:36] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [19:25:46] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [19:25:56] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [19:26:06] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [19:26:16] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [19:26:16] io.element.gtserver.App - the current active player id is 2
+[INFO ] [19:34:30] org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@b34bd3: startup date [Fri Jul 08 19:34:30 CST 2016]; root of context hierarchy
+[INFO ] [19:34:30] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [Spring-All-Module.xml]
+[INFO ] [19:34:30] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [server_beans.xml]
+[INFO ] [19:34:30] org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [props/server.properties]
+[INFO ] [19:34:30] org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@13cf42a: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,GT_ServerSpringConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,bossThreadFactory,workerThreadFactory,gameThreadFactory,gameGroup,ssChannelOptions,gameServerInitializer,ssConfig,serversession,bossGroup,workerGroup,tcpChannelOptions,tcpConfig,cgChannelInitializer,tcpServer,queueConfig,taskqueue,roommgr,marchmgr,playermgr,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0]; root of factory hierarchy
+[INFO ] [19:34:30] io.element.gtserver.App - GATE -- Loading java bean resources completed!!!
+[INFO ] [19:34:30] io.element.gtserver.App - GATE -- Loading Game Managers for initialize completed!!!!
+[INFO ] [19:34:31] io.element.gtserver.App - GATE -- TCP Server start success!
+[INFO ] [19:34:39] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [19:34:40] io.element.gtserver.App - client-- 玩家开始匹配 --gate server，玩家名称 = TestPlayer1
+[INFO ] [19:34:42] io.element.gtserver.App - match mgr -- 创建房间并开始链接 --logic server， id = 1
+[INFO ] [19:34:42] io.element.gtserver.App - gate room-- 发送逻辑服务器创建请求 --logic server， id = 1
+[INFO ] [19:34:42] io.element.gtserver.App - logic server-- 逻辑服务器创建房间成功,游戏开始 --gate server，房间id = 1
+[INFO ] [19:34:42] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_GAME_BEGIN enter!!!		1
+[INFO ] [19:34:52] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [19:34:52] io.element.gtserver.App - the current active player id is 1
+[INFO ] [19:35:02] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [19:35:12] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [19:35:22] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [19:35:32] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [19:35:42] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [19:35:42] io.element.gtserver.App - the current active player id is 2
+[INFO ] [19:53:55] org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@b34bd3: startup date [Fri Jul 08 19:53:55 CST 2016]; root of context hierarchy
+[INFO ] [19:53:55] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [Spring-All-Module.xml]
+[INFO ] [19:53:55] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [server_beans.xml]
+[INFO ] [19:53:56] org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [props/server.properties]
+[INFO ] [19:53:56] org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@13cf42a: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,GT_ServerSpringConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,bossThreadFactory,workerThreadFactory,gameThreadFactory,gameGroup,ssChannelOptions,gameServerInitializer,ssConfig,serversession,bossGroup,workerGroup,tcpChannelOptions,tcpConfig,cgChannelInitializer,tcpServer,queueConfig,taskqueue,roommgr,marchmgr,playermgr,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0]; root of factory hierarchy
+[INFO ] [19:53:56] io.element.gtserver.App - GATE -- Loading java bean resources completed!!!
+[INFO ] [19:53:56] io.element.gtserver.App - GATE -- Loading Game Managers for initialize completed!!!!
+[INFO ] [19:53:56] io.element.gtserver.App - GATE -- TCP Server start success!
+[INFO ] [19:54:15] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [19:54:17] io.element.gtserver.App - client-- 玩家开始匹配 --gate server，玩家名称 = TestPlayer1
+[INFO ] [19:54:17] io.element.gtserver.App - match mgr -- 创建房间并开始链接 --logic server， id = 1
+[INFO ] [19:54:17] io.element.gtserver.App - gate room-- 发送逻辑服务器创建请求 --logic server， id = 1
+[INFO ] [19:54:17] io.element.gtserver.App - logic server-- 逻辑服务器创建房间成功,游戏开始 --gate server，房间id = 1
+[INFO ] [19:54:17] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_GAME_BEGIN enter!!!		1
+[INFO ] [19:54:27] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [19:54:27] io.element.gtserver.App - the current active player id is 1
+[INFO ] [19:55:00] org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@b34bd3: startup date [Fri Jul 08 19:55:00 CST 2016]; root of context hierarchy
+[INFO ] [19:55:00] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [Spring-All-Module.xml]
+[INFO ] [19:55:00] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [server_beans.xml]
+[INFO ] [19:55:00] org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [props/server.properties]
+[INFO ] [19:55:00] org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@13cf42a: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,GT_ServerSpringConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,bossThreadFactory,workerThreadFactory,gameThreadFactory,gameGroup,ssChannelOptions,gameServerInitializer,ssConfig,serversession,bossGroup,workerGroup,tcpChannelOptions,tcpConfig,cgChannelInitializer,tcpServer,queueConfig,taskqueue,roommgr,marchmgr,playermgr,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0]; root of factory hierarchy
+[INFO ] [19:55:01] io.element.gtserver.App - GATE -- Loading java bean resources completed!!!
+[INFO ] [19:55:01] io.element.gtserver.App - GATE -- Loading Game Managers for initialize completed!!!!
+[INFO ] [19:55:01] io.element.gtserver.App - GATE -- TCP Server start success!
+[INFO ] [19:55:05] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [19:55:06] io.element.gtserver.App - client-- 玩家开始匹配 --gate server，玩家名称 = TestPlayer1
+[INFO ] [19:55:06] io.element.gtserver.App - match mgr -- 创建房间并开始链接 --logic server， id = 1
+[INFO ] [19:55:06] io.element.gtserver.App - gate room-- 发送逻辑服务器创建请求 --logic server， id = 1
+[INFO ] [19:55:06] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_GAME_BEGIN enter!!!		1
+[INFO ] [19:55:16] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [19:55:16] io.element.gtserver.App - the current active player id is 1
+[INFO ] [19:55:17] io.element.gtserver.App - logic server-- 逻辑服务器创建房间成功,游戏开始 --gate server，房间id = 1
+[INFO ] [19:55:26] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [19:55:36] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [19:55:46] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [19:55:56] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [19:56:06] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [19:56:06] io.element.gtserver.App - the current active player id is 2
+[INFO ] [19:56:43] org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@b34bd3: startup date [Fri Jul 08 19:56:43 CST 2016]; root of context hierarchy
+[INFO ] [19:56:44] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [Spring-All-Module.xml]
+[INFO ] [19:56:44] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [server_beans.xml]
+[INFO ] [19:56:44] org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [props/server.properties]
+[INFO ] [19:56:44] org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@13cf42a: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,GT_ServerSpringConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,bossThreadFactory,workerThreadFactory,gameThreadFactory,gameGroup,ssChannelOptions,gameServerInitializer,ssConfig,serversession,bossGroup,workerGroup,tcpChannelOptions,tcpConfig,cgChannelInitializer,tcpServer,queueConfig,taskqueue,roommgr,marchmgr,playermgr,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0]; root of factory hierarchy
+[INFO ] [19:56:44] io.element.gtserver.App - GATE -- Loading java bean resources completed!!!
+[INFO ] [19:56:44] io.element.gtserver.App - GATE -- Loading Game Managers for initialize completed!!!!
+[INFO ] [19:56:44] io.element.gtserver.App - GATE -- TCP Server start success!
+[INFO ] [19:57:23] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [19:57:23] io.element.gtserver.App - client-- 玩家开始匹配 --gate server，玩家名称 = TestPlayer1
+[INFO ] [19:57:25] io.element.gtserver.App - match mgr -- 创建房间并开始链接 --logic server， id = 1
+[INFO ] [19:57:25] io.element.gtserver.App - gate room-- 发送逻辑服务器创建请求 --logic server， id = 1
+[INFO ] [19:57:26] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_GAME_BEGIN enter!!!		1
+[INFO ] [19:57:36] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [19:57:36] io.element.gtserver.App - the current active player id is 1
+[INFO ] [19:58:18] org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1283922: startup date [Fri Jul 08 19:58:18 CST 2016]; root of context hierarchy
+[INFO ] [19:58:18] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [Spring-All-Module.xml]
+[INFO ] [19:58:18] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [server_beans.xml]
+[INFO ] [19:58:19] org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [props/server.properties]
+[INFO ] [19:58:19] org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d600e3: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,GT_ServerSpringConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,bossThreadFactory,workerThreadFactory,gameThreadFactory,gameGroup,ssChannelOptions,gameServerInitializer,ssConfig,serversession,bossGroup,workerGroup,tcpChannelOptions,tcpConfig,cgChannelInitializer,tcpServer,queueConfig,taskqueue,roommgr,marchmgr,playermgr,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0]; root of factory hierarchy
+[INFO ] [19:58:19] io.element.gtserver.App - GATE -- Loading java bean resources completed!!!
+[INFO ] [19:58:19] io.element.gtserver.App - GATE -- Loading Game Managers for initialize completed!!!!
+[INFO ] [19:58:19] io.element.gtserver.App - GATE -- TCP Server start success!
+[INFO ] [20:00:40] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [20:00:41] io.element.gtserver.App - client-- 玩家开始匹配 --gate server，玩家名称 = TestPlayer1
+[INFO ] [20:00:42] io.element.gtserver.App - match mgr -- 创建房间并开始链接 --logic server， id = 1
+[INFO ] [20:00:42] io.element.gtserver.App - gate room-- 发送逻辑服务器创建请求 --logic server， id = 1
+[INFO ] [20:00:42] io.element.gtserver.App - logic server-- 逻辑服务器创建房间成功,游戏开始 --gate server，房间id = 1
+[INFO ] [20:00:43] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_GAME_BEGIN enter!!!		1
+[INFO ] [20:00:53] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [20:00:53] io.element.gtserver.App - the current active player id is 1
+[INFO ] [20:01:03] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [20:01:13] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [20:01:23] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [20:01:33] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [20:01:43] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [20:01:43] io.element.gtserver.App - the current active player id is 2
+[INFO ] [20:01:53] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [20:02:03] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [20:02:13] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [20:02:23] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [20:02:33] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [20:02:33] io.element.gtserver.App - the current active player id is 3
+[INFO ] [20:02:43] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [20:02:53] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [20:03:03] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [20:03:13] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [20:03:23] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [20:03:23] io.element.gtserver.App - the current active player id is 4
+[INFO ] [20:03:33] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [20:03:43] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [20:03:53] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [20:04:03] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [20:04:13] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [20:04:13] io.element.gtserver.App - the current active player id is 1
+[INFO ] [20:04:23] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [20:04:33] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [20:04:43] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [20:04:53] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [20:05:03] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [20:05:03] io.element.gtserver.App - the current active player id is 2
+[INFO ] [20:05:13] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [20:05:23] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [20:05:33] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [20:05:43] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [20:05:53] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [20:05:53] io.element.gtserver.App - the current active player id is 3
+[INFO ] [20:07:25] org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1203b97: startup date [Fri Jul 08 20:07:25 CST 2016]; root of context hierarchy
+[INFO ] [20:07:25] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [Spring-All-Module.xml]
+[INFO ] [20:07:26] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [server_beans.xml]
+[INFO ] [20:07:26] org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [props/server.properties]
+[INFO ] [20:07:26] org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7e8edf: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,GT_ServerSpringConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,bossThreadFactory,workerThreadFactory,gameThreadFactory,gameGroup,ssChannelOptions,gameServerInitializer,ssConfig,serversession,bossGroup,workerGroup,tcpChannelOptions,tcpConfig,cgChannelInitializer,tcpServer,queueConfig,taskqueue,roommgr,marchmgr,playermgr,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0]; root of factory hierarchy
+[INFO ] [20:07:26] io.element.gtserver.App - GATE -- Loading java bean resources completed!!!
+[INFO ] [20:07:26] io.element.gtserver.App - GATE -- Loading Game Managers for initialize completed!!!!
+[INFO ] [20:07:26] io.element.gtserver.App - GATE -- TCP Server start success!
+[INFO ] [20:07:36] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [21:07:37] org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4f27a3: startup date [Fri Jul 08 21:07:37 CST 2016]; root of context hierarchy
+[INFO ] [21:07:37] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [Spring-All-Module.xml]
+[INFO ] [21:07:37] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [server_beans.xml]
+[INFO ] [21:07:37] org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [props/server.properties]
+[INFO ] [21:07:37] org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1ee8099: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,GT_ServerSpringConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,bossThreadFactory,workerThreadFactory,gameThreadFactory,gameGroup,ssChannelOptions,gameServerInitializer,ssConfig,serversession,bossGroup,workerGroup,tcpChannelOptions,tcpConfig,cgChannelInitializer,tcpServer,queueConfig,taskqueue,roommgr,marchmgr,playermgr,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0]; root of factory hierarchy
+[INFO ] [21:07:37] io.element.gtserver.App - GATE -- Loading java bean resources completed!!!
+[INFO ] [21:07:37] io.element.gtserver.App - GATE -- Loading Game Managers for initialize completed!!!!
+[INFO ] [21:07:38] io.element.gtserver.App - GATE -- TCP Server start success!
+[INFO ] [21:07:44] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [21:07:47] io.element.gtserver.App - client-- 玩家开始匹配 --gate server，玩家名称 = player:0
+[INFO ] [21:07:47] io.element.gtserver.App - match mgr -- 创建房间并开始链接 --logic server， id = 1
+[INFO ] [21:32:19] org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1203b97: startup date [Fri Jul 08 21:32:19 CST 2016]; root of context hierarchy
+[INFO ] [21:32:19] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [Spring-All-Module.xml]
+[INFO ] [21:32:19] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [server_beans.xml]
+[INFO ] [21:32:20] org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [props/server.properties]
+[INFO ] [21:32:20] org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7e8edf: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,GT_ServerSpringConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,bossThreadFactory,workerThreadFactory,gameThreadFactory,gameGroup,ssChannelOptions,gameServerInitializer,ssConfig,serversession,bossGroup,workerGroup,tcpChannelOptions,tcpConfig,cgChannelInitializer,tcpServer,queueConfig,taskqueue,roommgr,marchmgr,playermgr,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0]; root of factory hierarchy
+[INFO ] [21:32:21] io.element.gtserver.App - GATE -- Loading java bean resources completed!!!
+[INFO ] [21:32:21] io.element.gtserver.App - GATE -- Loading Game Managers for initialize completed!!!!
+[INFO ] [21:32:21] io.element.gtserver.App - GATE -- TCP Server start success!
+[INFO ] [21:32:54] io.element.gtserver.App - client-- 玩家登陆成功 --gate server，玩家名称 = wangxiaotian1
+[INFO ] [21:33:00] io.element.gtserver.App - client-- 玩家开始匹配 --gate server，玩家名称 = TestPlayer1
+[INFO ] [21:33:00] io.element.gtserver.App - match mgr -- 创建房间并开始链接 --logic server， id = 1
+[INFO ] [21:33:01] io.element.gtserver.App - gate room-- 发送逻辑服务器创建请求 --logic server， id = 1
+[INFO ] [21:33:01] io.element.gtserver.App - logic server-- 逻辑服务器创建房间成功,游戏开始 --gate server，房间id = 1
+[INFO ] [21:33:02] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_GAME_BEGIN enter!!!		1
+[INFO ] [21:33:12] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [21:33:12] io.element.gtserver.App - the current active player id is 1
+[INFO ] [21:33:22] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [21:33:32] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [21:33:42] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [21:33:52] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [21:34:02] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [21:34:02] io.element.gtserver.App - the current active player id is 2
+[INFO ] [21:34:12] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [21:34:22] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [21:34:32] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [21:34:42] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [21:34:52] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [21:34:52] io.element.gtserver.App - the current active player id is 3
+[INFO ] [21:35:02] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [21:35:12] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [21:35:22] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [21:35:32] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [21:35:42] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [21:35:42] io.element.gtserver.App - the current active player id is 4
+[INFO ] [21:35:52] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [21:36:02] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [21:36:12] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [21:36:22] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [21:36:32] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [21:36:32] io.element.gtserver.App - the current active player id is 1
+[INFO ] [21:36:42] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [21:36:52] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [21:37:02] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [21:37:12] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [21:37:22] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [21:37:22] io.element.gtserver.App - the current active player id is 2
+[INFO ] [21:37:32] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [21:37:42] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [21:37:52] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [21:38:02] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_DISCARD enter!!!		1
+[INFO ] [21:38:12] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BEGIN enter!!!		1
+[INFO ] [21:38:12] io.element.gtserver.App - the current active player id is 3
+[INFO ] [21:38:22] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_SKILLCARD enter!!!		1
+[INFO ] [21:38:32] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLEASK enter!!!		1
+[INFO ] [21:38:42] io.element.gtserver.App - S2G_NOTIFY_GLOBAL_PHASE_BATTLE_ASSIT enter!!!		1
+[INFO ] [21:39:13] org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1283922: startup date [Fri Jul 08 21:39:13 CST 2016]; root of context hierarchy
+[INFO ] [21:39:13] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [Spring-All-Module.xml]
+[INFO ] [21:39:13] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [server_beans.xml]
+[INFO ] [21:39:13] org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [props/server.properties]
+[INFO ] [21:39:13] org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1d44d0d: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,GT_ServerSpringConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,bossThreadFactory,workerThreadFactory,gameThreadFactory,gameGroup,ssChannelOptions,gameServerInitializer,ssConfig,serversession,bossGroup,workerGroup,tcpChannelOptions,tcpConfig,cgChannelInitializer,tcpServer,queueConfig,taskqueue,roommgr,marchmgr,playermgr,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0]; root of factory hierarchy
+[INFO ] [21:39:14] io.element.gtserver.App - GATE -- Loading java bean resources completed!!!
+[INFO ] [21:39:14] io.element.gtserver.App - GATE -- Loading Game Managers for initialize completed!!!!
+[INFO ] [21:39:14] io.element.gtserver.App - GATE -- TCP Server start success!
+[INFO ] [22:04:24] io.element.gtserver.App - a visitor with out log has been shut down for deactive

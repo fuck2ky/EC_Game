@@ -1,0 +1,130 @@
+package io.element.gmserver_test;
+
+import java.util.Vector;
+
+import org.apache.log4j.PropertyConfigurator;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.google.protobuf.ByteString;
+
+
+import io.element.communication.impl.ServerSession;
+import io.element.protobuf.gate2server.LoginProto;
+import io.element.protobuf.gate2server.LoginProto.G2SByteStream;
+import io.element.protobuf.gate2server.LoginProtoResp;
+
+import io.netty.bootstrap.Bootstrap;
+import io.netty.channel.ChannelFuture;
+import io.netty.channel.ChannelInitializer;
+import io.netty.channel.ChannelOption;
+import io.netty.channel.EventLoopGroup;
+import io.netty.channel.nio.NioEventLoopGroup;
+import io.netty.channel.socket.SocketChannel;
+import io.netty.channel.socket.nio.NioSocketChannel;
+import io.netty.handler.codec.protobuf.ProtobufDecoder;
+import io.netty.handler.codec.protobuf.ProtobufEncoder;
+import io.netty.handler.codec.protobuf.ProtobufVarint32FrameDecoder;
+import io.netty.handler.codec.protobuf.ProtobufVarint32LengthFieldPrepender;
+
+public class App 
+{
+	public  Bootstrap bootstrap;
+	
+	public  SocketChannel channel;
+	
+	protected EventLoopGroup group;
+	
+	public void connect(int port, String host) throws Exception
+	{
+		group = new NioEventLoopGroup(1);
+		
+		try {
+			
+			bootstrap = new Bootstrap();
+			bootstrap.group(group)
+					 .channel(NioSocketChannel.class)
+					 .option(ChannelOption.TCP_NODELAY, true)
+					 .handler( new ChannelInitializer<SocketChannel>() {
+					
+						 @Override
+						 public void initChannel(SocketChannel ch) throws Exception
+						 {
+							 
+							 ch.pipeline().addLast( new ProtobufVarint32FrameDecoder() );
+							 ch.pipeline().addLast( new ProtobufDecoder( LoginProtoResp.S2GByteStream.getDefaultInstance()  ) );
+							 
+							 ch.pipeline().addLast( new ProtobufVarint32LengthFieldPrepender() );
+							 ch.pipeline().addLast( new ProtobufEncoder() );
+							 
+							 ch.pipeline().addLast( new CommunicationHandler() );							 
+						 }
+					 
+					 } );
+			
+			ChannelFuture future = bootstrap.connect(host,port).sync();
+			
+			if (future.isSuccess()) {
+	            channel = (SocketChannel)future.channel();
+	            System.out.println("connect server  成功---------");
+	        }
+		} catch (Exception e) {
+			// TODO: handle exception
+		} 
+	}
+	
+	public void stopServer()
+	{
+		group.shutdownGracefully();
+	}
+	
+	public Object test_create_new_room()
+	{
+        // create new room
+        Vector<LoginProto.Player> players = new Vector<LoginProto.Player>();
+        for( int i=0 ; i < 4 ; i++)
+        {
+        	LoginProto.Player.Builder playerBuilder = LoginProto.Player.newBuilder();
+        	LoginProto.Player p = playerBuilder.setId(100+i).setLocation(i).setName("jonathan"+i).setRoleid(20).build();
+        	players.add(p);
+        }
+        
+        LoginProto.Room.Builder roomBuilder = LoginProto.Room.newBuilder();
+        LoginProto.Room room = roomBuilder.setId(250).setName("my firsrt room").setType(1)
+        											 .addAllPlayers(players).build();
+        
+        LoginProto.G2SByteStream msg = (G2SByteStream) create_g2s_message(room.toByteString(),  LoginProto.G2SMessageType.G2S_CREATEROOM);
+        return msg;
+	}
+	
+	public Object create_g2s_message( ByteString buffer, LoginProto.G2SMessageType type )
+	{
+		LoginProto.G2SByteStream.Builder builder = LoginProto.G2SByteStream.newBuilder();
+
+		return builder.setType(type).setRequestData(buffer).build();
+	}
+	
+	public static  ApplicationContext context = null;
+	
+	public static final Logger LOGGER =  LoggerFactory.getLogger(App.class);
+	
+    public static void main( String[] args ) throws Exception
+    {
+    	System.out.println("hello world");
+    	
+    	PropertyConfigurator.configure("log4j.properties");
+    	
+        App.context = 
+        		new AnnotationConfigApplicationContext(GT_ServerSpringConfig.class);
+        
+        GT_Managers.getInstance().init();
+        
+        int playersnum = 4;
+        
+        
+ 
+        		
+    }
+}

@@ -1,0 +1,22 @@
+package io.element.threadpool;
+
+import java.util.concurrent.LinkedBlockingQueue;
+
+public class GM_TaskQueue {
+
+	protected GM_TaskQueueConfig m_config;
+	
+	private LinkedBlockingQueue<Runnable> 	m_tasksInsert = new LinkedBlockingQueue<Runnable>(  
+            50);  
+	
+	public GM_TaskQueue(GM_TaskQueueConfig config)
+	{
+		m_config = config;
+	}
+	
+	public void init()
+	{
+		
+	}
+	
+}

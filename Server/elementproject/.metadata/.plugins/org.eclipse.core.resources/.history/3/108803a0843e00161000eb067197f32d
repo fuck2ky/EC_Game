@@ -1,0 +1,161 @@
+package io.element.gtserver;
+
+import io.element.player.BasePlayer;
+import io.element.protobuf.LoginProto;
+import io.element.protobuf.LoginProto.ROOM_TYPE;
+import io.element.reflect.Handler;
+import io.element.room.impl.SessionRoom;
+import io.element.time.Counter;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
+
+public class GT_MatchManager implements GT_Managers.Manager {
+
+	protected Lock lock = new ReentrantLock();// 锁  
+	
+	public class MatchPlayer implements Comparable<MatchPlayer>
+	{
+		protected int 			m_fitnessValue;
+		
+		protected BasePlayer	m_player;
+				
+		public MatchPlayer( BasePlayer player ) { m_player = player; m_player.SetMatching(true); }
+
+		public MatchPlayer( BasePlayer player, int fitness ) { this(player); m_fitnessValue = 0; }
+		
+		public int compareTo(MatchPlayer p) {
+			
+			if( this.m_fitnessValue == p.m_fitnessValue )
+				return 0;
+			
+			return this.m_fitnessValue < p.m_fitnessValue ? -1 : 1;
+		}
+		
+		public BasePlayer Player() { return m_player; }
+	
+		public void SetFitnessValue( int value ) { m_fitnessValue = value; }
+		
+	}
+	
+	// 编写Comparator,根据User的id对User进行排序
+    private static final Comparator<MatchPlayer> COMPARATOR = new Comparator<MatchPlayer>() {
+       public int compare(MatchPlayer o1, MatchPlayer o2) {
+           return o1.compareTo(o2);//运用MarchPlayer类的compareTo方法比较两个对象       
+       }
+    };
+	
+    // 计算当前玩家的综合值
+	public static int CalculateFitness( BasePlayer p)
+	{
+		return 1;
+	}
+	
+	// march player list, default is SIMPLE_ROOMTYPE_SIMPLE_2V2
+	protected ArrayList<MatchPlayer> m_listArrayList = new ArrayList<MatchPlayer>();
+	
+	// march time gap
+	protected Counter m_Counter = new Counter();
+	
+	public GT_MatchManager()
+	{
+		m_Counter.SetPeriod(2000);
+		m_Counter.Recount();
+	}
+	
+	public void init()
+	{
+		
+	}
+	
+	public void OnTick(long deltaTime)
+	{
+		m_Counter.IncCounter(deltaTime);
+		if( !m_Counter.IsFull() )
+			return;			
+		// 清空计时器
+		m_Counter.Recount();
+		
+		
+		lock.lock();
+		// refresh player fitness
+		for (MatchPlayer p : m_listArrayList) {
+			int value = CalculateFitness(p.Player());
+			p.SetFitnessValue(value);
+		}
+		Collections.sort( m_listArrayList, COMPARATOR );
+		lock.unlock();
+			
+		// create fitness room
+		FitnessPlayerList( ROOM_TYPE.LOGIN_ROOMTYPE_SIMPLE_2V2 , m_listArrayList);		
+	}
+	
+	// 创建合适的房间
+	protected void FitnessPlayerList( ROOM_TYPE type,  ArrayList<MatchPlayer> list ) {
+		
+		GT_RoomManager rMgr = GT_Managers.getRoomManager();
+		
+		// 根据人数创建房间
+		int fit_num = type == ROOM_TYPE.LOGIN_ROOMTYPE_SIMPLE_2V2 ? 4 : 6 ;
+		while( list.size() >= fit_num )
+		{
+	        int playersnum = fit_num;
+             
+	        // 从队列中筛选匹配玩家
+	        List<BasePlayer> players = new ArrayList<BasePlayer>();
+	        for (int i = 0; i < playersnum; i++) {
+	        	
+	        	BasePlayer player = PopMarch(type);
+	        	if(player == null)
+	        		break;
+	        
+	        	player.SetLocation(i);      	        	
+	        	player.SetPlayerName("player:" + new Integer(i).toString());
+	        	players.add(player);     	
+			}
+	        
+	        // 房间是否创建成功  链接回调都会返回状态值
+	        // gate创建好room 无论成功与否 都直接将其从队列中删除
+	        SessionRoom room = new SessionRoom(Const.GLOBAL_ROOM_ID,"room:"+new Integer(Const.GLOBAL_ROOM_ID).toString(), type);
+	       
+	        for (int i = 0; i < players.size(); i++) {
+	        	room.addPlayer(players.get(i));
+			}
+	        
+	        // 未激活的房间在一定时间以后会自动销毁
+	        Handler handler = room.steering().ReflectHandler( LoginProto.G2S_MSGTYPE.G2S_REQUEST_CREATE_NEWROOM);
+	        room.steering().connect(handler);        
+	        rMgr.addRoom(room);
+	        
+		}	
+	}
+	
+	public void AddMarch( BasePlayer p, ROOM_TYPE type)
+	{
+		lock.lock();
+		
+		MatchPlayer mp = new MatchPlayer(p);
+		m_listArrayList.add(mp);
+		
+		lock.unlock();
+	}
+
+	public BasePlayer PopMarch( ROOM_TYPE type )
+	{
+		lock.lock();
+		
+		MatchPlayer mp = m_listArrayList.get( m_listArrayList.size() - 1 );
+		m_listArrayList.remove( m_listArrayList.size() - 1 );
+		mp.Player().SetMatching(false);
+		
+		lock.unlock();
+		return mp.Player();
+	}
+	
+	
+}

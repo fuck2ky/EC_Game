@@ -1,0 +1,1803 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="32" version="2.0">
+<workbenchAdvisor/>
+<window height="1024" maximized="true" width="616" x="670" y="0">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="180" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="com.genuitec.eclipse.j2eedt.core.ejb" itemType="typeToolBarContribution" x="55" y="22"/>
+<coolItem id="com.genuitec.eclipse.springframework.springconfigeditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.genuitec.eclipse.uml.actions" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="com.genuitec.eclipse.web20.actionset" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="com.genuitec.eclipse.ws.xfire.actions" itemType="typeToolBarContribution" x="95" y="22"/>
+<coolItem id="com.genuitec.myeclipse.actions.deploytools" itemType="typeToolBarContribution" x="101" y="22"/>
+<coolItem id="com.genuitec.myeclipse.actions.desktop" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="com.genuitec.myeclipse.actions.reporting" itemType="typeToolBarContribution" x="78" y="22"/>
+<coolItem id="com.genuitec.myeclipse.actions.screencapture" itemType="typeToolBarContribution" x="55" y="22"/>
+<coolItem id="org.eclipse.ant.ui.internal.editor.AntEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="175" y="22"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="78" y="22"/>
+<coolItem id="org.eclipse.m2e.editor.MavenPomEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="101" y="22"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="107" y="22"/>
+<coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.jboss.tools.common.propertieseditor.PropertiesCompoundEditor" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="198" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.keplerproject.ldt.ui.editors.LuaEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.PropertiesFileEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1446108433792" focus="true" label="Workspace - MyEclipse Java Enterprise">
+<editors>
+<editorArea activeWorkbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<info part="org.eclipse.ui.internal.EditorStack@9b2743">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="11"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="12"/>
+<part id="13"/>
+<part id="14"/>
+<part id="15"/>
+<part id="16"/>
+<part id="17"/>
+<part id="145"/>
+<part id="18"/>
+<part id="19"/>
+<part id="20"/>
+<part id="21"/>
+<part id="22"/>
+<part id="23"/>
+<part id="24"/>
+<part id="25"/>
+<part id="26"/>
+<part id="27"/>
+<part id="28"/>
+<part id="29"/>
+<part id="30"/>
+<part id="31"/>
+<part id="32"/>
+<part id="33"/>
+<part id="34"/>
+<part id="35"/>
+<part id="36"/>
+<part id="37"/>
+<part id="142"/>
+<part id="38"/>
+<part id="39"/>
+<part id="40"/>
+<part id="41"/>
+<part id="42"/>
+<part id="44"/>
+<part id="43"/>
+<part id="106"/>
+<part id="45"/>
+<part id="46"/>
+<part id="47"/>
+<part id="48"/>
+<part id="49"/>
+<part id="50"/>
+<part id="51"/>
+<part id="52"/>
+<part id="53"/>
+<part id="54"/>
+<part id="55"/>
+<part id="56"/>
+<part id="57"/>
+<part id="58"/>
+<part id="59"/>
+<part id="60"/>
+<part id="61"/>
+<part id="62"/>
+<part id="63"/>
+<part id="64"/>
+<part id="65"/>
+<part id="66"/>
+<part id="67"/>
+<part id="68"/>
+<part id="69"/>
+<part id="70"/>
+<part id="71"/>
+<part id="72"/>
+<part id="73"/>
+<part id="74"/>
+<part id="75"/>
+<part id="76"/>
+<part id="77"/>
+<part id="78"/>
+<part id="79"/>
+<part id="80"/>
+<part id="81"/>
+<part id="82"/>
+<part id="83"/>
+<part id="84"/>
+<part id="85"/>
+<part id="86"/>
+<part id="87"/>
+<part id="88"/>
+<part id="89"/>
+<part id="90"/>
+<part id="91"/>
+<part id="92"/>
+<part id="93"/>
+<part id="94"/>
+<part id="95"/>
+<part id="96"/>
+<part id="97"/>
+<part id="98"/>
+<part id="99"/>
+<part id="100"/>
+<part id="101"/>
+<part id="102"/>
+<part id="103"/>
+<part id="104"/>
+<part id="105"/>
+<part id="107"/>
+<part id="108"/>
+<part id="109"/>
+<part id="110"/>
+<part id="111"/>
+<part id="112"/>
+<part id="113"/>
+<part id="114"/>
+<part id="115"/>
+<part id="116"/>
+<part id="117"/>
+<part id="118"/>
+<part id="119"/>
+<part id="120"/>
+<part id="121"/>
+<part id="122"/>
+<part id="123"/>
+<part id="124"/>
+<part id="125"/>
+<part id="126"/>
+<part id="127"/>
+<part id="128"/>
+<part id="129"/>
+<part id="130"/>
+<part id="131"/>
+<part id="132"/>
+<part id="133"/>
+<part id="134"/>
+<part id="135"/>
+<part id="136"/>
+<part id="137"/>
+<part id="138"/>
+<part id="139"/>
+<part id="140"/>
+<part id="141"/>
+<part id="143"/>
+<part id="144"/>
+<part id="146"/>
+<part id="147"/>
+<part id="148"/>
+<part id="149"/>
+<part id="150"/>
+<part id="151"/>
+<part id="152"/>
+<part id="153"/>
+<part id="154"/>
+<part id="155"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="InterDrawCardState.java" partName="InterDrawCardState.java" path="E:/java/Workspaces/2016_1_26/elementproject/gmserver/src/main/java/io/element/state/interactive/impl/InterDrawCardState.java" title="InterDrawCardState.java" tooltip="gmserver/src/main/java/io/element/state/interactive/impl/InterDrawCardState.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/state/interactive/impl/InterDrawCardState.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="878" selectionTopPixel="270"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="InteractiveState.java" partName="InteractiveState.java" path="E:/java/Workspaces/2016_1_26/elementproject/gmserver/src/main/java/io/element/state/interactive/impl/InteractiveState.java" title="InteractiveState.java" tooltip="gmserver/src/main/java/io/element/state/interactive/impl/InteractiveState.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/state/interactive/impl/InteractiveState.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="8" selectionOffset="893" selectionTopPixel="104"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="InterDamageState.java" partName="InterDamageState.java" path="E:/java/Workspaces/2016_1_26/elementproject/gmserver/src/main/java/io/element/state/interactive/impl/InterDamageState.java" title="InterDamageState.java" tooltip="gmserver/src/main/java/io/element/state/interactive/impl/InterDamageState.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/state/interactive/impl/InterDamageState.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2044" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="InterCureState.java" partName="InterCureState.java" path="E:/java/Workspaces/2016_1_26/elementproject/gmserver/src/main/java/io/element/state/interactive/impl/InterCureState.java" title="InterCureState.java" tooltip="gmserver/src/main/java/io/element/state/interactive/impl/InterCureState.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/state/interactive/impl/InterCureState.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2269" selectionTopPixel="753"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GM_SimpleRoom.java" partName="GM_SimpleRoom.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gmserver/src/main/java/io/element/room/impl/GM_SimpleRoom.java" title="GM_SimpleRoom.java" tooltip="gmserver/src/main/java/io/element/room/impl/GM_SimpleRoom.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/room/impl/GM_SimpleRoom.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="461" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SimpleCardPool.java" partName="SimpleCardPool.java" path="E:/java/Workspaces/2016_1_26/elementproject/gmserver/src/main/java/io/element/card/pool/SimpleCardPool.java" title="SimpleCardPool.java" tooltip="gmserver/src/main/java/io/element/card/pool/SimpleCardPool.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/card/pool/SimpleCardPool.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="539" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CardPool.java" partName="CardPool.java" path="E:/java/Workspaces/2016_1_26/elementproject/gmserver/src/main/java/io/element/card/pool/CardPool.java" title="CardPool.java" tooltip="gmserver/src/main/java/io/element/card/pool/CardPool.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/card/pool/CardPool.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="761" selectionTopPixel="282"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HandCard.java" partName="HandCard.java" path="E:/java/Workspaces/2016_1_26/elementproject/gmserver/src/main/java/io/element/card/impl/HandCard.java" title="HandCard.java" tooltip="gmserver/src/main/java/io/element/card/impl/HandCard.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/card/impl/HandCard.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2123" selectionTopPixel="764"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BaseCard.java" partName="BaseCard.java" path="E:/java/Workspaces/2016_1_26/elementproject/gmserver/src/main/java/io/element/card/impl/BaseCard.java" title="BaseCard.java" tooltip="gmserver/src/main/java/io/element/card/impl/BaseCard.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/card/impl/BaseCard.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="542" selectionTopPixel="432"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HandCardState.java" partName="HandCardState.java" path="E:/java/Workspaces/2016_1_26/elementproject/gmserver/src/main/java/io/element/state/card/impl/HandCardState.java" title="HandCardState.java" tooltip="gmserver/src/main/java/io/element/state/card/impl/HandCardState.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/state/card/impl/HandCardState.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="902" selectionTopPixel="162"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BaseStateMachine.java" partName="BaseStateMachine.java" path="E:/java/Workspaces/2016_1_26/elementproject/gmserver/src/main/java/io/element/state/impl/BaseStateMachine.java" title="BaseStateMachine.java" tooltip="gmserver/src/main/java/io/element/state/impl/BaseStateMachine.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/state/impl/BaseStateMachine.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="6" selectionOffset="874" selectionTopPixel="144"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CardFactory.java" partName="CardFactory.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gmserver/src/main/java/io/element/card/impl/CardFactory.java" title="CardFactory.java" tooltip="gmserver/src/main/java/io/element/card/impl/CardFactory.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/card/impl/CardFactory.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1287" selectionTopPixel="594"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="State.java" partName="State.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gmserver/src/main/java/io/element/state/State.java" title="State.java" tooltip="gmserver/src/main/java/io/element/state/State.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/state/State.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1125" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Counter.java" partName="Counter.java" path="E:/java/Workspaces/2016_1_26/elementproject/gmserver/src/main/java/io/element/time/Counter.java" title="Counter.java" tooltip="gmserver/src/main/java/io/element/time/Counter.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/time/Counter.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1219" selectionTopPixel="480"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="App.java" partName="App.java" path="E:/java/Workspaces/2016_1_26/elementproject/gmserver/src/main/java/io/element/app/App.java" title="App.java" tooltip="gmserver/src/main/java/io/element/app/App.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/app/App.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="6" selectionOffset="1189" selectionTopPixel="299"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BasePlayer.java" partName="BasePlayer.java" path="E:/java/Workspaces/2016_1_26/elementproject/gmserver/src/main/java/io/element/player/BasePlayer.java" title="BasePlayer.java" tooltip="gmserver/src/main/java/io/element/player/BasePlayer.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/player/BasePlayer.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3482" selectionTopPixel="2304"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AskingResponseState.java" partName="AskingResponseState.java" path="E:/java/Workspaces/2016_1_26/elementproject/gmserver/src/main/java/io/element/state/impl/AskingResponseState.java" title="AskingResponseState.java" tooltip="gmserver/src/main/java/io/element/state/impl/AskingResponseState.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/state/impl/AskingResponseState.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2105" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BaseGameState.java" partName="BaseGameState.java" path="E:/java/Workspaces/2016_1_26/elementproject/gmserver/src/main/java/io/element/state/impl/BaseGameState.java" title="BaseGameState.java" tooltip="gmserver/src/main/java/io/element/state/impl/BaseGameState.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/state/impl/BaseGameState.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="13" selectionOffset="178" selectionTopPixel="289"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HandlerUtil.java" partName="HandlerUtil.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gmserver/src/main/java/io/element/util/HandlerUtil.java" title="HandlerUtil.java" tooltip="gmserver/src/main/java/io/element/util/HandlerUtil.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/util/HandlerUtil.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="25" selectionOffset="1748" selectionTopPixel="324"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ElementDataMan.java" partName="ElementDataMan.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gmserver/src/main/java/io/element/dataman/ElementDataMan.java" title="ElementDataMan.java" tooltip="gmserver/src/main/java/io/element/dataman/ElementDataMan.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/dataman/ElementDataMan.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="2" selectionOffset="4042" selectionTopPixel="1998"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SimpleProto.java" partName="SimpleProto.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gmserver/src/main/java/io/element/protobuf/SimpleProto.java" title="SimpleProto.java" tooltip="gmserver/src/main/java/io/element/protobuf/SimpleProto.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/protobuf/SimpleProto.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="InterDiscardState.java" partName="InterDiscardState.java" path="E:/java/Workspaces/2016_1_26/elementproject/gmserver/src/main/java/io/element/state/interactive/impl/InterDiscardState.java" title="InterDiscardState.java" tooltip="gmserver/src/main/java/io/element/state/interactive/impl/InterDiscardState.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/state/interactive/impl/InterDiscardState.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="691" selectionTopPixel="1299"/>
+</editor>
+<editor id="org.keplerproject.ldt.ui.editors.LuaEditor" name="HandCardEssence.lua" partName="HandCardEssence.lua" path="E:/java/Workspaces/2016_1_26/elementproject/gmserver/src/main/resources/script/HandCardEssence.lua" title="HandCardEssence.lua" tooltip="gmserver/src/main/resources/script/HandCardEssence.lua" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/resources/script/HandCardEssence.lua"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ChooseStrategy.java" partName="ChooseStrategy.java" path="E:/java/Workspaces/2016_1_26/elementproject/gmserver/src/main/java/io/element/card/ChooseStrategy.java" title="ChooseStrategy.java" tooltip="gmserver/src/main/java/io/element/card/ChooseStrategy.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/card/ChooseStrategy.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2241" selectionTopPixel="486"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Handler.java" partName="Handler.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gmserver/src/main/java/io/element/reflect/Handler.java" title="Handler.java" tooltip="gmserver/src/main/java/io/element/reflect/Handler.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/reflect/Handler.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="10" selectionOffset="555" selectionTopPixel="378"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BaseDispatcher.java" partName="BaseDispatcher.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gmserver/src/main/java/io/element/room/impl/BaseDispatcher.java" title="BaseDispatcher.java" tooltip="gmserver/src/main/java/io/element/room/impl/BaseDispatcher.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/room/impl/BaseDispatcher.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="6" selectionOffset="2347" selectionTopPixel="1242"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CardState.java" partName="CardState.java" path="E:/java/Workspaces/2016_1_26/elementproject/gmserver/src/main/java/io/element/state/card/impl/CardState.java" title="CardState.java" tooltip="gmserver/src/main/java/io/element/state/card/impl/CardState.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/state/card/impl/CardState.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="6" selectionOffset="648" selectionTopPixel="108"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CardStateFactory.java" partName="CardStateFactory.java" path="E:/java/Workspaces/2016_1_26/elementproject/gmserver/src/main/java/io/element/state/card/impl/CardStateFactory.java" title="CardStateFactory.java" tooltip="gmserver/src/main/java/io/element/state/card/impl/CardStateFactory.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/state/card/impl/CardStateFactory.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="3"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProtoMsg_LoginHandler.java" partName="ProtoMsg_LoginHandler.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gmserver/src/main/java/io/element/communication/impl/ProtoMsg_LoginHandler.java" title="ProtoMsg_LoginHandler.java" tooltip="gmserver/src/main/java/io/element/communication/impl/ProtoMsg_LoginHandler.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/communication/impl/ProtoMsg_LoginHandler.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1197" selectionTopPixel="393"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProtoMsgHandler.java" partName="ProtoMsgHandler.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gmserver/src/main/java/io/element/communication/ProtoMsgHandler.java" title="ProtoMsgHandler.java" tooltip="gmserver/src/main/java/io/element/communication/ProtoMsgHandler.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/communication/ProtoMsgHandler.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="570" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BaseRoom.java" partName="BaseRoom.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gmserver/src/main/java/io/element/room/impl/BaseRoom.java" title="BaseRoom.java" tooltip="gmserver/src/main/java/io/element/room/impl/BaseRoom.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/room/impl/BaseRoom.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1460" selectionTopPixel="576"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="DocumentHandler.class" partName="DocumentHandler.class" title="DocumentHandler.class" tooltip="com.sun.beans.decoder.DocumentHandler" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=gmserver/C:\/Program Files\/Java\/jdk1.7.0_79\/jre\/lib\/rt.jar&lt;com.sun.beans.decoder(DocumentHandler.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EntityManager.java" partName="EntityManager.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gmserver/src/main/java/io/element/room/impl/EntityManager.java" title="EntityManager.java" tooltip="gmserver/src/main/java/io/element/room/impl/EntityManager.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/room/impl/EntityManager.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1901" selectionTopPixel="486"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GM_RoomManager.java" partName="GM_RoomManager.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gmserver/src/main/java/io/element/room/impl/GM_RoomManager.java" title="GM_RoomManager.java" tooltip="gmserver/src/main/java/io/element/room/impl/GM_RoomManager.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/room/impl/GM_RoomManager.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="590" selectionTopPixel="191"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HeartBeatHandler.java" partName="HeartBeatHandler.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gmserver/src/main/java/io/element/netty/handlers/impl/HeartBeatHandler.java" title="HeartBeatHandler.java" tooltip="gmserver/src/main/java/io/element/netty/handlers/impl/HeartBeatHandler.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/netty/handlers/impl/HeartBeatHandler.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1216" selectionTopPixel="65"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="G2S_IdleProtocolHandler.java" partName="G2S_IdleProtocolHandler.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gmserver/src/main/java/io/element/event/handlers/impl/G2S_IdleProtocolHandler.java" title="G2S_IdleProtocolHandler.java" tooltip="gmserver/src/main/java/io/element/event/handlers/impl/G2S_IdleProtocolHandler.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/event/handlers/impl/G2S_IdleProtocolHandler.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1311" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProtoMsg_SimpleHandler.java" partName="ProtoMsg_SimpleHandler.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gmserver/src/main/java/io/element/communication/impl/ProtoMsg_SimpleHandler.java" title="ProtoMsg_SimpleHandler.java" tooltip="gmserver/src/main/java/io/element/communication/impl/ProtoMsg_SimpleHandler.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/communication/impl/ProtoMsg_SimpleHandler.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="59" selectionOffset="804" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="S2GProto_LoginHandler.java" partName="S2GProto_LoginHandler.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/communication/impl/S2GProto_LoginHandler.java" title="S2GProto_LoginHandler.java" tooltip="gtserver/src/main/java/io/element/communication/impl/S2GProto_LoginHandler.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/communication/impl/S2GProto_LoginHandler.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3725" selectionTopPixel="1574"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProtoMsgHandler.java" partName="ProtoMsgHandler.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/communication/ProtoMsgHandler.java" title="ProtoMsgHandler.java" tooltip="gtserver/src/main/java/io/element/communication/ProtoMsgHandler.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/communication/ProtoMsgHandler.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="47" selectionOffset="3023" selectionTopPixel="1211"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CmdReflect.java" partName="CmdReflect.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/reflect/CmdReflect.java" title="CmdReflect.java" tooltip="gtserver/src/main/java/io/element/reflect/CmdReflect.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/reflect/CmdReflect.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Handler.java" partName="Handler.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/reflect/Handler.java" title="Handler.java" tooltip="gtserver/src/main/java/io/element/reflect/Handler.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/reflect/Handler.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1309" selectionTopPixel="558"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HandlerUtil.java" partName="HandlerUtil.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/util/HandlerUtil.java" title="HandlerUtil.java" tooltip="gtserver/src/main/java/io/element/util/HandlerUtil.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/util/HandlerUtil.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1179" selectionTopPixel="473"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="S2GProto_SimpleHandler.java" partName="S2GProto_SimpleHandler.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/communication/impl/S2GProto_SimpleHandler.java" title="S2GProto_SimpleHandler.java" tooltip="gtserver/src/main/java/io/element/communication/impl/S2GProto_SimpleHandler.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/communication/impl/S2GProto_SimpleHandler.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6420" selectionTopPixel="1106"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SP_BattleAskState.java" partName="SP_BattleAskState.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gmserver/src/main/java/io/element/state/global/impl/SP_BattleAskState.java" title="SP_BattleAskState.java" tooltip="gmserver/src/main/java/io/element/state/global/impl/SP_BattleAskState.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/state/global/impl/SP_BattleAskState.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="784" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SimplePhaseState.java" partName="SimplePhaseState.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gmserver/src/main/java/io/element/state/global/impl/SimplePhaseState.java" title="SimplePhaseState.java" tooltip="gmserver/src/main/java/io/element/state/global/impl/SimplePhaseState.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/state/global/impl/SimplePhaseState.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3227" selectionTopPixel="1652"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="App.java" partName="App.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/gtserver/App.java" title="App.java" tooltip="gtserver/src/main/java/io/element/gtserver/App.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/gtserver/App.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2192" selectionTopPixel="597"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AppTest.java" partName="AppTest.java" path="E:/java/Workspaces/2016_1_26/elementproject/gtserver/src/test/java/io/element/gtserver/AppTest.java" title="AppTest.java" tooltip="gtserver/src/test/java/io/element/gtserver/AppTest.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/test/java/io/element/gtserver/AppTest.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="621" selectionTopPixel="83"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MultiRoomTest.java" partName="MultiRoomTest.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/test/java/io/element/gtserver/MultiRoomTest.java" title="MultiRoomTest.java" tooltip="gtserver/src/test/java/io/element/gtserver/MultiRoomTest.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/test/java/io/element/gtserver/MultiRoomTest.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2219" selectionTopPixel="930"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SingleRoomTest.java" partName="SingleRoomTest.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/test/java/io/element/gtserver/SingleRoomTest.java" title="SingleRoomTest.java" tooltip="gtserver/src/test/java/io/element/gtserver/SingleRoomTest.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/test/java/io/element/gtserver/SingleRoomTest.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1348" selectionTopPixel="39"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ServerSteering.java" partName="ServerSteering.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/communication/ServerSteering.java" title="ServerSteering.java" tooltip="gtserver/src/main/java/io/element/communication/ServerSteering.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/communication/ServerSteering.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="22" selectionOffset="2217" selectionTopPixel="1296"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ServerSession.java" partName="ServerSession.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/communication/impl/ServerSession.java" title="ServerSession.java" tooltip="gtserver/src/main/java/io/element/communication/impl/ServerSession.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/communication/impl/ServerSession.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="7" selectionOffset="1835" selectionTopPixel="1098"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SSConfig.java" partName="SSConfig.java" path="E:/java/Workspaces/2016_1_26/elementproject/gtserver/src/main/java/io/element/communication/SSConfig.java" title="SSConfig.java" tooltip="gtserver/src/main/java/io/element/communication/SSConfig.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/communication/SSConfig.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="16" selectionOffset="802" selectionTopPixel="240"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GT_ServerSpringConfig.java" partName="GT_ServerSpringConfig.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/gtserver/GT_ServerSpringConfig.java" title="GT_ServerSpringConfig.java" tooltip="gtserver/src/main/java/io/element/gtserver/GT_ServerSpringConfig.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/gtserver/GT_ServerSpringConfig.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="21" selectionOffset="240" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SessionRoom.java" partName="SessionRoom.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/room/impl/SessionRoom.java" title="SessionRoom.java" tooltip="gtserver/src/main/java/io/element/room/impl/SessionRoom.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/room/impl/SessionRoom.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2454" selectionTopPixel="1494"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Session.java" partName="Session.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/communication/Session.java" title="Session.java" tooltip="gtserver/src/main/java/io/element/communication/Session.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/communication/Session.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="535" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GT_RoomManager.java" partName="GT_RoomManager.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/gtserver/GT_RoomManager.java" title="GT_RoomManager.java" tooltip="gtserver/src/main/java/io/element/gtserver/GT_RoomManager.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/gtserver/GT_RoomManager.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="943" selectionTopPixel="309"/>
+</editor>
+<editor id="com.genuitec.eclipse.springframework.springconfigeditor" name="Spring-All-Module.xml" partName="Spring-All-Module.xml" path="E:/java/Workspaces/2016_1_26/elementproject/gtserver/src/main/resources/Spring-All-Module.xml" title="Spring-All-Module.xml" tooltip="gtserver/src/main/resources/Spring-All-Module.xml" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/resources/Spring-All-Module.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.PropertiesFileEditor" name="server.properties" partName="server.properties" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/resources/props/server.properties" title="server.properties" tooltip="gtserver/src/main/resources/props/server.properties" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/resources/props/server.properties"/>
+<editorState selectionHorizontalPixel="0" selectionLength="26" selectionOffset="162" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SimpleSteering.java" partName="SimpleSteering.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/communication/impl/SimpleSteering.java" title="SimpleSteering.java" tooltip="gtserver/src/main/java/io/element/communication/impl/SimpleSteering.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/communication/impl/SimpleSteering.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="662" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CGChannelInitializer.java" partName="CGChannelInitializer.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/netty/handlers/CGChannelInitializer.java" title="CGChannelInitializer.java" tooltip="gtserver/src/main/java/io/element/netty/handlers/CGChannelInitializer.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/netty/handlers/CGChannelInitializer.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1527" selectionTopPixel="105"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GSChannelInitializer.java" partName="GSChannelInitializer.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/netty/handlers/GSChannelInitializer.java" title="GSChannelInitializer.java" tooltip="gtserver/src/main/java/io/element/netty/handlers/GSChannelInitializer.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/netty/handlers/GSChannelInitializer.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1779" selectionTopPixel="87"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="IdleStateHandler.class" partName="IdleStateHandler.class" title="IdleStateHandler.class" tooltip="io.netty.handler.timeout.IdleStateHandler" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=gtserver/C:\/Users\/user\/.m2\/repository\/io\/netty\/netty-all\/4.0.10.Final\/netty-all-4.0.10.Final.jar&lt;io.netty.handler.timeout(IdleStateHandler.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HeartBeatHandler.java" partName="HeartBeatHandler.java" path="E:/java/Workspaces/2016_1_26/elementproject/gtserver/src/main/java/io/element/netty/handlers/impl/HeartBeatHandler.java" title="HeartBeatHandler.java" tooltip="gtserver/src/main/java/io/element/netty/handlers/impl/HeartBeatHandler.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/netty/handlers/impl/HeartBeatHandler.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="881" selectionTopPixel="216"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DefaultHandlerInterface.java" partName="DefaultHandlerInterface.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/netty/handlers/DefaultHandlerInterface.java" title="DefaultHandlerInterface.java" tooltip="gtserver/src/main/java/io/element/netty/handlers/DefaultHandlerInterface.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/netty/handlers/DefaultHandlerInterface.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="23" selectionOffset="55" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GSProtoBufHandler.java" partName="GSProtoBufHandler.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/netty/handlers/impl/GSProtoBufHandler.java" title="GSProtoBufHandler.java" tooltip="gtserver/src/main/java/io/element/netty/handlers/impl/GSProtoBufHandler.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/netty/handlers/impl/GSProtoBufHandler.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1308" selectionTopPixel="39"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="S2G_SimpleTask.java" partName="S2G_SimpleTask.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/task/impl/S2G_SimpleTask.java" title="S2G_SimpleTask.java" tooltip="gtserver/src/main/java/io/element/task/impl/S2G_SimpleTask.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/task/impl/S2G_SimpleTask.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1169" selectionTopPixel="239"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GlobalChannelInitializer.java" partName="GlobalChannelInitializer.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gmserver/src/main/java/io/element/netty/handlers/GlobalChannelInitializer.java" title="GlobalChannelInitializer.java" tooltip="gmserver/src/main/java/io/element/netty/handlers/GlobalChannelInitializer.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/netty/handlers/GlobalChannelInitializer.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1257" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="ChannelInboundHandlerAdapter.class" partName="ChannelInboundHandlerAdapter.class" title="ChannelInboundHandlerAdapter.class" tooltip="io.netty.channel.ChannelInboundHandlerAdapter" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=gtserver/C:\/Users\/user\/.m2\/repository\/io\/netty\/netty-all\/4.0.10.Final\/netty-all-4.0.10.Final.jar&lt;io.netty.channel(ChannelInboundHandlerAdapter.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GlobalProtoBufHandler.java" partName="GlobalProtoBufHandler.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gmserver/src/main/java/io/element/netty/handlers/impl/GlobalProtoBufHandler.java" title="GlobalProtoBufHandler.java" tooltip="gmserver/src/main/java/io/element/netty/handlers/impl/GlobalProtoBufHandler.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/netty/handlers/impl/GlobalProtoBufHandler.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1984" selectionTopPixel="345"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BaseEvent.java" partName="BaseEvent.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gmserver/src/main/java/io/element/event/impl/BaseEvent.java" title="BaseEvent.java" tooltip="gmserver/src/main/java/io/element/event/impl/BaseEvent.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/event/impl/BaseEvent.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="920" selectionTopPixel="256"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="ChannelPropertyAccess.class" partName="ChannelPropertyAccess.class" title="ChannelPropertyAccess.class" tooltip="io.netty.channel.ChannelPropertyAccess" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=gmserver/C:\/Users\/user\/.m2\/repository\/io\/netty\/netty-all\/4.0.10.Final\/netty-all-4.0.10.Final.jar&lt;io.netty.channel(ChannelPropertyAccess.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SG_GameBeginState.java" partName="SG_GameBeginState.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gmserver/src/main/java/io/element/state/global/impl/SG_GameBeginState.java" title="SG_GameBeginState.java" tooltip="gmserver/src/main/java/io/element/state/global/impl/SG_GameBeginState.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/state/global/impl/SG_GameBeginState.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="10" selectionOffset="490" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SP_BattleAssistState.java" partName="SP_BattleAssistState.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gmserver/src/main/java/io/element/state/global/impl/SP_BattleAssistState.java" title="SP_BattleAssistState.java" tooltip="gmserver/src/main/java/io/element/state/global/impl/SP_BattleAssistState.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/state/global/impl/SP_BattleAssistState.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="398" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GM_TaskQueue.java" partName="GM_TaskQueue.java" path="E:/java/Workspaces/2016_1_26/elementproject/gmserver/src/main/java/io/element/threadpool/GM_TaskQueue.java" title="GM_TaskQueue.java" tooltip="gmserver/src/main/java/io/element/threadpool/GM_TaskQueue.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/threadpool/GM_TaskQueue.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2536" selectionTopPixel="846"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PerfectAlterState.java" partName="PerfectAlterState.java" path="E:/java/Workspaces/2016_1_26/elementproject/gmserver/src/main/java/io/element/state/impl/PerfectAlterState.java" title="PerfectAlterState.java" tooltip="gmserver/src/main/java/io/element/state/impl/PerfectAlterState.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/state/impl/PerfectAlterState.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="28" selectionOffset="1948" selectionTopPixel="684"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Task_NextPhase.java" partName="Task_NextPhase.java" path="E:/java/Workspaces/2016_1_26/elementproject/gmserver/src/main/java/io/element/task/impl/Task_NextPhase.java" title="Task_NextPhase.java" tooltip="gmserver/src/main/java/io/element/task/impl/Task_NextPhase.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/task/impl/Task_NextPhase.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="14" selectionOffset="212" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Task_SimplePhase.java" partName="Task_SimplePhase.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gmserver/src/main/java/io/element/task/impl/Task_SimplePhase.java" title="Task_SimplePhase.java" tooltip="gmserver/src/main/java/io/element/task/impl/Task_SimplePhase.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/task/impl/Task_SimplePhase.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="72" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Task_StateRun.java" partName="Task_StateRun.java" path="E:/java/Workspaces/2016_1_26/elementproject/gmserver/src/main/java/io/element/task/impl/Task_StateRun.java" title="Task_StateRun.java" tooltip="gmserver/src/main/java/io/element/task/impl/Task_StateRun.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/task/impl/Task_StateRun.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="13" selectionOffset="208" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GlobalGameState.java" partName="GlobalGameState.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gmserver/src/main/java/io/element/state/global/impl/GlobalGameState.java" title="GlobalGameState.java" tooltip="gmserver/src/main/java/io/element/state/global/impl/GlobalGameState.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/state/global/impl/GlobalGameState.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="8" selectionOffset="485" selectionTopPixel="93"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SP_BeginState.java" partName="SP_BeginState.java" path="E:/java/Workspaces/2016_1_26/elementproject/gmserver/src/main/java/io/element/state/global/impl/SP_BeginState.java" title="SP_BeginState.java" tooltip="gmserver/src/main/java/io/element/state/global/impl/SP_BeginState.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/state/global/impl/SP_BeginState.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="399" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SP_StealthState.java" partName="SP_StealthState.java" path="E:/java/Workspaces/2016_1_26/elementproject/gmserver/src/main/java/io/element/state/card/impl/SP_StealthState.java" title="SP_StealthState.java" tooltip="gmserver/src/main/java/io/element/state/card/impl/SP_StealthState.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/state/card/impl/SP_StealthState.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="9" selectionOffset="242" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EventCard.java" partName="EventCard.java" path="E:/java/Workspaces/2016_1_26/elementproject/gmserver/src/main/java/io/element/card/impl/EventCard.java" title="EventCard.java" tooltip="gmserver/src/main/java/io/element/card/impl/EventCard.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/card/impl/EventCard.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RoomSession.java" partName="RoomSession.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gmserver/src/main/java/io/element/communication/RoomSession.java" title="RoomSession.java" tooltip="gmserver/src/main/java/io/element/communication/RoomSession.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/communication/RoomSession.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="8" selectionOffset="966" selectionTopPixel="633"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WeaponCard.java" partName="WeaponCard.java" path="E:/java/Workspaces/2016_1_26/elementproject/gmserver/src/main/java/io/element/card/impl/WeaponCard.java" title="WeaponCard.java" tooltip="gmserver/src/main/java/io/element/card/impl/WeaponCard.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/card/impl/WeaponCard.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NettyTCPServer.java" partName="NettyTCPServer.java" path="E:/java/Workspaces/2016_1_26/elementproject/gmserver/src/main/java/io/element/server/impl/NettyTCPServer.java" title="NettyTCPServer.java" tooltip="gmserver/src/main/java/io/element/server/impl/NettyTCPServer.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/server/impl/NettyTCPServer.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="12" selectionOffset="1383" selectionTopPixel="367"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Server.java" partName="Server.java" path="E:/java/Workspaces/2016_1_26/elementproject/gmserver/src/main/java/io/element/server/Server.java" title="Server.java" tooltip="gmserver/src/main/java/io/element/server/Server.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/server/Server.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="6" selectionOffset="87" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AbstractTCPServer.java" partName="AbstractTCPServer.java" path="E:/java/Workspaces/2016_1_26/elementproject/gmserver/src/main/java/io/element/server/impl/AbstractTCPServer.java" title="AbstractTCPServer.java" tooltip="gmserver/src/main/java/io/element/server/impl/AbstractTCPServer.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/server/impl/AbstractTCPServer.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1020" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GM_ServerSpringConfig.java" partName="GM_ServerSpringConfig.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gmserver/src/main/java/io/element/app/GM_ServerSpringConfig.java" title="GM_ServerSpringConfig.java" tooltip="gmserver/src/main/java/io/element/app/GM_ServerSpringConfig.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/app/GM_ServerSpringConfig.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BaseSession.java" partName="BaseSession.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/communication/impl/BaseSession.java" title="BaseSession.java" tooltip="gtserver/src/main/java/io/element/communication/impl/BaseSession.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/communication/impl/BaseSession.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="512" selectionTopPixel="176"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ClientSession.java" partName="ClientSession.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/communication/impl/ClientSession.java" title="ClientSession.java" tooltip="gtserver/src/main/java/io/element/communication/impl/ClientSession.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/communication/impl/ClientSession.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="193" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ServerConfig.java" partName="ServerConfig.java" path="E:/java/Workspaces/2016_1_26/elementproject/gmserver/src/main/java/io/element/server/ServerConfig.java" title="ServerConfig.java" tooltip="gmserver/src/main/java/io/element/server/ServerConfig.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/server/ServerConfig.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="12" selectionOffset="273" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="server.properties" partName="server.properties" path="E:/java/Workspaces/2016_1_26/elementproject/gmserver/src/main/resources/props/server.properties" title="server.properties" tooltip="gmserver/src/main/resources/props/server.properties" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/resources/props/server.properties"/>
+<editorState selectionHorizontalPixel="0" selectionLength="14" selectionOffset="130" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GM_Mangers.java" partName="GM_Mangers.java" path="E:/java/Workspaces/2016_1_26/elementproject/gmserver/src/main/java/io/element/server/GM_Mangers.java" title="GM_Mangers.java" tooltip="gmserver/src/main/java/io/element/server/GM_Mangers.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/server/GM_Mangers.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="549" selectionTopPixel="165"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GT_Managers.java" partName="GT_Managers.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/gtserver/GT_Managers.java" title="GT_Managers.java" tooltip="gtserver/src/main/java/io/element/gtserver/GT_Managers.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/gtserver/GT_Managers.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="11" selectionOffset="91" selectionTopPixel="396"/>
+</editor>
+<editor id="com.genuitec.eclipse.springframework.springconfigeditor" name="server_beans.xml" partName="server_beans.xml" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/resources/server_beans.xml" title="server_beans.xml" tooltip="gtserver/src/main/resources/server_beans.xml" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/resources/server_beans.xml"/>
+</editor>
+<editor id="com.genuitec.eclipse.springframework.springconfigeditor" name="server_beans.xml" partName="server_beans.xml" path="E:/java/Workspaces/2016_1_26/elementproject/gmserver/src/main/resources/server_beans.xml" title="server_beans.xml" tooltip="gmserver/src/main/resources/server_beans.xml" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/resources/server_beans.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Server.java" partName="Server.java" path="E:/java/Workspaces/2016_1_26/elementproject/gtserver/src/main/java/io/element/server/Server.java" title="Server.java" tooltip="gtserver/src/main/java/io/element/server/Server.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/server/Server.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ServerConfig.java" partName="ServerConfig.java" path="E:/java/Workspaces/2016_1_26/elementproject/gtserver/src/main/java/io/element/server/ServerConfig.java" title="ServerConfig.java" tooltip="gtserver/src/main/java/io/element/server/ServerConfig.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/server/ServerConfig.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="469" selectionTopPixel="0"/>
+</editor>
+<editor id="com.genuitec.eclipse.springframework.springconfigeditor" name="Spring-All-Module.xml" partName="Spring-All-Module.xml" path="E:/java/Workspaces/2016_1_26/elementproject/gmserver/src/main/resources/Spring-All-Module.xml" title="Spring-All-Module.xml" tooltip="gmserver/src/main/resources/Spring-All-Module.xml" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/resources/Spring-All-Module.xml"/>
+</editor>
+<editor id="org.jboss.tools.common.propertieseditor.PropertiesCompoundEditor" name="log4j.properties" partName="log4j.properties" path="E:/java/Workspaces/2016_1_26/elementproject/gtserver/log4j.properties" title="log4j.properties" tooltip="E:/java/Workspaces/2016_1_26/elementproject/gtserver/log4j.properties" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.jboss.tools.common.core.resources.XModelObjectEditorInputFactory" path="/gtserver/log4j.properties"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="pom.xml" partName="pom.xml" path="E:/java/Workspaces/2016_1_26/elementproject/gtserver/pom.xml" title="pom.xml" tooltip="gtserver/pom.xml" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/pom.xml"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.jboss.tools.common.propertieseditor.PropertiesCompoundEditor" name="log4j.properties" partName="log4j.properties" path="E:/java/Workspaces/2016_1_26/elementproject/gmserver/log4j.properties" title="log4j.properties" tooltip="E:/java/Workspaces/2016_1_26/elementproject/gmserver/log4j.properties" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.jboss.tools.common.core.resources.XModelObjectEditorInputFactory" path="/gmserver/log4j.properties"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DefaultHandlerInterface.java" partName="DefaultHandlerInterface.java" path="E:/java/Workspaces/2016_1_26/elementproject/gmserver/src/main/java/io/element/netty/handlers/DefaultHandlerInterface.java" title="DefaultHandlerInterface.java" tooltip="gmserver/src/main/java/io/element/netty/handlers/DefaultHandlerInterface.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/netty/handlers/DefaultHandlerInterface.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="7" selectionOffset="422" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="Class.class" partName="Class.class" title="Class.class" tooltip="java.lang.Class" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=gmserver/C:\/Program Files\/Java\/jdk1.7.0_79\/jre\/lib\/rt.jar&lt;java.lang(Class.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="23378" selectionTopPixel="9756"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="G2S_CreateRoomHandler.java" partName="G2S_CreateRoomHandler.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gmserver/src/main/java/io/element/event/handlers/impl/G2S_CreateRoomHandler.java" title="G2S_CreateRoomHandler.java" tooltip="gmserver/src/main/java/io/element/event/handlers/impl/G2S_CreateRoomHandler.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/event/handlers/impl/G2S_CreateRoomHandler.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="9" selectionOffset="1061" selectionTopPixel="216"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="G2S_LoginTaskHandler.java" partName="G2S_LoginTaskHandler.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gmserver/src/main/java/io/element/event/handlers/impl/G2S_LoginTaskHandler.java" title="G2S_LoginTaskHandler.java" tooltip="gmserver/src/main/java/io/element/event/handlers/impl/G2S_LoginTaskHandler.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/event/handlers/impl/G2S_LoginTaskHandler.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3022" selectionTopPixel="1595"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="G2S_CreateRoomEvent.java" partName="G2S_CreateRoomEvent.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gmserver/src/main/java/io/element/event/impl/G2S_CreateRoomEvent.java" title="G2S_CreateRoomEvent.java" tooltip="gmserver/src/main/java/io/element/event/impl/G2S_CreateRoomEvent.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/event/impl/G2S_CreateRoomEvent.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1315" selectionTopPixel="170"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EventHandler.java" partName="EventHandler.java" path="E:/java/Workspaces/2016_1_26/elementproject/gmserver/src/main/java/io/element/event/EventHandler.java" title="EventHandler.java" tooltip="gmserver/src/main/java/io/element/event/EventHandler.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/event/EventHandler.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Message.java" partName="Message.java" path="E:/java/Workspaces/2016_1_26/elementproject/gmserver/src/main/java/io/element/event/Message.java" title="Message.java" tooltip="gmserver/src/main/java/io/element/event/Message.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/event/Message.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Event.java" partName="Event.java" path="E:/java/Workspaces/2016_1_26/elementproject/gmserver/src/main/java/io/element/event/Event.java" title="Event.java" tooltip="gmserver/src/main/java/io/element/event/Event.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/event/Event.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="G2S_LoginEvent.java" partName="G2S_LoginEvent.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gmserver/src/main/java/io/element/event/impl/G2S_LoginEvent.java" title="G2S_LoginEvent.java" tooltip="gmserver/src/main/java/io/element/event/impl/G2S_LoginEvent.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/event/impl/G2S_LoginEvent.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="951" selectionTopPixel="533"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="Channel.class" partName="Channel.class" title="Channel.class" tooltip="io.netty.channel.Channel" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=gmserver/C:\/Users\/user\/.m2\/repository\/io\/netty\/netty-all\/4.0.10.Final\/netty-all-4.0.10.Final.jar&lt;io.netty.channel(Channel.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AbstractTCPServer.java" partName="AbstractTCPServer.java" path="E:/java/Workspaces/2016_1_26/elementproject/gtserver/src/main/java/io/element/server/impl/AbstractTCPServer.java" title="AbstractTCPServer.java" tooltip="gtserver/src/main/java/io/element/server/impl/AbstractTCPServer.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/server/impl/AbstractTCPServer.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="937"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="App.java" partName="App.java" path="E:/java/Workspaces/2016_1_26/elementproject/gtserver/src/main/java/io/element/gtserver/App.java" title="App.java" tooltip="gtserver/src/main/java/io/element/gtserver/App.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/gtserver/App.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1057" selectionTopPixel="198"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AbstractNettyServer.java" partName="AbstractNettyServer.java" path="E:/java/Workspaces/2016_1_26/elementproject/nadron/src/main/java/io/nadron/server/netty/AbstractNettyServer.java" title="AbstractNettyServer.java" tooltip="nadron/src/main/java/io/nadron/server/netty/AbstractNettyServer.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/nadron/src/main/java/io/nadron/server/netty/AbstractNettyServer.java"/>
+<editorState selectionHorizontalPixel="32" selectionLength="12" selectionOffset="675" selectionTopPixel="120"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CGProtoBufHandler.java" partName="CGProtoBufHandler.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/netty/handlers/impl/CGProtoBufHandler.java" title="CGProtoBufHandler.java" tooltip="gtserver/src/main/java/io/element/netty/handlers/impl/CGProtoBufHandler.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/netty/handlers/impl/CGProtoBufHandler.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1282" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="element_globalmsg.proto" partName="element_globalmsg.proto" path="E:/java/Workspaces/2016_1_26/elementproject/gtserver/src/main/resources/protobuf/element_globalmsg.proto" title="element_globalmsg.proto" tooltip="gtserver/src/main/resources/protobuf/element_globalmsg.proto" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/resources/protobuf/element_globalmsg.proto"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="646" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="element_login.proto" partName="element_login.proto" path="E:/java/Workspaces/2016_1_26/elementproject/gtserver/src/main/resources/protobuf/element_login.proto" title="element_login.proto" tooltip="gtserver/src/main/resources/protobuf/element_login.proto" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/resources/protobuf/element_login.proto"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3639" selectionTopPixel="2040"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LoginProto.java" partName="LoginProto.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/protobuf/LoginProto.java" title="LoginProto.java" tooltip="gtserver/src/main/java/io/element/protobuf/LoginProto.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/protobuf/LoginProto.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="ProtobufDecoder.class" partName="ProtobufDecoder.class" title="ProtobufDecoder.class" tooltip="io.netty.handler.codec.protobuf.ProtobufDecoder" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=gtserver/C:\/Users\/user\/.m2\/repository\/io\/netty\/netty-all\/4.0.10.Final\/netty-all-4.0.10.Final.jar&lt;io.netty.handler.codec.protobuf(ProtobufDecoder.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3733" selectionTopPixel="1170"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="ProtobufVarint32FrameDecoder.class" partName="ProtobufVarint32FrameDecoder.class" title="ProtobufVarint32FrameDecoder.class" tooltip="io.netty.handler.codec.protobuf.ProtobufVarint32FrameDecoder" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=gtserver/C:\/Users\/user\/.m2\/repository\/io\/netty\/netty-all\/4.0.10.Final\/netty-all-4.0.10.Final.jar&lt;io.netty.handler.codec.protobuf(ProtobufVarint32FrameDecoder.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2608" selectionTopPixel="535"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CGHeartBeatHandler.java" partName="CGHeartBeatHandler.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/netty/handlers/impl/CGHeartBeatHandler.java" title="CGHeartBeatHandler.java" tooltip="gtserver/src/main/java/io/element/netty/handlers/impl/CGHeartBeatHandler.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/netty/handlers/impl/CGHeartBeatHandler.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2966" selectionTopPixel="993"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="ProtobufVarint32LengthFieldPrepender.class" partName="ProtobufVarint32LengthFieldPrepender.class" title="ProtobufVarint32LengthFieldPrepender.class" tooltip="io.netty.handler.codec.protobuf.ProtobufVarint32LengthFieldPrepender" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=gtserver/C:\/Users\/user\/.m2\/repository\/io\/netty\/netty-all\/4.0.10.Final\/netty-all-4.0.10.Final.jar&lt;io.netty.handler.codec.protobuf(ProtobufVarint32LengthFieldPrepender.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1632" selectionTopPixel="117"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EncodeTest.java" partName="EncodeTest.java" path="E:/java/Workspaces/2016_1_26/elementproject/gtserver/src/test/java/io/element/gtserver/EncodeTest.java" title="EncodeTest.java" tooltip="gtserver/src/test/java/io/element/gtserver/EncodeTest.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/test/java/io/element/gtserver/EncodeTest.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="314" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Luaf.java" partName="Luaf.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gmserver/src/main/java/io/element/script/Luaf.java" title="Luaf.java" tooltip="gmserver/src/main/java/io/element/script/Luaf.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/script/Luaf.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2013" selectionTopPixel="378"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BaseRoom.java" partName="BaseRoom.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/room/BaseRoom.java" title="BaseRoom.java" tooltip="gtserver/src/main/java/io/element/room/BaseRoom.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/room/BaseRoom.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="9" selectionOffset="434" selectionTopPixel="72"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="DefaultChannelHandlerContext.class" partName="DefaultChannelHandlerContext.class" title="DefaultChannelHandlerContext.class" tooltip="io.netty.channel.DefaultChannelHandlerContext" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=gmserver/C:\/Users\/user\/.m2\/repository\/io\/netty\/netty-all\/4.0.10.Final\/netty-all-4.0.10.Final.jar&lt;io.netty.channel(DefaultChannelHandlerContext.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3797" selectionTopPixel="1512"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SimpleStateMachine.java" partName="SimpleStateMachine.java" path="E:/java/Workspaces/2016_1_26/elementproject/gmserver/src/main/java/io/element/state/impl/SimpleStateMachine.java" title="SimpleStateMachine.java" tooltip="gmserver/src/main/java/io/element/state/impl/SimpleStateMachine.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/state/impl/SimpleStateMachine.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="15" selectionOffset="2931" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="S2G_LoginTask.java" partName="S2G_LoginTask.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/task/impl/S2G_LoginTask.java" title="S2G_LoginTask.java" tooltip="gtserver/src/main/java/io/element/task/impl/S2G_LoginTask.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/task/impl/S2G_LoginTask.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1323" selectionTopPixel="162"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Const.java" partName="Const.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/gtserver/Const.java" title="Const.java" tooltip="gtserver/src/main/java/io/element/gtserver/Const.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/gtserver/Const.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="55" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GT_MatchManager.java" partName="GT_MatchManager.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/gtserver/GT_MatchManager.java" title="GT_MatchManager.java" tooltip="gtserver/src/main/java/io/element/gtserver/GT_MatchManager.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/gtserver/GT_MatchManager.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4753" selectionTopPixel="3099"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GT_PlayerManager.java" partName="GT_PlayerManager.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/gtserver/GT_PlayerManager.java" title="GT_PlayerManager.java" tooltip="gtserver/src/main/java/io/element/gtserver/GT_PlayerManager.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/gtserver/GT_PlayerManager.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="840" selectionTopPixel="324"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GlobalProto.java" partName="GlobalProto.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/protobuf/GlobalProto.java" title="GlobalProto.java" tooltip="gtserver/src/main/java/io/element/protobuf/GlobalProto.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/protobuf/GlobalProto.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SimpleProto.java" partName="SimpleProto.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/protobuf/SimpleProto.java" title="SimpleProto.java" tooltip="gtserver/src/main/java/io/element/protobuf/SimpleProto.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/protobuf/SimpleProto.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BasePlayer.java" partName="BasePlayer.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/player/BasePlayer.java" title="BasePlayer.java" tooltip="gtserver/src/main/java/io/element/player/BasePlayer.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/player/BasePlayer.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="8" selectionOffset="545" selectionTopPixel="270"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BaseTask.java" partName="BaseTask.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gmserver/src/main/java/io/element/event/impl/BaseTask.java" title="BaseTask.java" tooltip="gmserver/src/main/java/io/element/event/impl/BaseTask.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/event/impl/BaseTask.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="C2GProto_SimpleHandler.java" partName="C2GProto_SimpleHandler.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/communication/impl/C2GProto_SimpleHandler.java" title="C2GProto_SimpleHandler.java" tooltip="gtserver/src/main/java/io/element/communication/impl/C2GProto_SimpleHandler.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/communication/impl/C2GProto_SimpleHandler.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="841" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GSHeartBeatHandler.java" partName="GSHeartBeatHandler.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/netty/handlers/impl/GSHeartBeatHandler.java" title="GSHeartBeatHandler.java" tooltip="gtserver/src/main/java/io/element/netty/handlers/impl/GSHeartBeatHandler.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/netty/handlers/impl/GSHeartBeatHandler.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="954" selectionTopPixel="381"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="C2G_LoginTask.java" partName="C2G_LoginTask.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/task/impl/C2G_LoginTask.java" title="C2G_LoginTask.java" tooltip="gtserver/src/main/java/io/element/task/impl/C2G_LoginTask.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/task/impl/C2G_LoginTask.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="929" selectionTopPixel="162"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BaseTask.java" partName="BaseTask.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/task/BaseTask.java" title="BaseTask.java" tooltip="gtserver/src/main/java/io/element/task/BaseTask.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/task/BaseTask.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="794" selectionTopPixel="174"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="C2G_SimpleTask.java" partName="C2G_SimpleTask.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/task/impl/C2G_SimpleTask.java" title="C2G_SimpleTask.java" tooltip="gtserver/src/main/java/io/element/task/impl/C2G_SimpleTask.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/task/impl/C2G_SimpleTask.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1130" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Player.java" partName="Player.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/player/Player.java" title="Player.java" tooltip="gtserver/src/main/java/io/element/player/Player.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/player/Player.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="382" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="C2GProto_LoginHandler.java" partName="C2GProto_LoginHandler.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/communication/impl/C2GProto_LoginHandler.java" title="C2GProto_LoginHandler.java" tooltip="gtserver/src/main/java/io/element/communication/impl/C2GProto_LoginHandler.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/communication/impl/C2GProto_LoginHandler.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3584" selectionTopPixel="1623"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NettyTCPServer.java" partName="NettyTCPServer.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/server/impl/NettyTCPServer.java" title="NettyTCPServer.java" tooltip="gtserver/src/main/java/io/element/server/impl/NettyTCPServer.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/server/impl/NettyTCPServer.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="11" selectionOffset="725" selectionTopPixel="216"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="Logger.class" partName="Logger.class" title="Logger.class" tooltip="org.slf4j.Logger" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=gtserver/C:\/Users\/user\/.m2\/repository\/org\/slf4j\/slf4j-api\/1.6.1\/slf4j-api-1.6.1.jar&lt;org.slf4j(Logger.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="4" selectionOffset="10849" selectionTopPixel="5868"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="S2G.java" partName="S2G.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gmserver/src/main/java/io/element/cmd/S2G.java" title="S2G.java" tooltip="gmserver/src/main/java/io/element/cmd/S2G.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/cmd/S2G.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1675" selectionTopPixel="75"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="G2C.java" partName="G2C.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/cmd/G2C.java" title="G2C.java" tooltip="gtserver/src/main/java/io/element/cmd/G2C.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/cmd/G2C.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="69" selectionOffset="266" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="G2S.java" partName="G2S.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gtserver/src/main/java/io/element/cmd/G2S.java" title="G2S.java" tooltip="gtserver/src/main/java/io/element/cmd/G2S.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gtserver/src/main/java/io/element/cmd/G2S.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GlobalProto.java" partName="GlobalProto.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gmserver/src/main/java/io/element/protobuf/GlobalProto.java" title="GlobalProto.java" tooltip="gmserver/src/main/java/io/element/protobuf/GlobalProto.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/protobuf/GlobalProto.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LoginProto.java" partName="LoginProto.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/gmserver/src/main/java/io/element/protobuf/LoginProto.java" title="LoginProto.java" tooltip="gmserver/src/main/java/io/element/protobuf/LoginProto.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/gmserver/src/main/java/io/element/protobuf/LoginProto.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="ArrayList.class" partName="ArrayList.class" title="ArrayList.class" tooltip="java.util.ArrayList" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=gmserver/C:\/Program Files\/Java\/jdk1.7.0_79\/jre\/lib\/rt.jar&lt;java.util(ArrayList.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="14649" selectionTopPixel="6516"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="LoginManager.class" partName="LoginManager.class" title="LoginManager.class" tooltip="flex.messaging.security.LoginManager" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=gmserver/C:\/Users\/user\/.m2\/repository\/com\/adobe\/blazeds\/blazeds-core\/3.2.0.3978\/blazeds-core-3.2.0.3978.jar&lt;flex.messaging.security(LoginManager.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="12594" selectionTopPixel="5544"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Game.java" partName="Game.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/nadron/src/main/java/io/nadron/app/Game.java" title="Game.java" tooltip="nadron/src/main/java/io/nadron/app/Game.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/nadron/src/main/java/io/nadron/app/Game.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="424" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GameCommandInterpreter.java" partName="GameCommandInterpreter.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/nadron/src/main/java/io/nadron/app/GameCommandInterpreter.java" title="GameCommandInterpreter.java" tooltip="nadron/src/main/java/io/nadron/app/GameCommandInterpreter.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/nadron/src/main/java/io/nadron/app/GameCommandInterpreter.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PlayerSession.java" partName="PlayerSession.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/nadron/src/main/java/io/nadron/app/PlayerSession.java" title="PlayerSession.java" tooltip="nadron/src/main/java/io/nadron/app/PlayerSession.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/nadron/src/main/java/io/nadron/app/PlayerSession.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GameStartListener.java" partName="GameStartListener.java" path="E:/wxt_use_project/SwordCard_server_client/Server/elementproject/nadron/src/main/java/io/nadron/app/GameStartListener.java" title="GameStartListener.java" tooltip="nadron/src/main/java/io/nadron/app/GameStartListener.java" workbook="org.eclipse.ui.internal.EditorStack@9b2743">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/nadron/src/main/java/io/nadron/app/GameStartListener.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1014" selectionTopPixel="0"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.jdt.junit.ResultView" partName="JUnit">
+<viewState failuresOnly="false" layout="1" orientation="2" ratio="500" scroll="false" time="true"/>
+</view>
+<view id="org.eclipse.jdt.ui.TypeHierarchy" partName="Type Hierarchy">
+<viewState hidefields="false" hidelocaltypes="false" hidenonpublic="false" hidestatic="false" link_editors="0" mv_vertical_scroll="0" orientation="3" qualified_names="0" ratio="350" showinherited="false" sortbydefiningtype="false" vertical_scroll="0" view="2" workingSetName=""/>
+</view>
+<view id="uky.article.imageviewer.views.ImageView" partName="Image Preview">
+<viewState/>
+</view>
+<view id="org.eclipse.search.ui.views.SearchView" partName="Search">
+<viewState isPinned="false">
+<view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
+</viewState>
+</view>
+<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.locationField" categoryGroup="none" markerContentGenerator="org.eclipse.ui.ide.tasksGenerator" partName="Tasks">
+<columnWidths org.eclipse.ui.ide.completionField="40" org.eclipse.ui.ide.descriptionField="300" org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.priorityField="30" org.eclipse.ui.ide.resourceField="90"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.completionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.priorityField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.descriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+<DESCENDING_FIELDS IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="org.springframework.ide.eclipse.ui.navigator.springExplorer" partName="Spring Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" org.springframework.ide.eclipse.ui.navigator.workingsets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="org.eclipse.debug.ui.ExpressionView" partName="Expressions">
+<viewState/>
+</view>
+<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" partName="Snippets">
+<viewState>
+<entry expansion="false" extent="20" maximum="100" minimum="0" pinned="false" value="0">&#x0A;<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+</entry>
+<entry expansion="true" extent="93" maximum="93" minimum="0" pinned="false" value="0">&#x0A;<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+</entry>
+<entry expansion="true" extent="285" maximum="285" minimum="0" pinned="false" value="0">&#x0A;<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+</entry>
+<entry expansion="true" extent="124" maximum="124" minimum="0" pinned="false" value="0">&#x0A;<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+</entry>
+<entry expansion="true" extent="196" maximum="196" minimum="0" pinned="false" value="0">&#x0A;<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+</entry>
+<entry expansion="true" extent="340" maximum="340" minimum="0" pinned="false" value="0">&#x0A;<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+</entry>
+<entry expansion="true" extent="244" maximum="244" minimum="0" pinned="false" value="0">&#x0A;<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+</entry>
+<entry expansion="true" extent="556" maximum="556" minimum="0" pinned="false" value="0">&#x0A;<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+</entry>
+<entry expansion="true" extent="100" maximum="100" minimum="0" pinned="false" value="0">&#x0A;<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+</entry>
+<entry expansion="true" extent="532" maximum="532" minimum="0" pinned="false" value="0">&#x0A;<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+</entry>
+<entry expansion="true" extent="292" maximum="292" minimum="0" pinned="false" value="0">&#x0A;<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+</entry>
+<entry expansion="true" extent="124" maximum="124" minimum="0" pinned="false" value="0">&#x0A;<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+</entry>
+</viewState>
+</view>
+<view id="com.genuitec.eclipse.ast.deploy.core.serverview" partName="Servers">
+<viewState/>
+</view>
+<view id="com.genuitec.javascript.debug.ui.scriptView" partName="JavaScript Scripts Inspector"/>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Warnings (70 items)"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="525"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
+<viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
+<customFilters userDefinedPatternsEnabled="false">
+<xmlDefinedFilters>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.pde.ui.ExternalPluginLibrariesFilter1" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.FieldsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter" isEnabled="true"/>
+<child filterId="org.eclipse.pde.ui.BinaryProjectFilter1" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter" isEnabled="true"/>
+<child filterId="org.eclipse.m2e.MavenModuleFilter" isEnabled="false"/>
+</xmlDefinedFilters>
+</customFilters>
+</viewState>
+</view>
+<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
+<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
+</views>
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="com.genuitec.myeclipse.perspective.myeclipseperspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.genuitec.myeclipse.perspective.MyEclipsePerspectiveFactory" id="com.genuitec.myeclipse.perspective.myeclipseperspective" label="MyEclipse Java Enterprise"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.deploytools"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.test.actions"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.desktop"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.screencapture"/>
+<alwaysOnActionSet id="com.genuitec.eclipse.examples.actionSet"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.hibernatetools"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.webtools"/>
+<alwaysOnActionSet id="com.genuitec.eclipse.j2eedt.core.ejb"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.jsftools"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.faceletstools"/>
+<alwaysOnActionSet id="com.genuitec.eclipse.maven.pro.actions"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.jpatools"/>
+<alwaysOnActionSet id="com.genuitec.eclipse.portlet.portletactions"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.reporting"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.springtools"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.strutstools"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.restsupport"/>
+<alwaysOnActionSet id="com.genuitec.eclipse.ws.xfire.actions"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.icefaces"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.about.actions"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.product.actions"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.springframework.ide.eclipse.aop.ui.ActionSet"/>
+<alwaysOnActionSet id="org.springframework.ide.eclipse.aop.ui.matcher.actionSet"/>
+<alwaysOnActionSet id="org.springframework.ide.eclipse.beans.ui.actionSet"/>
+<alwaysOnActionSet id="org.springframework.ide.eclipse.beans.search.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaElementCreationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="com.genuitec.eclipse.uml.actions"/>
+<alwaysOnActionSet id="com.genuitec.eclipse.uml2.ui.actions"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.profileActionSet"/>
+<alwaysOnActionSet id="com.genuitec.eclipse.web20.actionset"/>
+<alwaysOnActionSet id="org.keplerproject.ldt.ui.luaProjectAction"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<show_view_action id="com.genuitec.eclipse.ast.deploy.core.serverview"/>
+<show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
+<show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="uky.article.imageviewer.views.ImageView"/>
+<show_view_action id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="com.genuitec.eclipse.ui.HTMLView"/>
+<new_wizard_action id="com.genuitec.eclipse.j2eedt.ui.wizard.EJBProjectCreationWizard"/>
+<new_wizard_action id="com.genuitec.eclipse.j2eedt.ui.wizard.NewEARProjectWizard"/>
+<new_wizard_action id="com.genuitec.eclipse.j2eedt.ui.wizard.WebProjectCreationWizard"/>
+<new_wizard_action id="com.genuitec.eclipse.ws.xfire.wizards.NewXFireWebProjectWizard1"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewInterfaceCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSourceFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSnippetFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="com.aston.wizards.applet.NewAppletCreationWizard"/>
+<new_wizard_action id="com.aston.wizards.html.NewHtmlCreationWizard"/>
+<new_wizard_action id="com.aston.wizards.jsp.NewJspCreationWizard"/>
+<new_wizard_action id="com.aston.wizards.xhtml.NewXhtmlCreationWizard"/>
+<new_wizard_action id="com.aston.wizards.servlet.NewServletCreationWizard"/>
+<new_wizard_action id="org.jboss.ide.eclipse.jdt.j2ee.ui.wizards.ejb.NewSessionEJBWizard"/>
+<new_wizard_action id="org.jboss.ide.eclipse.jdt.j2ee.ui.wizards.ejb.NewEntityEJBWizard"/>
+<new_wizard_action id="org.jboss.ide.eclipse.jdt.j2ee.ui.wizards.ejb.NewMessageDrivenEJBWizard"/>
+<new_wizard_action id="com.aston.wizards.xml.NewXmlCreationWizard"/>
+<new_wizard_action id="org.eclipse.wst.xml.ui.internal.wizards.NewXMLWizard"/>
+<new_wizard_action id="org.eclipse.wst.xsd.ui.internal.wizards.NewXSDWizard"/>
+<new_wizard_action id="com.genuitec.eclipse.struts.org.easystruts.eclipse.wizards.NewFormCreationWizardX1_1"/>
+<new_wizard_action id="com.genuitec.eclipse.struts.org.easystruts.eclipse.wizards.NewActionCreationWizardX1_1"/>
+<new_wizard_action id="com.genuitec.eclipse.dehory.newformwizard"/>
+<new_wizard_action id="com.genuitec.eclipse.reporting.projectwizard"/>
+<new_wizard_action id="com.genuitec.eclipse.uml.wizard.NewUMLModelFileWizard"/>
+<perspective_action id="com.genuitec.eclipse.dehory.dehoryperspective"/>
+<perspective_action id="com.genuitec.eclipse.hibernate.perspective.HibernatePerspective"/>
+<perspective_action id="com.genuitec.eclipse.imageeditor.perspective"/>
+<perspective_action id="com.genuitec.dali.adapter.persistencePerspective"/>
+<perspective_action id="com.genuitec.eclipse.reporting.ReportPerspective"/>
+<perspective_action id="com.genuitec.eclipse.sqlexplorer.perspectives.SQLExplorerPluginPerspective"/>
+<perspective_action id="com.genuitec.eclipse.uml.umlPerspective"/>
+<perspective_action id="com.genuitec.eclipse.web20.perspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.search.ui.views.SearchView"/>
+<view id="org.eclipse.debug.ui.BreakpointView"/>
+<view id="org.eclipse.debug.ui.ExpressionView"/>
+<view id="org.eclipse.jdt.junit.ResultView"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<view id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<view id="uky.article.imageviewer.views.ImageView"/>
+<view id="org.eclipse.debug.ui.DebugView"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="cvslocation">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.team.ccvs.ui.RepositoriesView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="cvslocation">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.142632" ratioLeft="181" ratioRight="1088" relationship="2" relative="cvslocation"/>
+<info folder="true" part="bottom" ratio="0.7919463" ratioLeft="708" ratioRight="186" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.search.ui.views.SearchView" appearance="2" expanded="2">
+<page content="org.eclipse.search.ui.views.SearchView" label="Search"/>
+<page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
+<page content="org.eclipse.debug.ui.ExpressionView" label="Expressions"/>
+<page content="org.eclipse.jdt.junit.ResultView" label="JUnit"/>
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@173b39" ratio="0.7929155" ratioLeft="582" ratioRight="152" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="com.genuitec.eclipse.ui.HTMLView" label="LabelNotFound"/>
+<page content="com.genuitec.eclipse.ast.deploy.core.serverview" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="topleft" ratio="0.39876354" ratioLeft="258" ratioRight="389" relationship="4" relative="cvslocation">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@6b4b90" ratio="0.72792363" ratioLeft="610" ratioRight="228" relationship="4" relative="topleft">
+<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="Type Hierarchy"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@10aa271" ratio="0.7997763" ratioLeft="715" ratioRight="179" relationship="4" relative="org.eclipse.ui.internal.ViewStack@6b4b90">
+<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
+<page content="uky.article.imageviewer.views.ImageView" label="Image Preview"/>
+<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" label="Snippets"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+<detachedWindow height="197" width="883" x="397" y="827">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</detachedWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.debug.internal.ui.DebugPerspectiveFactory" id="org.eclipse.debug.ui.DebugPerspective" label="Debug"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.deploytools"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.test.actions"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.desktop"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.screencapture"/>
+<alwaysOnActionSet id="com.genuitec.eclipse.examples.actionSet"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.hibernatetools"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.webtools"/>
+<alwaysOnActionSet id="com.genuitec.eclipse.j2eedt.core.ejb"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.jsftools"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.faceletstools"/>
+<alwaysOnActionSet id="com.genuitec.eclipse.maven.pro.actions"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.jpatools"/>
+<alwaysOnActionSet id="com.genuitec.eclipse.portlet.portletactions"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.reporting"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.springtools"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.strutstools"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.restsupport"/>
+<alwaysOnActionSet id="com.genuitec.eclipse.ws.xfire.actions"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.icefaces"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.about.actions"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.product.actions"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.springframework.ide.eclipse.aop.ui.ActionSet"/>
+<alwaysOnActionSet id="org.springframework.ide.eclipse.aop.ui.matcher.actionSet"/>
+<alwaysOnActionSet id="org.springframework.ide.eclipse.beans.ui.actionSet"/>
+<alwaysOnActionSet id="org.springframework.ide.eclipse.beans.search.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<alwaysOnActionSet id="com.genuitec.eclipse.web20.actionset"/>
+<alwaysOnActionSet id="fr.obeo.acceleo.gen.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.dltk.debug.ui.ScriptDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<show_view_action id="org.eclipse.debug.ui.DebugView"/>
+<show_view_action id="org.eclipse.debug.ui.VariableView"/>
+<show_view_action id="org.eclipse.debug.ui.BreakpointView"/>
+<show_view_action id="org.eclipse.debug.ui.ExpressionView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="com.genuitec.eclipse.ast.deploy.core.serverview"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<show_view_action id="org.eclipse.datatools.sqltools.result.resultView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.dltk.debug.ui.ScriptDisplayView"/>
+<show_view_action id="org.eclipse.jdt.debug.ui.DisplayView"/>
+<new_wizard_action id="org.eclipse.birt.report.designer.ui.ide.wizards.NewReportWizard"/>
+<new_wizard_action id="org.eclipse.birt.report.designer.ui.ide.wizards.NewTemplateWizard"/>
+<new_wizard_action id="org.eclipse.birt.report.designer.ui.wizards.NewLibraryWizard"/>
+<perspective_action id="com.genuitec.eclipse.dehory.dehoryperspective"/>
+<perspective_action id="com.genuitec.eclipse.hibernate.perspective.HibernatePerspective"/>
+<perspective_action id="com.genuitec.eclipse.imageeditor.perspective"/>
+<perspective_action id="com.genuitec.dali.adapter.persistencePerspective"/>
+<perspective_action id="com.genuitec.eclipse.sqlexplorer.perspectives.SQLExplorerPluginPerspective"/>
+<perspective_action id="com.genuitec.eclipse.uml.umlPerspective"/>
+<perspective_action id="com.genuitec.myeclipse.perspective.myeclipseperspective"/>
+<perspective_action id="com.genuitec.eclipse.web20.perspective"/>
+<perspective_action id="com.genuitec.eclipse.reporting.ReportPerspective"/>
+<perspective_action id="org.eclipse.datatools.sqltools.sqleditor.perspectives.EditorPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<perspective_action id="org.eclipse.wst.jsdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.wst.xml.ui.perspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="com.genuitec.javascript.debug.ui.scriptView"/>
+<view id="org.eclipse.debug.ui.DebugView"/>
+<view id="com.genuitec.eclipse.ast.deploy.core.serverview"/>
+<view id="org.eclipse.debug.ui.VariableView"/>
+<view id="org.eclipse.debug.ui.BreakpointView"/>
+<view id="org.eclipse.debug.ui.ExpressionView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<fastViewBars/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<page content="com.genuitec.eclipse.ast.deploy.core.serverview" label="Servers"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.dltk.ui.ScriptExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<page content="org.eclipse.wst.server.ui.ServersView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.7491248" ratioLeft="642" ratioRight="215" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="com.genuitec.javascript.debug.ui.scriptView" label="JavaScript Scripts Inspector"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
+<page content="org.eclipse.atf.mozilla.ide.ui.views.console" label="LabelNotFound"/>
+<page content="org.eclipse.atf.mozilla.ide.ui.views.xhrmon" label="LabelNotFound"/>
+<page content="org.eclipse.datatools.sqltools.result.resultView" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.debug.ui.DisplayView" label="LabelNotFound"/>
+<page content="org.eclipse.search.SearchResultView" label="LabelNotFound"/>
+<page content="org.eclipse.wst.xsl.jaxp.debug.ui.view1" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.44859812" ratioLeft="288" ratioRight="354" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<page content="org.eclipse.atf.mozilla.ide.ui.views.inspector" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="636" ratioRight="636" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
+<page content="org.eclipse.debug.ui.ExpressionView" label="Expressions"/>
+<page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
+<page content="org.eclipse.atf.mozilla.ide.debug.ui.scriptview" label="LabelNotFound"/>
+<page content="org.eclipse.dltk.debug.ui.ScriptDisplayView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.deploytools"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.test.actions"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.desktop"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.screencapture"/>
+<alwaysOnActionSet id="com.genuitec.eclipse.examples.actionSet"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.hibernatetools"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.webtools"/>
+<alwaysOnActionSet id="com.genuitec.eclipse.j2eedt.core.ejb"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.jsftools"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.faceletstools"/>
+<alwaysOnActionSet id="com.genuitec.eclipse.maven.pro.actions"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.jpatools"/>
+<alwaysOnActionSet id="com.genuitec.eclipse.portlet.portletactions"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.reporting"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.springtools"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.strutstools"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.restsupport"/>
+<alwaysOnActionSet id="com.genuitec.eclipse.ws.xfire.actions"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.icefaces"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.about.actions"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.product.actions"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.springframework.ide.eclipse.aop.ui.ActionSet"/>
+<alwaysOnActionSet id="org.springframework.ide.eclipse.aop.ui.matcher.actionSet"/>
+<alwaysOnActionSet id="org.springframework.ide.eclipse.beans.ui.actionSet"/>
+<alwaysOnActionSet id="org.springframework.ide.eclipse.beans.search.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaElementCreationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.profileActionSet"/>
+<alwaysOnActionSet id="com.genuitec.eclipse.web20.actionset"/>
+<alwaysOnActionSet id="fr.obeo.acceleo.gen.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.junit.JUnitActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
+<show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<show_view_action id="org.eclipse.jdt.ui.SourceView"/>
+<show_view_action id="org.eclipse.jdt.ui.JavadocView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.texteditor.TemplatesView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<show_view_action id="org.springframework.ide.eclipse.aop.ui.navigator.aopReferenceModelNavigator"/>
+<show_view_action id="org.springframework.ide.eclipse.aop.ui.tracing.eventTraceView"/>
+<show_view_action id="org.springframework.ide.eclipse.ui.navigator.springExplorer"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewInterfaceCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewEnumCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewAnnotationCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSourceFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSnippetFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewJavaWorkingSetWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<new_wizard_action id="com.genuitec.eclipse.reporting.projectwizard"/>
+<new_wizard_action id="com.genuitec.eclipse.j2eedt.ui.wizard.EJBProjectCreationWizard"/>
+<new_wizard_action id="com.genuitec.eclipse.j2eedt.ui.wizard.NewEARProjectWizard"/>
+<new_wizard_action id="com.genuitec.eclipse.j2eedt.ui.wizard.WebProjectCreationWizard"/>
+<new_wizard_action id="com.genuitec.eclipse.ws.xfire.wizards.NewXFireWebProjectWizard1"/>
+<new_wizard_action id="org.eclipse.birt.report.designer.ui.ide.wizards.NewReportWizard"/>
+<new_wizard_action id="org.eclipse.birt.report.designer.ui.ide.wizards.NewTemplateWizard"/>
+<new_wizard_action id="org.eclipse.birt.report.designer.ui.wizards.NewLibraryWizard"/>
+<new_wizard_action id="org.eclipse.jdt.junit.wizards.NewTestCaseCreationWizard"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="com.genuitec.eclipse.dehory.dehoryperspective"/>
+<perspective_action id="com.genuitec.eclipse.hibernate.perspective.HibernatePerspective"/>
+<perspective_action id="com.genuitec.eclipse.imageeditor.perspective"/>
+<perspective_action id="com.genuitec.dali.adapter.persistencePerspective"/>
+<perspective_action id="com.genuitec.eclipse.reporting.ReportPerspective"/>
+<perspective_action id="com.genuitec.eclipse.sqlexplorer.perspectives.SQLExplorerPluginPerspective"/>
+<perspective_action id="com.genuitec.eclipse.uml.umlPerspective"/>
+<perspective_action id="com.genuitec.myeclipse.perspective.myeclipseperspective"/>
+<perspective_action id="com.genuitec.eclipse.web20.perspective"/>
+<perspective_action id="org.eclipse.wst.jsdt.ui.JavaPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.jdt.ui.JavadocView"/>
+<view id="org.eclipse.jdt.ui.SourceView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.debug.ui.DebugView"/>
+<view id="org.eclipse.debug.ui.BreakpointView"/>
+<view id="org.eclipse.search.ui.views.SearchView"/>
+<view id="org.springframework.ide.eclipse.ui.navigator.springExplorer"/>
+<fastViewBars/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="left">&#x0A;<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="left">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.214342" ratioLeft="272" ratioRight="997" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.5784543" ratioLeft="494" ratioRight="360" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.search.ui.views.SearchView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
+<page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="Search"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@c5bd66" ratio="0.89915967" ratioLeft="321" ratioRight="36" relationship="4" relative="bottom">&#x0A;<folder activePageID="org.springframework.ide.eclipse.ui.navigator.springExplorer" appearance="2" expanded="2">&#x0A;<page content="org.springframework.ide.eclipse.ui.navigator.springExplorer" label="Spring Explorer"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="right" ratio="0.7494759" ratioLeft="715" ratioRight="239" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.springframework.ide.eclipse.aop.ui.navigator.aopReferenceModelNavigator" ratio="0.5" ratioLeft="321" ratioRight="321" relationship="4" relative="right"/>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/gtserver/src/main/java/io/element/communication/impl/S2GProto_SimpleHandler.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/gmserver/src/main/java/io/element/state/global/impl/SimplePhaseState.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/gtserver/src/main/java/io/element/room/impl/SessionRoom.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/gtserver/src/main/java/io/element/communication/impl/S2GProto_LoginHandler.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/gmserver/src/main/java/io/element/state/global/impl/SP_BattleAskState.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/gmserver/src/main/java/io/element/state/global/impl/SP_BattleAssistState.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/gmserver/src/main/java/io/element/script/Luaf.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/gmserver/src/main/java/io/element/dataman/ElementDataMan.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/gmserver/src/main/java/io/element/state/State.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/gmserver/src/main/java/io/element/protobuf/SimpleProto.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/nadron/src/main/java/io/nadron/app/Game.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/nadron/src/main/java/io/nadron/app/GameCommandInterpreter.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/nadron/src/main/java/io/nadron/app/PlayerSession.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/nadron/src/main/java/io/nadron/app/GameStartListener.java"/>
+</editors>
+<item historyLabel="S2GProto_LoginHandler.java" index="3">
+<position info="not_deleted" x="3134" y="0"/>
+</item>
+<item historyLabel="SessionRoom.java" index="2">
+<position info="not_deleted" x="2751" y="0"/>
+</item>
+<item historyLabel="S2GProto_LoginHandler.java" index="3">
+<position info="not_deleted" x="3206" y="0"/>
+</item>
+<item historyLabel="S2GProto_LoginHandler.java" index="3">
+<position info="not_deleted" x="2843" y="0"/>
+</item>
+<item historyLabel="S2GProto_LoginHandler.java" index="3">
+<position info="not_deleted" x="2976" y="0"/>
+</item>
+<item historyLabel="S2GProto_LoginHandler.java" index="3">
+<position info="not_deleted" x="3017" y="0"/>
+</item>
+<item historyLabel="S2GProto_LoginHandler.java" index="3">
+<position info="not_deleted" x="3071" y="0"/>
+</item>
+<item historyLabel="S2GProto_LoginHandler.java" index="3">
+<position info="not_deleted" x="3140" y="0"/>
+</item>
+<item historyLabel="SessionRoom.java" index="2">
+<position info="not_deleted" x="1730" y="0"/>
+</item>
+<item historyLabel="SessionRoom.java" index="2">
+<position info="not_deleted" x="1788" y="0"/>
+</item>
+<item historyLabel="SessionRoom.java" index="2">
+<position info="not_deleted" x="1723" y="0"/>
+</item>
+<item historyLabel="SessionRoom.java" index="2">
+<position info="not_deleted" x="2137" y="0"/>
+</item>
+<item historyLabel="SessionRoom.java" index="2">
+<position info="not_deleted" x="2104" y="0"/>
+</item>
+<item historyLabel="SessionRoom.java" index="2">
+<position info="not_deleted" x="2137" y="0"/>
+</item>
+<item historyLabel="SessionRoom.java" index="2">
+<position info="not_deleted" x="2067" y="0"/>
+</item>
+<item historyLabel="S2GProto_LoginHandler.java" index="3">
+<position info="not_deleted" x="3140" y="0"/>
+</item>
+<item historyLabel="SessionRoom.java" index="2">
+<position info="not_deleted" x="1788" y="0"/>
+</item>
+<item historyLabel="SessionRoom.java" index="2">
+<position info="not_deleted" x="2128" y="0"/>
+</item>
+<item historyLabel="SessionRoom.java" index="2">
+<position info="not_deleted" x="2204" y="0"/>
+</item>
+<item historyLabel="SessionRoom.java" index="2">
+<position info="not_deleted" x="2109" y="0"/>
+</item>
+<item historyLabel="SessionRoom.java" index="2">
+<position info="not_deleted" x="2204" y="0"/>
+</item>
+<item historyLabel="SessionRoom.java" index="2">
+<position info="not_deleted" x="2234" y="0"/>
+</item>
+<item historyLabel="SessionRoom.java" index="2">
+<position info="not_deleted" x="2137" y="0"/>
+</item>
+<item historyLabel="SessionRoom.java" index="2">
+<position info="not_deleted" x="2445" y="0"/>
+</item>
+<item historyLabel="SessionRoom.java" index="2">
+<position info="not_deleted" x="2454" y="0"/>
+</item>
+<item historyLabel="SP_BattleAskState.java" index="4">
+<position info="not_deleted" x="784" y="0"/>
+</item>
+<item historyLabel="SimplePhaseState.java" index="1">
+<position info="not_deleted" x="2068" y="0"/>
+</item>
+<item historyLabel="SP_BattleAssistState.java" index="5">
+<position info="not_deleted" x="398" y="0"/>
+</item>
+<item historyLabel="SP_BattleAskState.java" index="4">
+<position info="not_deleted" x="784" y="0"/>
+</item>
+<item historyLabel="SimplePhaseState.java" index="1">
+<position info="not_deleted" x="3227" y="0"/>
+</item>
+<item historyLabel="S2GProto_LoginHandler.java" index="3">
+<position info="not_deleted" x="3725" y="0"/>
+</item>
+<item historyLabel="S2GProto_SimpleHandler.java" index="0">
+<position info="not_deleted" x="3507" y="0"/>
+</item>
+<item historyLabel="Luaf.java" index="6">
+<position info="not_deleted" x="1914" y="0"/>
+</item>
+<item historyLabel="ElementDataMan.java" index="7">
+<position info="not_deleted" x="2981" y="0"/>
+</item>
+<item historyLabel="State.java" index="8">
+<position info="not_deleted" x="7371" y="0"/>
+</item>
+<item historyLabel="State.java" index="8">
+<position info="not_deleted" x="1944" y="16"/>
+</item>
+<item historyLabel="SimpleProto.java" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ElementDataMan.java" index="7">
+<position info="not_deleted" x="7270" y="0"/>
+</item>
+<item historyLabel="State.java" index="8">
+<position info="not_deleted" x="1751" y="0"/>
+</item>
+<item historyLabel="SimpleProto.java" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="State.java" index="8">
+<position info="not_deleted" x="1125" y="0"/>
+</item>
+<item historyLabel="ElementDataMan.java" index="7">
+<position info="not_deleted" x="7270" y="0"/>
+</item>
+<item historyLabel="ElementDataMan.java" index="7">
+<position info="not_deleted" x="2368" y="0"/>
+</item>
+<item historyLabel="ElementDataMan.java" index="7">
+<position info="not_deleted" x="1096" y="9"/>
+</item>
+<item historyLabel="ElementDataMan.java" index="7">
+<position info="not_deleted" x="1682" y="0"/>
+</item>
+<item historyLabel="ElementDataMan.java" index="7">
+<position info="not_deleted" x="1096" y="9"/>
+</item>
+<item historyLabel="Game.java" index="10">
+<position info="not_deleted" x="424" y="0"/>
+</item>
+<item historyLabel="GameCommandInterpreter.java" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="PlayerSession.java" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="GameStartListener.java" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GameStartListener.java" tooltip="nadron/src/main/java/io/nadron/app/GameStartListener.java">
+<persistable path="/nadron/src/main/java/io/nadron/app/GameStartListener.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PlayerSession.java" tooltip="nadron/src/main/java/io/nadron/app/PlayerSession.java">
+<persistable path="/nadron/src/main/java/io/nadron/app/PlayerSession.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GameCommandInterpreter.java" tooltip="nadron/src/main/java/io/nadron/app/GameCommandInterpreter.java">
+<persistable path="/nadron/src/main/java/io/nadron/app/GameCommandInterpreter.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Game.java" tooltip="nadron/src/main/java/io/nadron/app/Game.java">
+<persistable path="/nadron/src/main/java/io/nadron/app/Game.java"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="AccessibleState.class" tooltip="javax.accessibility.AccessibleState">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=gmserver/C:\/Program Files\/Java\/jdk1.7.0_79\/jre\/lib\/rt.jar&lt;javax.accessibility(AccessibleState.class"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="ArrayList.class" tooltip="java.util.ArrayList">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=gmserver/C:\/Program Files\/Java\/jdk1.7.0_79\/jre\/lib\/rt.jar&lt;java.util(ArrayList.class"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Method.class" tooltip="java.lang.reflect.Method">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=gmserver/C:\/Program Files\/Java\/jdk1.7.0_79\/jre\/lib\/rt.jar&lt;java.lang.reflect(Method.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LoginProto.java" tooltip="gmserver/src/main/java/io/element/protobuf/LoginProto.java">
+<persistable path="/gmserver/src/main/java/io/element/protobuf/LoginProto.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GlobalProto.java" tooltip="gmserver/src/main/java/io/element/protobuf/GlobalProto.java">
+<persistable path="/gmserver/src/main/java/io/element/protobuf/GlobalProto.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="G2S.java" tooltip="gtserver/src/main/java/io/element/cmd/G2S.java">
+<persistable path="/gtserver/src/main/java/io/element/cmd/G2S.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="G2C.java" tooltip="gtserver/src/main/java/io/element/cmd/G2C.java">
+<persistable path="/gtserver/src/main/java/io/element/cmd/G2C.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="S2G.java" tooltip="gmserver/src/main/java/io/element/cmd/S2G.java">
+<persistable path="/gmserver/src/main/java/io/element/cmd/S2G.java"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Logger.class" tooltip="org.slf4j.Logger">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=gtserver/C:\/Users\/user\/.m2\/repository\/org\/slf4j\/slf4j-api\/1.6.1\/slf4j-api-1.6.1.jar&lt;org.slf4j(Logger.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NettyTCPServer.java" tooltip="gtserver/src/main/java/io/element/server/impl/NettyTCPServer.java">
+<persistable path="/gtserver/src/main/java/io/element/server/impl/NettyTCPServer.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Player.java" tooltip="gtserver/src/main/java/io/element/player/Player.java">
+<persistable path="/gtserver/src/main/java/io/element/player/Player.java"/>
+</file>
+</mruList>
+</workbench>

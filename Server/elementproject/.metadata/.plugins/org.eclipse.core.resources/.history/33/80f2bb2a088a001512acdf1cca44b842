@@ -1,0 +1,27 @@
+package io.element.threadpool;
+
+import io.element.event.Task;
+import io.element.event.impl.BaseTask;
+
+import java.util.concurrent.FutureTask;
+import java.util.concurrent.LinkedBlockingQueue;
+
+public class GM_TaskQueue {
+
+	protected GM_TaskQueueConfig m_config;
+	
+	private LinkedBlockingQueue<BaseTask> 	m_tasksInsert;
+	
+	private FutureTask<Integer> m_fTask = null;
+	
+	public GM_TaskQueue(GM_TaskQueueConfig config)
+	{
+		m_config = config;
+	}
+	
+	public void init()
+	{
+		
+	}
+	
+}

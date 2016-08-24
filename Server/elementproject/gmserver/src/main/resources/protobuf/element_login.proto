@@ -1,0 +1,150 @@
+option java_package = "io.element.protobuf";
+option java_outer_classname = "LoginProto";
+
+//-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+//-* Models enum
+//-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+enum ROOM_TYPE {
+	LOGIN_ROOMTYPE_SIMPLE_2V2 = 1;
+	LOGIN_ROOMTYPE_SIMPLE_3V3 = 2;
+}
+
+enum CHAT_TYPE{
+	LOGIN_CHATTYPE_LOBBY 	= 1;
+	LOGIN_CAHTTYPE_P2P 		= 2;
+	LOGIN_CHATTYPE_ROOM 	= 3;
+}
+
+enum CREATEROOM_STATUS{
+	CREATEROOM_SUCCESS				= 1;		// 
+	CREATEROOM_FAILED_FULL			= 2;		// 房间已满
+	CREATEROOM_FAILED_DUMPILCATE	= 3;		// 请求数据与现有数据冲突
+	CREATEROOM_FAILED_UNKNOWN		= 4;
+}
+
+
+//-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+//-* Models
+//-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+//-* player info for before begin a game
+message Player {
+    required int64 	id 			= 1;
+    required string name 		= 2;
+    required int32  roleid		= 3;
+	required int32  location 	= 4;
+	optional int64  roomid      = 5;
+}
+
+//-* room info for before begin a game
+message Room {
+    required int64 		id = 1;
+	required ROOM_TYPE 	type = 2;
+    required string 	name = 3;
+    repeated Player 	players = 4;
+}
+
+//-* chat message 
+message Chat{
+	required CHAT_TYPE	type = 1;
+	required string		string = 2;
+	optional int64		recevierid = 3;
+}
+
+//-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+//-* Apis -- gate to server
+//-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+enum G2S_MSGTYPE {
+	G2S_REQUEST_CREATE_NEWROOM 		= 1;
+	G2S_REQUEST_BEGIN_GAME 			= 2;
+}
+
+message G2S_CreateNewRoom
+{
+	required Room room = 1;
+}
+
+message G2S_BeginGame
+{
+	required int64 roomid = 1;
+}
+
+//-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+//-* Apis -- server to gate
+//-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+enum S2G_MSGTYPE {
+	S2G_RESP_CREATE_NEWROOM 		= 1;
+	S2G_RESP_BEGIN_GAME				= 2;
+}
+
+// S2G_RESP_CREATE_NEWROOM
+message S2G_CreateNewRoom
+{
+	required Room room 	= 1;
+	required CREATEROOM_STATUS flag = 2;
+}
+
+message S2G_BeginGame
+{
+	required int64 roomid = 1;
+	required int32 flag   = 2;
+}
+
+//-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+//-* Apis -- client to gate
+//-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+enum C2G_MSGTYPE{
+	C2G_REQUEST_LOGIN_ATTEMPT = 1;
+}
+
+message C2G_Login
+{
+	required string user = 1;
+	required string password = 2;
+}	
+	
+//-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+//-* Apis -- gate to client
+//-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+enum G2C_MSGTYPE{
+	G2C_RESP_LOGIN_ATTEMPT = 1;
+}
+
+message G2C_Login
+{
+	required string user   = 1;
+	required int32 result  = 2;		// 登陆状态
+}
+
+//-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+//-* Messages Object Four style message -- login proto
+//-* 1. gate 	to server  	G2S
+//-* 2. server 	to gate  	S2G
+//-* 3. client	to gate		C2G
+//-* 4. gate	to client   G2C
+//-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+message G2SByteStream{
+	required G2S_MSGTYPE 			type = 1;
+	optional bytes 					requestData  = 2; 
+}
+
+message S2GByteStream{
+	required S2G_MSGTYPE 			type = 1;
+	optional bytes 					requestData = 2; 
+}
+
+message C2GByteStream{
+	required C2G_MSGTYPE			type = 1;
+	optional bytes					requestData = 2;
+}
+
+message G2CByteStream{
+	required G2C_MSGTYPE			type = 1;
+	optional bytes					requestData = 2;
+}
+
+

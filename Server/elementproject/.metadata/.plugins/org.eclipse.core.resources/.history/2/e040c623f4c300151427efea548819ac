@@ -1,0 +1,106 @@
+package io.element.util;
+
+import io.element.player.BasePlayer;
+import io.element.player.Player;
+import io.element.protobuf.GlobalProto;
+import io.element.protobuf.LoginProto;
+import io.element.protobuf.SimpleProto;
+import io.element.room.BaseRoom;
+import io.element.room.Room;
+import io.element.room.impl.SessionRoom;
+
+import java.lang.reflect.Method;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.google.protobuf.ByteString;
+
+public class HandlerUtil {
+	
+	public enum PROTOBUF_GERENAL{ LOGIN,SIMPLE, }
+	
+	public static Method getMethod(String str_class, String str_method ) throws Exception
+	{
+		Class<?> c = Class.forName(str_class);   
+		Method method = c.getMethod(str_method,Object.class);  
+		
+		return method;
+	}
+	
+	public static Method getDeclaredMethod(String str_class, String str_method ) throws Exception
+	{
+		Class<?> c = Class.forName(str_class);   
+		Method method = c.getDeclaredMethod(str_method,Object.class);  
+		
+		return method;
+	}
+	
+	public static Object CREATE_G2S_GLOBALMESSAGE(GlobalProto.MESSAGE type, ByteString buffer)
+	{
+		GlobalProto.MessageStream.Builder mBuilder = GlobalProto.MessageStream.newBuilder();
+		return mBuilder.setType(type).setRequestData(buffer).build();
+	}
+	
+	public static Object CREATE_G2S_LOGINMESSAGE(LoginProto.G2S_MSGTYPE type, ByteString buffer)
+	{
+		LoginProto.G2SByteStream.Builder lBuilder = LoginProto.G2SByteStream.newBuilder();
+		return lBuilder.setType(type).setRequestData(buffer).build();
+	}
+	
+	public static Object CREATE_G2S_SIMPLEMESSAGE(SimpleProto.G2S_MSGTYPE type, ByteString buffer)
+	{
+		SimpleProto.G2SByteStream.Builder sBuilder = SimpleProto.G2SByteStream.newBuilder();
+		return sBuilder.setType(type).setRequestData(buffer).build();
+	}
+	
+	public static ByteString getRoomProtoBuf(Room<?,?> entity, PROTOBUF_GERENAL gerenal)
+	{
+		if(	entity.type() == LoginProto.ROOM_TYPE.LOGIN_ROOMTYPE_SIMPLE_2V2 ||
+			entity.type() == LoginProto.ROOM_TYPE.LOGIN_ROOMTYPE_SIMPLE_3V3	)
+		{	
+			if( gerenal == PROTOBUF_GERENAL.SIMPLE )
+				return new HandlerUtil().getSimpleRoom(entity).toByteString();
+			else
+				return new HandlerUtil().getLoginRoom(entity).toByteString();
+		}
+		
+		return null;
+	}
+	
+	protected LoginProto.Player getLoginPlayer(Player p,BaseRoom room)
+	{
+		LoginProto.Player.Builder pBuilder = LoginProto.Player.newBuilder();
+		LoginProto.Player sPlayer = pBuilder.setId(p.GetPlayerGuid())
+											 .setName(p.GetPlayerName())
+											 .setRoleid(0)
+											 .setLocation(p.GetLocation())
+											 .setRoomid(room.getID()).build();
+		return sPlayer;
+	}
+	
+	public LoginProto.Room getLoginRoom(Room<?, ?> entity)
+	{
+		LoginProto.Room.Builder rBuilder = LoginProto.Room.newBuilder();
+		
+		SessionRoom   room 	= (SessionRoom) entity;
+		
+		// create player list
+		ArrayList<LoginProto.Player> list = new ArrayList<LoginProto.Player>();
+		final List<BasePlayer> players = room.getPlayers();
+		for ( BasePlayer player : players ) { 
+			LoginProto.Player lPlayer = this.getLoginPlayer(player, room);
+			list.add(lPlayer);
+		}
+		
+		LoginProto.Room lRoom = rBuilder.setId(room.getID())
+										.setType(room.type())
+										.setName(room.getName())
+										.addAllPlayers(list).build();
+		return lRoom;
+	}
+	
+	public SimpleProto.Room getSimpleRoom(Room<?,?> entity)
+	{
+		return null;
+	}
+}

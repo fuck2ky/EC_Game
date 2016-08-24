@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd 
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd 
+	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.2.xsd">
+		
+	<bean id="roomManagers" class="io.element.room.impl.GM_RoomManager" >
+	</bean>
+	
+	<bean id="bossThreadFactory" class="io.nadron.concurrent.NamedThreadFactory">
+		<constructor-arg type="String" value="Server-Boss" />
+	</bean>
+
+	<bean id="workerThreadFactory" class="io.nadron.concurrent.NamedThreadFactory">
+		<constructor-arg type="String" index="0" value="Server-Worker" />
+	</bean>
+	
+	<bean id="bossGroup" class="io.netty.channel.nio.NioEventLoopGroup" destroy-method="shutdownGracefully">
+		<constructor-arg type="int" index="0" value="${bossThreadCount}" />
+		<constructor-arg index="1" ref="bossThreadFactory" />
+	</bean>
+
+	<bean id="workerGroup" class="io.netty.channel.nio.NioEventLoopGroup" destroy-method="shutdownGracefully">
+		<constructor-arg type="int" index="0" value="${workerThreadCount}" />
+		<constructor-arg index="1" ref="workerThreadFactory" />
+	</bean>
+	
+	<util:map id="tcpChannelOptions" map-class="java.util.HashMap">
+		<entry>
+			<key><util:constant static-field="io.netty.channel.ChannelOption.SO_KEEPALIVE"/></key>
+			<value type="java.lang.Boolean">${so.keepalive}</value>
+		</entry>
+		<entry>
+			<key><util:constant static-field="io.netty.channel.ChannelOption.SO_BACKLOG"/></key>
+			<value type="java.lang.Integer">${so.backlog}</value>
+		</entry>
+	</util:map>
+	
+	<bean id="tcpConfig" class="io.element.server.ServerConfig">
+		<property name="channelOptions" 	ref="tcpChannelOptions"/>
+		<property name="bossGroup" 			ref="bossGroup"/>
+		<property name="workerGroup" 		ref="workerGroup"/>
+		<property name="portNumber" 		value="${tcp.port}"/>
+		<property name="workerThreadCount"	value="${workerThreadCount}"/>
+		<property name="bossThreadCount"	value="${bossThreadCount}"/>
+	</bean>
+	
+	<!-- Configure the thread pool -->
+	<bean id="queueConfig" class="io.element.threadpool.GM_TaskQueueConfig">
+		<property name="queueCapacity"  value="100"/>
+		<property name="threadCapacity" value="5"/>
+	</bean>
+	
+	<bean id="taskqueue" class= "io.element.threadpool.GM_TaskQueue">
+		<constructor-arg ref="queueConfig" />
+	</bean>
+	
+	<!-- Configure the tcp server -->
+	<bean id="globalChannelInitializer"  class="io.element.netty.handlers.GlobalChannelInitializer">
+		
+	</bean>
+	
+	<bean id="tcpServer" class= "io.element.server.impl.NettyTCPServer"
+		destroy-method="stopServer">
+		<constructor-arg ref="tcpConfig" />
+		<constructor-arg ref="globalChannelInitializer" />
+	</bean>
+	
+	<!-- Configure the rooom info -->
+	<bean id="sRoomConfig" class="io.element.room.RoomConfig">
+		<property name="chooseGapTime"  value="5000"/>
+		<property name="responseGapTime" value="5000"/>
+	</bean>
+	
+</beans>

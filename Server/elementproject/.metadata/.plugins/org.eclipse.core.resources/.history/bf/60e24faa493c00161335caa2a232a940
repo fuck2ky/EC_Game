@@ -1,0 +1,95 @@
+package io.element.communication.impl;
+
+import io.element.cmd.G2C;
+import io.element.communication.ProtoMsgHandler;
+import io.element.gtserver.GT_Managers;
+import io.element.gtserver.GT_PlayerManager;
+import io.element.player.BasePlayer;
+import io.element.protobuf.LoginProto;
+import io.element.protobuf.GlobalProto.MESSAGE;
+import io.element.protobuf.LoginProto.C2GByteStream;
+import io.element.reflect.Handler;
+import io.netty.channel.ChannelHandlerContext;
+import io.netty.channel.socket.SocketChannel;
+
+public class C2GProto_LoginHandler extends ProtoMsgHandler<LoginProto.C2G_MSGTYPE, LoginProto.C2GByteStream> {
+
+	private static final C2GProto_LoginHandler single = new C2GProto_LoginHandler();  
+	 
+	private C2GProto_LoginHandler() { m_globalType = MESSAGE.MESSAGE_LOGIN_C2G; }  
+	    
+	public static C2GProto_LoginHandler getInstance() {  
+        return single;  
+	}  
+	
+	{
+		RegisterProtoMsgCmd();
+	}
+	
+	@Override
+	public void RegisterProtoMsgCmd() {
+		super.RegisterProtoMsgCmd();
+	
+		PROTOMSG_REGISTER_HANDLEREX(LoginProto.C2G_MSGTYPE.C2G_REQUEST_LOGIN_ATTEMPT, LoginProto.C2G_Login.class, "CallBack_C2G_Resp_Login");
+	}
+	
+	@Override
+	public boolean HandlerMsg(ChannelHandlerContext channel, C2GByteStream param) {
+		
+		LoginProto.C2G_MSGTYPE type = param.getType();
+		Handler handler = m_handlers.get(type);
+		if( handler == null || !handler.isVaild())
+			return false;
+		
+		Handler tempHandler = null;
+		try {
+			 tempHandler = (Handler) handler.clone();			
+		} catch (CloneNotSupportedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+			
+		tempHandler.SetObject(this);
+		tempHandler.SetParam(param,channel.channel());
+		
+		try {
+			tempHandler.invoke();
+		} catch (Exception e){
+			
+		}	
+		return true;
+	}
+				
+	//***********************************************
+	// the message function called begin for handler 
+	// called by GlobalProtoBufHandler---LOGINPROTO,  
+	// we specify method with Callback_ string
+	//***********************************************
+	
+	// call back -- C2G_REQUEST_LOGIN_ATTEMPT
+	public void CallBack_C2G_Resp_Login(C2GByteStream msg, SocketChannel channel) throws CloneNotSupportedException, Exception
+	{		
+		// 反序列化
+		LoginProto.C2G_Login cmd = VAR_CHECK_CMD_FIX(msg.getRequestData(), msg.getType());					
+		
+		GT_PlayerManager mgr = GT_Managers.getPlayerManager();
+		// 判断账号，密码匹配, 重复登陆判断
+		boolean logSuccess = true;
+		if( mgr.GetPlayer( channel.toString() ) != null )
+			return;
+		
+		// 创建玩家
+		BasePlayer p = null;
+		if( logSuccess )
+		{
+
+			p = mgr.CreateLoginPlayer(cmd.getUser(), new ClientSession(channel));
+		}
+		
+		// 返回登陆状态
+		G2C.Cmd_Resp_Login(p, logSuccess);
+
+	}
+	
+
+}

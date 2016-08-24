@@ -1,0 +1,47 @@
+package io.element.state.global.impl;
+
+import java.util.concurrent.TimeUnit;
+
+import io.element.room.Room;
+import io.element.state.impl.BaseGameState;
+
+public class NextPhaseState extends BaseGameState {
+
+	public enum STATETYPE_GLOBAL{
+		
+		GLOBAL_ROUND_NONE,
+		
+		GLOBAL_ROUND_BEGIN,
+		GLOBAL_ROUND_SKILLCARD,
+		
+		GLOBAL_ROUND_BATTLE_ASK,
+		GLOBAL_ROUND_BATTLE_ASSIST,
+		GLOBAL_ROUND_BATTLE_SKILLCARD,
+		
+		GLOBAL_ROUND_RECHARGECARD,
+		GLOBAL_ROUND_DISCARD,
+		
+	}
+	
+	protected long m_tPeriod = 10000;
+	
+	protected TimeUnit m_tUnit = TimeUnit.MILLISECONDS;
+	
+	@Override
+	public boolean Enter(Room entity) 
+	{	
+		return false;	
+	}
+	
+	@Override
+	public boolean Excute(Room entity)
+	{
+		return false;
+	}
+	
+	public long Period()
+	{
+		return m_tPeriod;
+	}
+	
+}

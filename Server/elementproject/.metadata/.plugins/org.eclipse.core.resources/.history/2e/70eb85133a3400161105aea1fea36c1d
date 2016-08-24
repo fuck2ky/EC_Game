@@ -1,0 +1,15 @@
+package io.element.gtserver;
+
+public class GT_MarchManager {
+
+	public GT_MarchManager()
+	{
+		
+	}
+	
+	public void OnTick(long deltaTime)
+	{
+		
+	}
+	
+}

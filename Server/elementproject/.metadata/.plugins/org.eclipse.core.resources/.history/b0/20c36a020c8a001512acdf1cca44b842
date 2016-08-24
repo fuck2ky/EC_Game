@@ -1,0 +1,93 @@
+package io.element.threadpool;
+
+import io.element.event.Task;
+import io.element.event.impl.BaseTask;
+
+import java.util.concurrent.Callable;
+import java.util.concurrent.FutureTask;
+import java.util.concurrent.LinkedBlockingQueue;
+
+import java.util.concurrent.TimeUnit;
+
+public class GM_TaskQueue implements Runnable{
+
+	protected GM_TaskQueueConfig 				m_config;
+	
+	private LinkedBlockingQueue<BaseTask> 		m_tasksInsert;
+	
+	private FutureTask<Integer> 				m_taskFuture;
+	
+	private NotifyingBlockingThreadPoolExecutor m_executor = null;
+	
+	private boolean								m_bQuit = false; 
+	
+	public GM_TaskQueue(GM_TaskQueueConfig config)
+	{
+		m_config = config;
+	}
+	
+	public void init()
+	{
+		m_tasksInsert = new LinkedBlockingQueue<BaseTask>(m_config.getQueueCapacity());
+		m_taskFuture  = null;
+		
+		int queueSize = 50; // recommended - twice the size of the poolSize
+		int threadKeepAliveTime = 15;
+		TimeUnit threadKeepAliveTimeUnit = TimeUnit.SECONDS;
+		int maxBlockingTime = 10;
+		TimeUnit maxBlockingTimeUnit = TimeUnit.MILLISECONDS;
+		Callable<Boolean> blockingTimeoutCallback = new Callable<Boolean>() {
+			
+			public Boolean call() throws Exception {
+				
+				return true; // keep waiting return true  or return false stop waiting
+			}
+		};
+		
+		m_executor =
+				new NotifyingBlockingThreadPoolExecutor( m_config.getThreadCapacity(), 
+														 queueSize,
+														 threadKeepAliveTime, 
+														 threadKeepAliveTimeUnit,
+														 maxBlockingTime, 
+														 maxBlockingTimeUnit, 
+														 blockingTimeoutCallback);
+	}
+
+	public void run() {
+		// TODO Auto-generated method stub
+		while(true)
+		{
+			if(m_bQuit)
+				break;
+			
+			
+			
+		}
+	}
+	
+	//-----------------------------------------------------------------
+	// Add task to the NotifyingBlockingThreadPoolExecutor & return future -- producer
+	//-----------------------------------------------------------------	
+	public void push_task( Callable<Integer> task )
+	{
+		boolean result = m_tasks_preinsert_future.offer(task);
+		if(!result)
+			throw new RejectedExecutionException("the work thread preinsert is full!!!");
+			
+		return ;
+	}
+	
+	//-----------------------------------------------------------------
+	//  Get task to the NotifyingBlockingThreadPoolExecutor & with future -- consumer
+	//-----------------------------------------------------------------	
+	protected Callable<Integer> get_task_future() throws InterruptedException
+	{
+		Callable<Integer> task = null;
+					
+		task = m_tasks_preinsert_future.take();
+
+		return task; 
+	}
+	
+}

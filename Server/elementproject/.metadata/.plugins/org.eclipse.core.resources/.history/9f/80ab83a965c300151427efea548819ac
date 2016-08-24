@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd 
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd 
+	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.2.xsd">
+	
+		
+	<bean id="bossThreadFactory" class="io.nadron.concurrent.NamedThreadFactory">
+		<constructor-arg type="String" value="Gate-Boss" />
+	</bean>
+
+	<bean id="workerThreadFactory" class="io.nadron.concurrent.NamedThreadFactory">
+		<constructor-arg type="String" index="0" value="Gate-Worker" />
+	</bean>
+	
+	<bean id="gameThreadFactory" class="io.nadron.concurrent.NamedThreadFactory">
+		<constructor-arg type="String" index="0" value="Gate-Game" />
+	</bean>
+	
+	<bean id="bossGroup" class="io.netty.channel.nio.NioEventLoopGroup" destroy-method="shutdownGracefully" scope="singleton">
+		<constructor-arg type="int" index="0" value="${gtserver.bossThreadCount}" />
+		<constructor-arg index="1" ref="bossThreadFactory" />
+	</bean>
+
+	<bean id="workerGroup" class="io.netty.channel.nio.NioEventLoopGroup" destroy-method="shutdownGracefully" scope="singleton">
+		<constructor-arg type="int" index="0" value="${gtserver.workerThreadCount}" />
+		<constructor-arg index="1" ref="workerThreadFactory" />
+	</bean>
+	
+	<bean id="gameGroup" class="io.netty.channel.nio.NioEventLoopGroup" destroy-method="shutdownGracefully" scope="singleton">
+		<constructor-arg type="int" index="0" value="${gmserver.bossThreadCount}" />
+		<constructor-arg index="1" ref="gameThreadFactory" />
+	</bean>
+
+	<!-- Configure the server session -->
+	<util:map id="ssChannelOptions" map-class="java.util.HashMap">
+		<entry>
+			<key><util:constant static-field="io.netty.channel.ChannelOption.SO_KEEPALIVE"/></key>
+			<value type="java.lang.Boolean">${so.keepalive}</value>
+		</entry>
+		<entry>
+			<key><util:constant static-field="io.netty.channel.ChannelOption.SO_BACKLOG"/></key>
+			<value type="java.lang.Integer">${so.backlog}</value>
+		</entry>
+	</util:map>
+	
+	<bean id="gameServerInitializer"  class="io.element.netty.handlers.GSChannelInitializer">
+		<constructor-arg index="0" type="long" value="${gminit.read}" />
+		<constructor-arg index="1" type="long" value="${gminit.write}" />
+		<constructor-arg index="2" type="long" value="${gminit.all}" />
+	</bean>
+		
+	<bean id="ssConfig" class="io.element.communication.SSConfig" scope="singleton">
+		<property name="channelOptions" 	ref="ssChannelOptions"/>
+		<property name="gmServerGroup" 		ref="gameGroup"/>
+		<property name="channelInitializer" ref="gameServerInitializer"/>
+		<property name="inetAddress" 		value="${gmserver.ip}"/>
+		<property name="inetPort"			value="${gmserver.port}"/>
+	</bean>
+	
+	<bean id="ssx" class="io.element.communication.impl.ServerSession" scope="prototype">
+
+	</bean>
+			
+	<!-- Configure the thread pool -->
+	<bean id="queueConfig" class="io.element.threadpool.GT_TaskQueueConfig">
+		<property name="queueCapacity"  value="100"/>
+		<property name="threadCapacity" value="2"/>
+	</bean>
+	
+	<bean id="taskqueue" class= "io.element.threadpool.GT_TaskQueue" scope="singleton">
+		<constructor-arg ref="queueConfig" />
+	</bean>
+	
+	<!-- Configure the room manager -->
+	<bean id="roommgr" class= "io.element.gmserver_test.GT_RoomManager" scope="singleton">
+	</bean>		
+				
+</beans>

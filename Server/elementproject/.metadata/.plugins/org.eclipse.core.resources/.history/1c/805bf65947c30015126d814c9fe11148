@@ -1,0 +1,22 @@
+package io.element.util;
+
+import io.element.protobuf.GlobalProto;
+
+import java.lang.reflect.Method;
+
+import com.google.protobuf.ByteString;
+
+public class HandlerUtil {
+	public static Method getMethod(String str_class, String str_method ) throws Exception
+	{
+		Class<?> c = Class.forName(str_class);   
+		Method method = c.getMethod(str_method,Object.class);  
+		
+		return method;
+	}
+	
+	public static Object CREATE_S2G_GLOBALMESSAGE(GlobalProto.MESSAGE type, ByteString buffer)
+	{
+		
+	}
+}

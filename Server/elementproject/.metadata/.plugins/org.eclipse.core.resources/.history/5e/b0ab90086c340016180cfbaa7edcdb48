@@ -1,0 +1,14 @@
+package io.element.gtserver;
+
+public class GT_PlayerManager implements GT_Managers.Manager {
+
+	public GT_PlayerManager()
+	{
+
+	}
+	
+
+	
+	
+	
+}

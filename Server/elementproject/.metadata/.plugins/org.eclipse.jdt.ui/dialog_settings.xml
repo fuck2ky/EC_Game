@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="2" key="TypeHierarchyViewPart.hierarchyview"/>
+	<item value="filter_imports;" key="filters_last_used"/>
+	<item value="C:\Users\user\.m2\repository\com\google\protobuf\protobuf-java\2.5.0" key="org.eclipse.jdt.ui.lastextjar"/>
+	<item value="false" key="TypeHierarchyViewPart.qualifiednames"/>
+	<item value="3" key="TypeHierarchyViewPart.orientation"/>
+	<item value="false" key="TypeHierarchyViewPart.linkeditors"/>
+	<section name="OptionalMessageDialog.hide.">
+		<item value="true" key="org.eclipse.jdt.ui.typecomment.deprecated"/>
+	</section>
+	<section name="BuildPathsPropertyPage">
+		<item value="2" key="pageIndex"/>
+	</section>
+	<section name="JavaSearchPage">
+		<item value="false" key="CASE_SENSITIVE"/>
+		<item value="15" key="INCLUDE_MASK"/>
+		<item value="12" key="HISTORY_SIZE"/>
+		<section name="HISTORY11">
+			<item value="15" key="includeMask"/>
+			<item value="2" key="limitTo"/>
+			<item value="0" key="scope"/>
+			<item value="Task_NextPhase" key="pattern"/>
+			<item value="" key="javaElement"/>
+			<item value="0" key="searchFor"/>
+			<item value="0" key="matchLocations"/>
+			<item value="false" key="isCaseSensitive"/>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY2">
+			<item value="15" key="includeMask"/>
+			<item value="2" key="limitTo"/>
+			<item value="0" key="scope"/>
+			<item value="m_deactive" key="pattern"/>
+			<item value="" key="javaElement"/>
+			<item value="4" key="searchFor"/>
+			<item value="0" key="matchLocations"/>
+			<item value="false" key="isCaseSensitive"/>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY3">
+			<item value="15" key="includeMask"/>
+			<item value="2" key="limitTo"/>
+			<item value="0" key="scope"/>
+			<item value="io.element.player.BasePlayer.m_deactive" key="pattern"/>
+			<item value="=gtserver/src\/main\/java&lt;io.element.player{BasePlayer.java[BasePlayer^m_deactive" key="javaElement"/>
+			<item value="4" key="searchFor"/>
+			<item value="0" key="matchLocations"/>
+			<item value="true" key="isCaseSensitive"/>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY0">
+			<item value="15" key="includeMask"/>
+			<item value="2" key="limitTo"/>
+			<item value="0" key="scope"/>
+			<item value="io.element.room.impl.SessionRoom.setStatus(ROOM_STATUS)" key="pattern"/>
+			<item value="=gtserver/src\/main\/java&lt;io.element.room.impl{SessionRoom.java[SessionRoom~setStatus~QROOM_STATUS;" key="javaElement"/>
+			<item value="1" key="searchFor"/>
+			<item value="0" key="matchLocations"/>
+			<item value="true" key="isCaseSensitive"/>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY10">
+			<item value="15" key="includeMask"/>
+			<item value="2" key="limitTo"/>
+			<item value="0" key="scope"/>
+			<item value="Task_SimplePhase" key="pattern"/>
+			<item value="" key="javaElement"/>
+			<item value="0" key="searchFor"/>
+			<item value="0" key="matchLocations"/>
+			<item value="false" key="isCaseSensitive"/>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY1">
+			<item value="15" key="includeMask"/>
+			<item value="2" key="limitTo"/>
+			<item value="0" key="scope"/>
+			<item value="io.element.room.impl.SessionRoom.ROOM_STATUS.ACTIVE" key="pattern"/>
+			<item value="=gtserver/src\/main\/java&lt;io.element.room.impl{SessionRoom.java[SessionRoom[ROOM_STATUS^ACTIVE" key="javaElement"/>
+			<item value="4" key="searchFor"/>
+			<item value="0" key="matchLocations"/>
+			<item value="true" key="isCaseSensitive"/>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY9">
+			<item value="15" key="includeMask"/>
+			<item value="2" key="limitTo"/>
+			<item value="0" key="scope"/>
+			<item value="Task_StateRun" key="pattern"/>
+			<item value="" key="javaElement"/>
+			<item value="3" key="searchFor"/>
+			<item value="0" key="matchLocations"/>
+			<item value="false" key="isCaseSensitive"/>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY8">
+			<item value="15" key="includeMask"/>
+			<item value="2" key="limitTo"/>
+			<item value="0" key="scope"/>
+			<item value="getEnterDelayedTask" key="pattern"/>
+			<item value="" key="javaElement"/>
+			<item value="1" key="searchFor"/>
+			<item value="0" key="matchLocations"/>
+			<item value="false" key="isCaseSensitive"/>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY5">
+			<item value="15" key="includeMask"/>
+			<item value="2" key="limitTo"/>
+			<item value="0" key="scope"/>
+			<item value="io.element.event.impl.G2S_LoginEvent&lt;T&gt;" key="pattern"/>
+			<item value="=gmserver/src\/main\/java&lt;io.element.event.impl{G2S_LoginEvent.java[G2S_LoginEvent" key="javaElement"/>
+			<item value="0" key="searchFor"/>
+			<item value="0" key="matchLocations"/>
+			<item value="true" key="isCaseSensitive"/>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY4">
+			<item value="15" key="includeMask"/>
+			<item value="2" key="limitTo"/>
+			<item value="0" key="scope"/>
+			<item value="io.element.app.AppRunThread.m_bStart" key="pattern"/>
+			<item value="=gmserver/src\/main\/java&lt;io.element.app{AppRunThread.java[AppRunThread^m_bStart" key="javaElement"/>
+			<item value="4" key="searchFor"/>
+			<item value="0" key="matchLocations"/>
+			<item value="true" key="isCaseSensitive"/>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY7">
+			<item value="15" key="includeMask"/>
+			<item value="2" key="limitTo"/>
+			<item value="0" key="scope"/>
+			<item value="io.element.player.BasePlayer.m_match" key="pattern"/>
+			<item value="=gtserver/src\/main\/java&lt;io.element.player{BasePlayer.java[BasePlayer^m_match" key="javaElement"/>
+			<item value="4" key="searchFor"/>
+			<item value="0" key="matchLocations"/>
+			<item value="true" key="isCaseSensitive"/>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY6">
+			<item value="15" key="includeMask"/>
+			<item value="2" key="limitTo"/>
+			<item value="0" key="scope"/>
+			<item value="io.element.communication.ProtoMsgHandler.m_prases" key="pattern"/>
+			<item value="=gtserver/src\/main\/java&lt;io.element.communication{ProtoMsgHandler.java[ProtoMsgHandler^m_prases" key="javaElement"/>
+			<item value="4" key="searchFor"/>
+			<item value="0" key="matchLocations"/>
+			<item value="true" key="isCaseSensitive"/>
+			<list key="workingSets">
+			</list>
+		</section>
+	</section>
+	<section name="RefactoringWizard.preview">
+		<item value="400" key="height"/>
+		<item value="600" key="width"/>
+	</section>
+	<section name="quick_assist_proposal_size">
+	</section>
+	<section name="ClasspathContainerSelectionPage">
+		<item value="0" key="index"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.dialogs.OpenTypeSelectionDialog2">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;" key="WorkingSet"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History/&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="167" key="DIALOG_Y_ORIGIN"/>
+			<item value="348" key="DIALOG_X_ORIGIN"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="1|微软雅黑|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|微软雅黑" key="DIALOG_FONT_NAME"/>
+		</section>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.typehierarchy.QuickHierarchy">
+		<item value="400" key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_WIDTH"/>
+		<item value="false" key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_USE_PERSISTED_LOCATION"/>
+		<item value="360" key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_HEIGHT"/>
+		<item value="true" key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_USE_PERSISTED_SIZE"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
+		<item value="true" key="group_libraries"/>
+		<item value="false" key="linkWithEditor"/>
+		<item value="2" key="layout"/>
+		<item value="1" key="rootMode"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;packageExplorer group_libraries=&quot;1&quot; layout=&quot;2&quot; linkWithEditor=&quot;0&quot; rootMode=&quot;1&quot; workingSetName=&quot;&quot;&gt;&#x0D;&#x0A;&lt;customFilters userDefinedPatternsEnabled=&quot;false&quot;&gt;&#x0D;&#x0A;&lt;xmlDefinedFilters&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.StaticsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.pde.ui.ExternalPluginLibrariesFilter1&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.FieldsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.pde.ui.BinaryProjectFilter1&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.m2e.MavenModuleFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;/xmlDefinedFilters&gt;&#x0D;&#x0A;&lt;/customFilters&gt;&#x0D;&#x0A;&lt;/packageExplorer&gt;" key="memento"/>
+	</section>
+	<section name="completion_proposal_size">
+		<item value="387" key="size.x"/>
+		<item value="540" key="size.y"/>
+	</section>
+	<section name="JavaElementSearchActions">
+	</section>
+	<section name="org.eclipse.ltk.ui.refactoring.settings">
+		<item value="false" key="renameSubpackages"/>
+		<item value="false" key="updateQualifiedNames"/>
+		<item value="*" key="patterns"/>
+		<item value="1" key="updateSimilarElementsMatchStrategy"/>
+		<item value="false" key="updateTextualMatches"/>
+		<item value="false" key="updateSimilarElements"/>
+	</section>
+	<section name="RenameInformationPopup">
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.text.QuickOutline">
+		<item value="false" key="GoIntoTopLevelTypeAction.isChecked"/>
+		<item value="true" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_USE_PERSISTED_SIZE"/>
+		<item value="400" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_WIDTH"/>
+		<item value="360" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_HEIGHT"/>
+		<item value="false" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_USE_PERSISTED_LOCATION"/>
+	</section>
+</section>

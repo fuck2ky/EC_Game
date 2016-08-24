@@ -1,0 +1,136 @@
+[ERROR] [20:56:44] io.element.gtserver.App - java.lang.IllegalArgumentException: wrong number of arguments
+[ERROR] [20:58:40] io.element.gtserver.App - java.lang.IllegalArgumentException: wrong number of arguments
+[ERROR] [20:59:55] io.element.gtserver.App - java.lang.IllegalArgumentException: wrong number of arguments
+[ERROR] [21:01:28] io.element.gtserver.App - java.lang.IllegalArgumentException: wrong number of arguments
+[ERROR] [21:07:44] io.element.gtserver.App - java.lang.IllegalArgumentException: wrong number of arguments
+[ERROR] [21:15:31] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:15:31] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:15:32] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:15:41] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:15:51] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:16:01] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:22:51] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:22:51] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:23:00] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:23:01] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:23:19] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:23:19] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:23:19] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:26:15] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:26:15] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:26:39] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:26:39] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:32:43] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:39:12] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:39:22] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:39:32] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:39:42] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:39:52] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:40:02] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:40:12] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:40:22] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:40:32] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:40:42] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:40:52] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:41:02] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:41:12] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:41:22] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:41:39] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:41:49] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:41:59] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:42:09] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:42:19] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:42:29] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:42:39] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:45:32] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:45:42] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:45:52] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:46:02] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:46:12] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:46:22] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:46:32] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:46:42] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:46:52] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:47:02] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:47:12] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:47:26] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:47:36] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:47:46] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:48:57] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:49:07] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:49:17] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:53:34] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:55:43] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:55:53] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:56:03] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:56:13] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:56:23] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:56:40] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:56:50] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:57:00] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:57:10] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:57:20] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:57:30] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:57:40] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:58:10] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:58:20] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:58:30] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [21:58:40] io.element.gtserver.App - java.lang.reflect.InvocationTargetException
+[ERROR] [22:01:06] io.element.gtserver.App - gate-- function error in method:public void io.element.communication.impl.S2GProto_SimpleHandler.CallBack_S2G_NotifyPhase_BeginGame(java.lang.Object) throws com.google.protobuf.InvalidProtocolBufferException
+[ERROR] [22:01:16] io.element.gtserver.App - gate-- function error in method:public void io.element.communication.impl.S2GProto_SimpleHandler.CallBack_S2G_NotifyPhase_SkillCard(java.lang.Object) throws com.google.protobuf.InvalidProtocolBufferException
+[ERROR] [22:01:26] io.element.gtserver.App - gate-- function error in method:public void io.element.communication.impl.S2GProto_SimpleHandler.CallBack_S2G_NotifyPhase_BattleAsk(java.lang.Object) throws com.google.protobuf.InvalidProtocolBufferException
+[ERROR] [22:01:36] io.element.gtserver.App - gate-- function error in method:public void io.element.communication.impl.S2GProto_SimpleHandler.CallBack_S2G_NotifyPhase_BattleAssit(java.lang.Object) throws com.google.protobuf.InvalidProtocolBufferException
+[ERROR] [22:01:46] io.element.gtserver.App - gate-- function error in method:public void io.element.communication.impl.S2GProto_SimpleHandler.CallBack_S2G_NotifyPhase_Discard(java.lang.Object) throws com.google.protobuf.InvalidProtocolBufferException
+[ERROR] [22:01:56] io.element.gtserver.App - gate-- function error in method:public void io.element.communication.impl.S2GProto_SimpleHandler.CallBack_S2G_NotifyPhase_BeginGame(java.lang.Object) throws com.google.protobuf.InvalidProtocolBufferException
+[ERROR] [22:02:06] io.element.gtserver.App - gate-- function error in method:public void io.element.communication.impl.S2GProto_SimpleHandler.CallBack_S2G_NotifyPhase_SkillCard(java.lang.Object) throws com.google.protobuf.InvalidProtocolBufferException
+[ERROR] [22:02:16] io.element.gtserver.App - gate-- function error in method:public void io.element.communication.impl.S2GProto_SimpleHandler.CallBack_S2G_NotifyPhase_BattleAsk(java.lang.Object) throws com.google.protobuf.InvalidProtocolBufferException
+[ERROR] [22:02:26] io.element.gtserver.App - gate-- function error in method:public void io.element.communication.impl.S2GProto_SimpleHandler.CallBack_S2G_NotifyPhase_BattleAssit(java.lang.Object) throws com.google.protobuf.InvalidProtocolBufferException
+[ERROR] [22:02:36] io.element.gtserver.App - gate-- function error in method:public void io.element.communication.impl.S2GProto_SimpleHandler.CallBack_S2G_NotifyPhase_Discard(java.lang.Object) throws com.google.protobuf.InvalidProtocolBufferException
+[ERROR] [22:02:46] io.element.gtserver.App - gate-- function error in method:public void io.element.communication.impl.S2GProto_SimpleHandler.CallBack_S2G_NotifyPhase_BeginGame(java.lang.Object) throws com.google.protobuf.InvalidProtocolBufferException
+[ERROR] [22:02:56] io.element.gtserver.App - gate-- function error in method:public void io.element.communication.impl.S2GProto_SimpleHandler.CallBack_S2G_NotifyPhase_SkillCard(java.lang.Object) throws com.google.protobuf.InvalidProtocolBufferException
+[ERROR] [22:03:06] io.element.gtserver.App - gate-- function error in method:public void io.element.communication.impl.S2GProto_SimpleHandler.CallBack_S2G_NotifyPhase_BattleAsk(java.lang.Object) throws com.google.protobuf.InvalidProtocolBufferException
+[ERROR] [22:03:16] io.element.gtserver.App - gate-- function error in method:public void io.element.communication.impl.S2GProto_SimpleHandler.CallBack_S2G_NotifyPhase_BattleAssit(java.lang.Object) throws com.google.protobuf.InvalidProtocolBufferException
+[ERROR] [22:03:26] io.element.gtserver.App - gate-- function error in method:public void io.element.communication.impl.S2GProto_SimpleHandler.CallBack_S2G_NotifyPhase_Discard(java.lang.Object) throws com.google.protobuf.InvalidProtocolBufferException
+[ERROR] [22:03:36] io.element.gtserver.App - gate-- function error in method:public void io.element.communication.impl.S2GProto_SimpleHandler.CallBack_S2G_NotifyPhase_BeginGame(java.lang.Object) throws com.google.protobuf.InvalidProtocolBufferException
+[ERROR] [22:03:46] io.element.gtserver.App - gate-- function error in method:public void io.element.communication.impl.S2GProto_SimpleHandler.CallBack_S2G_NotifyPhase_SkillCard(java.lang.Object) throws com.google.protobuf.InvalidProtocolBufferException
+[ERROR] [22:03:56] io.element.gtserver.App - gate-- function error in method:public void io.element.communication.impl.S2GProto_SimpleHandler.CallBack_S2G_NotifyPhase_BattleAsk(java.lang.Object) throws com.google.protobuf.InvalidProtocolBufferException
+[ERROR] [15:07:57] io.element.gtserver.App - GATE -- TCP Server start error {}, going to shut down
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:444)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:102)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:478)
+	at io.netty.channel.DefaultChannelPipeline$HeadHandler.bind(DefaultChannelPipeline.java:1000)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeBind(DefaultChannelHandlerContext.java:456)
+	at io.netty.channel.DefaultChannelHandlerContext.bind(DefaultChannelHandlerContext.java:441)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:842)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:193)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:330)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:354)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:348)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] [16:43:54] io.element.gtserver.App - java.lang.IllegalArgumentException: wrong number of arguments
+[ERROR] [16:45:48] io.element.gtserver.App - java.lang.IllegalArgumentException: wrong number of arguments
+[ERROR] [19:19:48] io.element.gtserver.App - GATE -- TCP Server start error {}, going to shut down
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:444)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:102)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:478)
+	at io.netty.channel.DefaultChannelPipeline$HeadHandler.bind(DefaultChannelPipeline.java:1000)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeBind(DefaultChannelHandlerContext.java:456)
+	at io.netty.channel.DefaultChannelHandlerContext.bind(DefaultChannelHandlerContext.java:441)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:842)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:193)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:330)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:354)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:348)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Thread.java:745)

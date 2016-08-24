@@ -1,0 +1,169 @@
+package io.element.room.impl;
+
+import java.util.concurrent.FutureTask;
+import java.util.concurrent.LinkedBlockingDeque;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.RejectedExecutionException;
+
+
+import io.element.event.Message;
+import io.element.event.Task;
+import io.element.event.impl.BaseTask;
+import io.element.room.Dispatcher;
+import io.element.server.GM_Mangers;
+import io.element.task.impl.Task_NextPhase;
+import io.element.threadpool.GM_TaskQueue;
+import io.element.time.Counter;
+
+
+public class BaseDispatcher implements Dispatcher<Message, Task>
+{
+	protected BaseRoom 						m_owner;
+	
+	protected LinkedBlockingDeque<Task> 	m_queueTasks;			// task ready for insert to pool
+		
+	protected Task 							m_delayTask;			// delayed task
+	
+	protected Counter 						m_cDelayTimer;
+	
+	protected FutureTask<Integer> 			m_tExecuting;			// spec task working in pool!!!
+																	// yes, it should be save in room dispatch 
+	protected boolean 						m_bTaskPushedNoExcu;				
+	
+	public BaseDispatcher(BaseRoom owner)
+	{
+		m_owner = owner;
+		m_bTaskPushedNoExcu = false;
+		
+		m_tExecuting = null;
+		
+		m_queueTasks  = new LinkedBlockingDeque<Task>();
+		m_cDelayTimer = new Counter(); 
+	}
+		
+	public boolean DispatchTask(Task task)  {
+		
+		boolean result = false;
+		try {
+			result = m_queueTasks.offerFirst(task,100,TimeUnit.MILLISECONDS);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return result;
+	}
+	
+	public boolean DispatchTask_Tail(Task task)
+	{
+		boolean result = false;
+		try {
+			result = m_queueTasks.offerLast(task,100,TimeUnit.MILLISECONDS);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return result;
+	}
+
+	public boolean DispatchDelayedTask(Task task, long delayedTime) {
+	
+		// cancel delayed task
+		if(m_delayTask != null)
+			m_delayTask.cancelTask();
+		m_delayTask = task;
+				
+		m_cDelayTimer.Reset();
+		m_cDelayTimer.SetPeriod(delayedTime);
+		return false;
+	}
+	
+	public void OnTick(long deltaTime) {
+		// TODO Auto-generated method stub
+		m_cDelayTimer.IncCounter(deltaTime);
+		if(m_cDelayTimer.IsFull())
+		{
+			// push delay task into pool if future work done
+			if( !PushDelayedTaskIntoPool() )
+				return;
+				
+			// set global phase state after some delayed work begin
+			DispatchDelayedTask(new Task_NextPhase(m_owner.ID()), m_owner.getStateMachine().PhasePeriod() );
+			return;
+		}
+		
+		PushTaskIntoPool();
+	}
+	
+	public boolean isDone()
+	{
+		return !m_bTaskPushedNoExcu && ( m_tExecuting == null || m_tExecuting.isDone() );
+	}
+	
+	protected boolean PushTaskIntoPool()
+	{
+	 	Task task = m_queueTasks.peek();
+	 	
+	 	if( task!= null && PushTaskIntoPool(task))
+	 	{	
+	 		m_queueTasks.poll();
+	 		return true;
+	 	}
+	 	
+		return false;
+	}
+		
+	protected boolean PushTaskIntoPool(Task task)
+	{
+		// m_tExecuting is null and m_bTaskPushedNoExcu == true means  
+		// the task has pushed but not execute with wait
+		if( m_bTaskPushedNoExcu == true )
+			return false;
+		
+		// m_tExecuting is null and m_bTaskPushedNoExcu == false means
+		// the init state that first push task
+		if( m_tExecuting != null && !m_tExecuting.isDone() )
+			return false;
+		
+		m_bTaskPushedNoExcu = true;
+		
+		m_cDelayTimer.Recount();
+		
+		// send task into task pool
+		GM_TaskQueue queue = GM_Mangers.getTaskQueue();
+		try {
+			queue.push_task((BaseTask)task);
+		} catch (RejectedExecutionException e) {
+			
+		}
+			
+		return true;
+	}
+		
+	protected boolean PushDelayedTaskIntoPool()
+	{	
+		if(m_delayTask == null)
+			return false;
+		
+		boolean result =  PushTaskIntoPool(m_delayTask);
+		if(!result)
+			return false;
+				
+		
+		// do logic for clear the left task in room
+		// !!!!!!!!!!!!!!!!!!!!
+		
+		return true;
+	}
+	
+	public void SetExecutingTask(FutureTask<Integer> task_future)
+	{
+		m_tExecuting = task_future;
+		m_bTaskPushedNoExcu = false;
+	}
+	
+	public void DisCharge(Message msg) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
